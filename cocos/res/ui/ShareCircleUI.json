@@ -1,0 +1,309 @@
+{
+  "ID": "7a6bafe1-aa74-43a8-9bcc-428fef884b31",
+  "Version": "3.10.0.0",
+  "Name": "ShareCircleUI",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 1088,
+        "Children": [
+          {
+            "ClipAble": false,
+            "BackColorAlpha": 102,
+            "FileData": {
+              "Type": "Normal",
+              "Path": "ShareCircleUI/share_circle_bg.png",
+              "Plist": ""
+            },
+            "SingleColor": {
+              "R": 150,
+              "G": 200
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "Scale9OriginX": 317,
+            "Scale9OriginY": 209,
+            "Scale9Width": 329,
+            "Scale9Height": 218,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 640.0,
+              "Y": 360.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PositionPercentXEnabled": true,
+            "PositionPercentYEnabled": true,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.5
+            },
+            "PreSize": {
+              "X": 0.7523,
+              "Y": 0.8833
+            },
+            "LeftMargin": 158.5,
+            "RightMargin": 158.5,
+            "TopMargin": 42.0,
+            "BottomMargin": 42.0,
+            "Tag": 1090,
+            "Children": [
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "DisabledFileData": {
+                  "Type": "Default",
+                  "Path": "Default/Button_Disable.png",
+                  "Plist": ""
+                },
+                "PressedFileData": {
+                  "Type": "Normal",
+                  "Path": "Default/close_btn_bright.png",
+                  "Plist": ""
+                },
+                "NormalFileData": {
+                  "Type": "Normal",
+                  "Path": "Default/close_btn.png",
+                  "Plist": ""
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 56,
+                "Scale9Height": 140,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 949.7144,
+                  "Y": 544.5588
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.9862,
+                  "Y": 0.8562
+                },
+                "PreSize": {
+                  "X": 0.0893,
+                  "Y": 0.2547
+                },
+                "LeftMargin": 906.7144,
+                "RightMargin": -29.7144,
+                "TopMargin": 10.4412,
+                "BottomMargin": 463.5588,
+                "Tag": 1092,
+                "ActionTag": 1264790547,
+                "Size": {
+                  "X": 86.0,
+                  "Y": 162.0
+                },
+                "Name": "close_btn",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "NormalFileData": {
+                  "Type": "Normal",
+                  "Path": "Default/share_btn_green.png",
+                  "Plist": ""
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 222,
+                "Scale9Height": 92,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 298.53,
+                  "Y": 127.2
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.31,
+                  "Y": 0.2
+                },
+                "PreSize": {
+                  "X": 0.2617,
+                  "Y": 0.1792
+                },
+                "LeftMargin": 172.53,
+                "RightMargin": 538.47,
+                "TopMargin": 451.8,
+                "BottomMargin": 70.2,
+                "Tag": 1093,
+                "ActionTag": -512177719,
+                "Size": {
+                  "X": 252.0,
+                  "Y": 114.0
+                },
+                "Name": "share_btn_left",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "NormalFileData": {
+                  "Type": "Normal",
+                  "Path": "Default/share_btn_green.png",
+                  "Plist": ""
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 222,
+                "Scale9Height": 92,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 664.47,
+                  "Y": 127.2
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.69,
+                  "Y": 0.2
+                },
+                "PreSize": {
+                  "X": 0.2617,
+                  "Y": 0.1792
+                },
+                "LeftMargin": 538.47,
+                "RightMargin": 172.53,
+                "TopMargin": 451.8,
+                "BottomMargin": 70.2,
+                "Tag": 1094,
+                "ActionTag": 1778203019,
+                "Size": {
+                  "X": 252.0,
+                  "Y": 114.0
+                },
+                "Name": "share_btn_right",
+                "ctype": "ButtonObjectData"
+              }
+            ],
+            "ActionTag": 526010153,
+            "Size": {
+              "X": 963.0,
+              "Y": 636.0
+            },
+            "Name": "share_panel",
+            "ctype": "PanelObjectData"
+          }
+        ],
+        "Size": {
+          "X": 1280.0,
+          "Y": 720.0
+        },
+        "Name": "Layer",
+        "ctype": "LayerObjectData"
+      },
+      "UsedResources": [
+        "Default/Button_Disable.png",
+        "Default/close_btn.png",
+        "Default/close_btn_bright.png",
+        "Default/share_btn_green.png",
+        "ShareCircleUI/share_circle_bg.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Layer"
+}

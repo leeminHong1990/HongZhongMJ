@@ -1,0 +1,73 @@
+<PlistInfoProjectFile>
+  <PropertyGroup Name="biaoqing" Type="Plist" ID="71153544-8e97-4737-a937-92ceddf6786b" Version="3.10.0.0" />
+  <Content ExportType="Png" SortAlgorithm="MaxRects" PicturePadding="1" AllowRotation="True" AllowAnySize="False" AllowTrim="False" ctype="PlistInfoData">
+    <ImageFiles>
+      <FilePathData Path="Emot/biaoqing_1_1.png" />
+      <FilePathData Path="Emot/biaoqing_1_2.png" />
+      <FilePathData Path="Emot/biaoqing_1_3.png" />
+      <FilePathData Path="Emot/biaoqing_2_1.png" />
+      <FilePathData Path="Emot/biaoqing_2_2.png" />
+      <FilePathData Path="Emot/biaoqing_2_3.png" />
+      <FilePathData Path="Emot/biaoqing_2_4.png" />
+      <FilePathData Path="Emot/biaoqing_2_5.png" />
+      <FilePathData Path="Emot/biaoqing_2_6.png" />
+      <FilePathData Path="Emot/biaoqing_2_7.png" />
+      <FilePathData Path="Emot/biaoqing_2_8.png" />
+      <FilePathData Path="Emot/biaoqing_3_1.png" />
+      <FilePathData Path="Emot/biaoqing_3_10.png" />
+      <FilePathData Path="Emot/biaoqing_3_11.png" />
+      <FilePathData Path="Emot/biaoqing_3_2.png" />
+      <FilePathData Path="Emot/biaoqing_3_3.png" />
+      <FilePathData Path="Emot/biaoqing_3_4.png" />
+      <FilePathData Path="Emot/biaoqing_3_5.png" />
+      <FilePathData Path="Emot/biaoqing_3_6.png" />
+      <FilePathData Path="Emot/biaoqing_3_7.png" />
+      <FilePathData Path="Emot/biaoqing_3_8.png" />
+      <FilePathData Path="Emot/biaoqing_3_9.png" />
+      <FilePathData Path="Emot/biaoqing_4_1.png" />
+      <FilePathData Path="Emot/biaoqing_4_10.png" />
+      <FilePathData Path="Emot/biaoqing_4_11.png" />
+      <FilePathData Path="Emot/biaoqing_4_12.png" />
+      <FilePathData Path="Emot/biaoqing_4_2.png" />
+      <FilePathData Path="Emot/biaoqing_4_3.png" />
+      <FilePathData Path="Emot/biaoqing_4_4.png" />
+      <FilePathData Path="Emot/biaoqing_4_5.png" />
+      <FilePathData Path="Emot/biaoqing_4_6.png" />
+      <FilePathData Path="Emot/biaoqing_4_7.png" />
+      <FilePathData Path="Emot/biaoqing_4_8.png" />
+      <FilePathData Path="Emot/biaoqing_4_9.png" />
+      <FilePathData Path="Emot/biaoqing_5_1.png" />
+      <FilePathData Path="Emot/biaoqing_5_2.png" />
+      <FilePathData Path="Emot/biaoqing_5_3.png" />
+      <FilePathData Path="Emot/biaoqing_5_4.png" />
+      <FilePathData Path="Emot/biaoqing_5_5.png" />
+      <FilePathData Path="Emot/biaoqing_5_6.png" />
+      <FilePathData Path="Emot/biaoqing_6_1.png" />
+      <FilePathData Path="Emot/biaoqing_6_2.png" />
+      <FilePathData Path="Emot/biaoqing_7_1.png" />
+      <FilePathData Path="Emot/biaoqing_7_2.png" />
+      <FilePathData Path="Emot/biaoqing_7_3.png" />
+      <FilePathData Path="Emot/biaoqing_7_4.png" />
+      <FilePathData Path="Emot/biaoqing_7_5.png" />
+      <FilePathData Path="Emot/biaoqing_7_6.png" />
+      <FilePathData Path="Emot/biaoqing_8_1.png" />
+      <FilePathData Path="Emot/biaoqing_8_10.png" />
+      <FilePathData Path="Emot/biaoqing_8_11.png" />
+      <FilePathData Path="Emot/biaoqing_8_12.png" />
+      <FilePathData Path="Emot/biaoqing_8_2.png" />
+      <FilePathData Path="Emot/biaoqing_8_3.png" />
+      <FilePathData Path="Emot/biaoqing_8_4.png" />
+      <FilePathData Path="Emot/biaoqing_8_5.png" />
+      <FilePathData Path="Emot/biaoqing_8_6.png" />
+      <FilePathData Path="Emot/biaoqing_8_7.png" />
+      <FilePathData Path="Emot/biaoqing_8_8.png" />
+      <FilePathData Path="Emot/biaoqing_8_9.png" />
+      <FilePathData Path="Emot/biaoqing_9_1.png" />
+      <FilePathData Path="Emot/biaoqing_9_2.png" />
+      <FilePathData Path="Emot/biaoqing_9_3.png" />
+      <FilePathData Path="Emot/biaoqing_9_4.png" />
+      <FilePathData Path="Emot/biaoqing_9_5.png" />
+    </ImageFiles>
+    <MaxSize Width="2048" Height="2048" />
+  </Content>
+</PlistInfoProjectFile>

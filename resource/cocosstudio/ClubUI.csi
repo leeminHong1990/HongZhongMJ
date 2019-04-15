@@ -1,0 +1,26 @@
+<PlistInfoProjectFile>
+  <PropertyGroup Name="ClubUI" Type="Plist" ID="d797d9cf-1efc-4ebd-97c9-5eb24d0668b7" Version="3.10.0.0" />
+  <Content ExportType="Png" SortAlgorithm="MaxRects" PicturePadding="1" AllowRotation="True" AllowAnySize="False" AllowTrim="False" ctype="PlistInfoData">
+    <ImageFiles>
+      <FilePathData Path="ClubUI/club_back.png" />
+      <FilePathData Path="ClubUI/club_bottom_bg.png" />
+      <FilePathData Path="ClubUI/club_bottom_instruction.png" />
+      <FilePathData Path="ClubUI/club_bottom_mem.png" />
+      <FilePathData Path="ClubUI/club_bottom_mgr.png" />
+      <FilePathData Path="ClubUI/club_bottom_record.png" />
+      <FilePathData Path="ClubUI/club_bottom_share.png" />
+      <FilePathData Path="ClubUI/club_desk_0.png" />
+      <FilePathData Path="ClubUI/club_desk_1.png" />
+      <FilePathData Path="ClubUI/club_desk_2.png" />
+      <FilePathData Path="ClubUI/club_desk_3.png" />
+      <FilePathData Path="ClubUI/club_desk_4.png" />
+      <FilePathData Path="ClubUI/club_desk_detail_btn.png" />
+      <FilePathData Path="ClubUI/club_head_bg.png" />
+      <FilePathData Path="ClubUI/clug_cards_bg.png" />
+      <FilePathData Path="ClubUI/club_title_bg.png" />
+      <FilePathData Path="ClubUI/club_bottom_setting.png" />
+      <FilePathData Path="ClubUI/club_exit_btn.png" />
+    </ImageFiles>
+    <MaxSize Width="1024" Height="512" />
+  </Content>
+</PlistInfoProjectFile>

@@ -1,0 +1,225 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>frames</key>
+		<dict>
+			<key>ClubUI/club_back.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{910,117},{68,64}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{68,64}</string>
+			</dict>
+			<key>ClubUI/club_bottom_bg.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{915,1},{80,82}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{80,82}</string>
+			</dict>
+			<key>ClubUI/club_bottom_instruction.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{774,117},{134,70}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{134,70}</string>
+			</dict>
+			<key>ClubUI/club_bottom_mem.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{940,187},{134,70}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{134,70}</string>
+			</dict>
+			<key>ClubUI/club_bottom_mgr.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{825,235},{134,70}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{134,70}</string>
+			</dict>
+			<key>ClubUI/club_bottom_record.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{897,323},{134,70}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{134,70}</string>
+			</dict>
+			<key>ClubUI/club_bottom_share.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{441,371},{134,70}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{134,70}</string>
+			</dict>
+			<key>ClubUI/club_desk_0.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1,1},{240,218}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{240,218}</string>
+			</dict>
+			<key>ClubUI/club_desk_1.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1,243},{240,218}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{240,218}</string>
+			</dict>
+			<key>ClubUI/club_desk_2.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{221,1},{240,218}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{240,218}</string>
+			</dict>
+			<key>ClubUI/club_desk_3.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{221,243},{240,218}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{240,218}</string>
+			</dict>
+			<key>ClubUI/club_desk_4.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{441,1},{240,218}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{240,218}</string>
+			</dict>
+			<key>ClubUI/club_desk_detail_btn.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1,485},{128,25}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{128,25}</string>
+			</dict>
+			<key>ClubUI/club_head_bg.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{661,117},{112,111}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{112,111}</string>
+			</dict>
+			<key>ClubUI/clug_cards_bg.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{774,189},{164,44}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{164,44}</string>
+			</dict>
+			<key>ClubUI/club_title_bg.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{441,243},{382,84}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{382,84}</string>
+			</dict>
+			<key>ClubUI/club_bottom_setting.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{513,371},{134,70}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{134,70}</string>
+			</dict>
+			<key>ClubUI/club_exit_btn.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{661,1},{252,114}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{252,114}</string>
+			</dict>
+		</dict>
+		<key>metadata</key>
+		<dict>
+			<key>format</key>
+			<integer>2</integer>
+			<key>textureFileName</key>
+			<string>ClubUI.png</string>
+			<key>realTextureFileName</key>
+			<string>ClubUI.png</string>
+			<key>size</key>
+			<string>{1024,512}</string>
+		</dict>
+		<key>texture</key>
+		<dict>
+			<key>width</key>
+			<integer>1024</integer>
+			<key>height</key>
+			<integer>512</integer>
+		</dict>
+	</dict>
+</plist>

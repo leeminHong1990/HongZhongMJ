@@ -1,0 +1,744 @@
+{
+  "ID": "8da5e2ba-6104-425c-b67e-f8c783e46209",
+  "Version": "3.10.0.0",
+  "Name": "ActivityUI",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 1321,
+        "Children": [
+          {
+            "ClipAble": false,
+            "BackColorAlpha": 102,
+            "SingleColor": {
+              "R": 150,
+              "G": 200
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "Scale9Width": 1,
+            "Scale9Height": 1,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 640.0,
+              "Y": 360.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PositionPercentXEnabled": true,
+            "PositionPercentYEnabled": true,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.5
+            },
+            "PreSize": {
+              "X": 0.9766,
+              "Y": 0.9611
+            },
+            "LeftMargin": 15.0,
+            "RightMargin": 15.0,
+            "TopMargin": 14.0,
+            "BottomMargin": 14.0,
+            "Tag": 1322,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "BackGround/big_win.png",
+                  "Plist": ""
+                },
+                "Scale9OriginX": 412,
+                "Scale9OriginY": 228,
+                "Scale9Width": 426,
+                "Scale9Height": 236,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 625.0,
+                  "Y": 346.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.5
+                },
+                "PreSize": {
+                  "X": 1.0,
+                  "Y": 1.0
+                },
+                "Tag": 1324,
+                "ActionTag": -441388485,
+                "Size": {
+                  "X": 1250.0,
+                  "Y": 692.0
+                },
+                "Name": "bg_img",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "ActivityUI/title.png",
+                  "Plist": ""
+                },
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 15,
+                "Scale9Width": 148,
+                "Scale9Height": 16,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 625.0,
+                  "Y": 650.48
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.94
+                },
+                "PreSize": {
+                  "X": 0.1424,
+                  "Y": 0.0665
+                },
+                "LeftMargin": 536.0,
+                "RightMargin": 536.0,
+                "TopMargin": 18.52,
+                "BottomMargin": 627.48,
+                "Tag": 1325,
+                "ActionTag": 1128189964,
+                "Size": {
+                  "X": 178.0,
+                  "Y": 46.0
+                },
+                "Name": "title_img",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "DisabledFileData": {
+                  "Type": "Normal",
+                  "Path": "ActivityUI/notice_btn_select0.png",
+                  "Plist": ""
+                },
+                "PressedFileData": {
+                  "Type": "Normal",
+                  "Path": "ActivityUI/notice_btn_normal0.png",
+                  "Plist": ""
+                },
+                "NormalFileData": {
+                  "Type": "Normal",
+                  "Path": "ActivityUI/notice_btn_normal0.png",
+                  "Plist": ""
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 220,
+                "Scale9Height": 66,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 182.0,
+                  "Y": 575.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.1456,
+                  "Y": 0.8309
+                },
+                "PreSize": {
+                  "X": 0.2,
+                  "Y": 0.1272
+                },
+                "LeftMargin": 57.0,
+                "RightMargin": 943.0,
+                "TopMargin": 73.0,
+                "BottomMargin": 531.0,
+                "Tag": 25,
+                "ActionTag": -873630909,
+                "Size": {
+                  "X": 250.0,
+                  "Y": 88.0
+                },
+                "Name": "notice_btn0",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "DisabledFileData": {
+                  "Type": "Normal",
+                  "Path": "ActivityUI/notice_btn_select1.png",
+                  "Plist": ""
+                },
+                "PressedFileData": {
+                  "Type": "Normal",
+                  "Path": "ActivityUI/notice_btn_normal1.png",
+                  "Plist": ""
+                },
+                "NormalFileData": {
+                  "Type": "Normal",
+                  "Path": "ActivityUI/notice_btn_normal1.png",
+                  "Plist": ""
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 220,
+                "Scale9Height": 66,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 182.0,
+                  "Y": 487.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.1456,
+                  "Y": 0.7038
+                },
+                "PreSize": {
+                  "X": 0.2,
+                  "Y": 0.1272
+                },
+                "LeftMargin": 57.0,
+                "RightMargin": 943.0,
+                "TopMargin": 161.0,
+                "BottomMargin": 443.0,
+                "Tag": 26,
+                "ActionTag": 1857668017,
+                "Size": {
+                  "X": 250.0,
+                  "Y": 88.0
+                },
+                "Name": "notice_btn1",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "DisabledFileData": {
+                  "Type": "Normal",
+                  "Path": "ActivityUI/notice_btn_select2.png",
+                  "Plist": ""
+                },
+                "PressedFileData": {
+                  "Type": "Normal",
+                  "Path": "ActivityUI/notice_btn_normal2.png",
+                  "Plist": ""
+                },
+                "NormalFileData": {
+                  "Type": "Normal",
+                  "Path": "ActivityUI/notice_btn_normal2.png",
+                  "Plist": ""
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 220,
+                "Scale9Height": 66,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 182.0,
+                  "Y": 399.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.1456,
+                  "Y": 0.5766
+                },
+                "PreSize": {
+                  "X": 0.2,
+                  "Y": 0.1272
+                },
+                "LeftMargin": 57.0,
+                "RightMargin": 943.0,
+                "TopMargin": 249.0,
+                "BottomMargin": 355.0,
+                "Tag": 27,
+                "ActionTag": -2106837567,
+                "Size": {
+                  "X": 250.0,
+                  "Y": 88.0
+                },
+                "Name": "notice_btn2",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "DisabledFileData": {
+                  "Type": "Normal",
+                  "Path": "ActivityUI/notice_btn_select3.png",
+                  "Plist": ""
+                },
+                "PressedFileData": {
+                  "Type": "Normal",
+                  "Path": "ActivityUI/notice_btn_normal3.png",
+                  "Plist": ""
+                },
+                "NormalFileData": {
+                  "Type": "Normal",
+                  "Path": "ActivityUI/notice_btn_normal3.png",
+                  "Plist": ""
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 220,
+                "Scale9Height": 66,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 182.0,
+                  "Y": 311.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.1456,
+                  "Y": 0.4494
+                },
+                "PreSize": {
+                  "X": 0.2,
+                  "Y": 0.1272
+                },
+                "LeftMargin": 57.0,
+                "RightMargin": 943.0,
+                "TopMargin": 337.0,
+                "BottomMargin": 267.0,
+                "Tag": 28,
+                "ActionTag": 1560223273,
+                "Size": {
+                  "X": 250.0,
+                  "Y": 88.0
+                },
+                "Name": "notice_btn3",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "DisabledFileData": {
+                  "Type": "Normal",
+                  "Path": "ActivityUI/notice_btn_select4.png",
+                  "Plist": ""
+                },
+                "PressedFileData": {
+                  "Type": "Normal",
+                  "Path": "ActivityUI/notice_btn_normal4.png",
+                  "Plist": ""
+                },
+                "NormalFileData": {
+                  "Type": "Normal",
+                  "Path": "ActivityUI/notice_btn_normal4.png",
+                  "Plist": ""
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 220,
+                "Scale9Height": 66,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 182.0,
+                  "Y": 223.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.1456,
+                  "Y": 0.3223
+                },
+                "PreSize": {
+                  "X": 0.2,
+                  "Y": 0.1272
+                },
+                "LeftMargin": 57.0,
+                "RightMargin": 943.0,
+                "TopMargin": 425.0,
+                "BottomMargin": 179.0,
+                "Tag": 29,
+                "ActionTag": -1793411521,
+                "Size": {
+                  "X": 250.0,
+                  "Y": 88.0
+                },
+                "Name": "notice_btn4",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "ClipAble": false,
+                "BackColorAlpha": 102,
+                "SingleColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "FirstColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "EndColor": {},
+                "ColorVector": {
+                  "ScaleY": 1.0
+                },
+                "Scale9Width": 1,
+                "Scale9Height": 1,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 750.0,
+                  "Y": 325.24
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.6,
+                  "Y": 0.47
+                },
+                "PreSize": {
+                  "X": 0.68,
+                  "Y": 0.7803
+                },
+                "LeftMargin": 325.0,
+                "RightMargin": 75.0,
+                "TopMargin": 96.76,
+                "BottomMargin": 55.24,
+                "Tag": 30,
+                "Children": [
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "ActivityUI/notice_img0.png",
+                      "Plist": ""
+                    },
+                    "Scale9OriginX": 279,
+                    "Scale9OriginY": 177,
+                    "Scale9Width": 290,
+                    "Scale9Height": 184,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 425.0,
+                      "Y": 270.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.5
+                    },
+                    "PreSize": {
+                      "X": 0.9976,
+                      "Y": 0.9963
+                    },
+                    "LeftMargin": 1.0,
+                    "RightMargin": 1.0,
+                    "TopMargin": 1.0,
+                    "BottomMargin": 1.0,
+                    "Tag": 31,
+                    "ActionTag": 1548278774,
+                    "Size": {
+                      "X": 848.0,
+                      "Y": 538.0
+                    },
+                    "Name": "notice_img",
+                    "ctype": "ImageViewObjectData"
+                  }
+                ],
+                "ActionTag": 1362845308,
+                "Size": {
+                  "X": 850.0,
+                  "Y": 540.0
+                },
+                "Name": "notice_panel",
+                "ctype": "PanelObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "PressedFileData": {
+                  "Type": "Normal",
+                  "Path": "Default/close_btn_bright.png",
+                  "Plist": ""
+                },
+                "NormalFileData": {
+                  "Type": "Normal",
+                  "Path": "Default/close_btn.png",
+                  "Plist": ""
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 56,
+                "Scale9Height": 140,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 1212.5,
+                  "Y": 581.2108
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.97,
+                  "Y": 0.8399
+                },
+                "PreSize": {
+                  "X": 0.0688,
+                  "Y": 0.2341
+                },
+                "LeftMargin": 1169.5,
+                "RightMargin": -5.5,
+                "TopMargin": 29.7892,
+                "BottomMargin": 500.2108,
+                "Tag": 1439,
+                "ActionTag": -406300767,
+                "Size": {
+                  "X": 86.0,
+                  "Y": 162.0
+                },
+                "Name": "close_btn",
+                "ctype": "ButtonObjectData"
+              }
+            ],
+            "ActionTag": 1831726912,
+            "Size": {
+              "X": 1250.0,
+              "Y": 692.0
+            },
+            "Name": "activity_panel",
+            "ctype": "PanelObjectData"
+          }
+        ],
+        "Size": {
+          "X": 1280.0,
+          "Y": 720.0
+        },
+        "Name": "Layer",
+        "ctype": "LayerObjectData"
+      },
+      "UsedResources": [
+        "ActivityUI/notice_btn_normal0.png",
+        "ActivityUI/notice_btn_normal1.png",
+        "ActivityUI/notice_btn_normal2.png",
+        "ActivityUI/notice_btn_normal3.png",
+        "ActivityUI/notice_btn_normal4.png",
+        "ActivityUI/notice_btn_select0.png",
+        "ActivityUI/notice_btn_select1.png",
+        "ActivityUI/notice_btn_select2.png",
+        "ActivityUI/notice_btn_select3.png",
+        "ActivityUI/notice_btn_select4.png",
+        "ActivityUI/notice_img0.png",
+        "ActivityUI/title.png",
+        "BackGround/big_win.png",
+        "Default/close_btn.png",
+        "Default/close_btn_bright.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Layer"
+}

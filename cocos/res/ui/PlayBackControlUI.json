@@ -1,0 +1,501 @@
+{
+  "ID": "787d530e-fae3-44f7-b93d-9a1baa61c23e",
+  "Version": "3.10.0.0",
+  "Name": "PlayBackControlUI",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 2764,
+        "Children": [
+          {
+            "ClipAble": false,
+            "BackColorAlpha": 102,
+            "SingleColor": {
+              "R": 150,
+              "G": 200
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "Scale9OriginX": -167,
+            "Scale9OriginY": -40,
+            "Scale9Width": 334,
+            "Scale9Height": 80,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 640.0,
+              "Y": 288.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PositionPercentXEnabled": true,
+            "PositionPercentYEnabled": true,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.4
+            },
+            "PreSize": {
+              "X": 0.3969,
+              "Y": 0.1694
+            },
+            "LeftMargin": 386.0,
+            "RightMargin": 386.0,
+            "TopMargin": 371.0,
+            "BottomMargin": 227.0,
+            "Tag": 2765,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "PlayBackControlUI/bg.png",
+                  "Plist": "PlaybackUI.plist"
+                },
+                "Scale9OriginX": 167,
+                "Scale9OriginY": 40,
+                "Scale9Width": 174,
+                "Scale9Height": 42,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 253.9492,
+                  "Y": 59.9874
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.4999,
+                  "Y": 0.4917
+                },
+                "PreSize": {
+                  "X": 1.0,
+                  "Y": 1.0
+                },
+                "LeftMargin": -0.0508,
+                "RightMargin": 0.0508,
+                "TopMargin": 1.0126,
+                "BottomMargin": -1.0126,
+                "Tag": 694,
+                "ActionTag": 387448981,
+                "Size": {
+                  "X": 508.0,
+                  "Y": 122.0
+                },
+                "Name": "bg_img",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "PressedFileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "PlayBackControlUI/speed_p.png",
+                  "Plist": "PlaybackUI.plist"
+                },
+                "NormalFileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "PlayBackControlUI/speed_n.png",
+                  "Plist": "PlaybackUI.plist"
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 44,
+                "Scale9Height": 56,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 91.44,
+                  "Y": 61.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.18,
+                  "Y": 0.5
+                },
+                "PreSize": {
+                  "X": 0.1457,
+                  "Y": 0.6393
+                },
+                "LeftMargin": 54.44,
+                "RightMargin": 379.56,
+                "TopMargin": 22.0,
+                "BottomMargin": 22.0,
+                "Tag": 2766,
+                "ActionTag": -1345900008,
+                "Size": {
+                  "X": 74.0,
+                  "Y": 78.0
+                },
+                "Name": "speed_btn",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "PressedFileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "PlayBackControlUI/pause_p.png",
+                  "Plist": "PlaybackUI.plist"
+                },
+                "NormalFileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "PlayBackControlUI/pause_n.png",
+                  "Plist": "PlaybackUI.plist"
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 44,
+                "Scale9Height": 56,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 200.66,
+                  "Y": 61.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.395,
+                  "Y": 0.5
+                },
+                "PreSize": {
+                  "X": 0.1457,
+                  "Y": 0.6393
+                },
+                "LeftMargin": 163.66,
+                "RightMargin": 270.34,
+                "TopMargin": 22.0,
+                "BottomMargin": 22.0,
+                "Tag": 2767,
+                "ActionTag": -479722656,
+                "Size": {
+                  "X": 74.0,
+                  "Y": 78.0
+                },
+                "Name": "pause_btn",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "PressedFileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "PlayBackControlUI/play_p.png",
+                  "Plist": "PlaybackUI.plist"
+                },
+                "NormalFileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "PlayBackControlUI/play_n.png",
+                  "Plist": "PlaybackUI.plist"
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 44,
+                "Scale9Height": 56,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 200.8124,
+                  "Y": 61.4758
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.3953,
+                  "Y": 0.5039
+                },
+                "PreSize": {
+                  "X": 0.1457,
+                  "Y": 0.6393
+                },
+                "LeftMargin": 163.8124,
+                "RightMargin": 270.1876,
+                "TopMargin": 21.5242,
+                "BottomMargin": 22.4758,
+                "Tag": 70,
+                "ActionTag": -1843130982,
+                "Size": {
+                  "X": 74.0,
+                  "Y": 78.0
+                },
+                "VisibleForFrame": false,
+                "Name": "play_btn",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "PressedFileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "PlayBackControlUI/replay_p.png",
+                  "Plist": "PlaybackUI.plist"
+                },
+                "NormalFileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "PlayBackControlUI/replay_n.png",
+                  "Plist": "PlaybackUI.plist"
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 44,
+                "Scale9Height": 56,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 312.42,
+                  "Y": 61.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.615,
+                  "Y": 0.5
+                },
+                "PreSize": {
+                  "X": 0.1457,
+                  "Y": 0.6393
+                },
+                "LeftMargin": 275.42,
+                "RightMargin": 158.58,
+                "TopMargin": 22.0,
+                "BottomMargin": 22.0,
+                "Tag": 2768,
+                "ActionTag": -1516437518,
+                "Size": {
+                  "X": 74.0,
+                  "Y": 78.0
+                },
+                "Name": "replay_btn",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "PressedFileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "PlayBackControlUI/close_p.png",
+                  "Plist": "PlaybackUI.plist"
+                },
+                "NormalFileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "PlayBackControlUI/close_n.png",
+                  "Plist": "PlaybackUI.plist"
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 44,
+                "Scale9Height": 56,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 421.64,
+                  "Y": 61.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.83,
+                  "Y": 0.5
+                },
+                "PreSize": {
+                  "X": 0.1457,
+                  "Y": 0.6393
+                },
+                "LeftMargin": 384.64,
+                "RightMargin": 49.36,
+                "TopMargin": 22.0,
+                "BottomMargin": 22.0,
+                "Tag": 2769,
+                "ActionTag": 393553047,
+                "Size": {
+                  "X": 74.0,
+                  "Y": 78.0
+                },
+                "Name": "close_btn",
+                "ctype": "ButtonObjectData"
+              }
+            ],
+            "ActionTag": -219736982,
+            "Size": {
+              "X": 508.0,
+              "Y": 122.0
+            },
+            "Alpha": 178,
+            "Name": "playback_control_panel",
+            "ctype": "PanelObjectData"
+          }
+        ],
+        "Size": {
+          "X": 1280.0,
+          "Y": 720.0
+        },
+        "Name": "Layer",
+        "ctype": "LayerObjectData"
+      },
+      "UsedResources": [
+        "PlaybackUI.plist",
+        "PlaybackUI.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Layer"
+}

@@ -1,0 +1,1587 @@
+{
+  "ID": "bcedc9d2-4df2-48d5-9a19-82b418fad36c",
+  "Version": "3.10.0.0",
+  "Name": "ApplyCloseUI",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 439,
+        "Children": [
+          {
+            "ClipAble": false,
+            "BackColorAlpha": 102,
+            "FileData": {
+              "Type": "Normal",
+              "Path": "BackGround/small_win.png",
+              "Plist": ""
+            },
+            "SingleColor": {
+              "R": 150,
+              "G": 200
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "Scale9OriginX": 80,
+            "Scale9OriginY": 80,
+            "Scale9Width": 824,
+            "Scale9Height": 470,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 640.0,
+              "Y": 360.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PositionPercentXEnabled": true,
+            "PositionPercentYEnabled": true,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.5
+            },
+            "PreSize": {
+              "X": 0.7688,
+              "Y": 0.875
+            },
+            "LeftMargin": 148.0,
+            "RightMargin": 148.0,
+            "TopMargin": 45.0,
+            "BottomMargin": 45.0,
+            "Tag": 496,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "ApplyCloseUI/title.png",
+                  "Plist": ""
+                },
+                "Scale9OriginX": 64,
+                "Scale9OriginY": 13,
+                "Scale9Width": 50,
+                "Scale9Height": 20,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 492.0,
+                  "Y": 592.2
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.94
+                },
+                "PreSize": {
+                  "X": 0.1809,
+                  "Y": 0.073
+                },
+                "LeftMargin": 403.0,
+                "RightMargin": 403.0,
+                "TopMargin": 14.8,
+                "BottomMargin": 569.2,
+                "Tag": 1667,
+                "ActionTag": 876694308,
+                "Size": {
+                  "X": 178.0,
+                  "Y": 46.0
+                },
+                "Name": "title_img",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "IsCustomSize": true,
+                "FontSize": 30,
+                "LabelText": "玩家AAA申请解散房间，是否同意？",
+                "FontResource": {
+                  "Type": "Normal",
+                  "Path": "font/zhunyuan.ttf",
+                  "Plist": ""
+                },
+                "HorizontalAlignmentType": "HT_Center",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 492.0,
+                  "Y": 468.342
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "R": 133,
+                  "G": 66,
+                  "B": 38
+                },
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.7434
+                },
+                "PreSize": {
+                  "X": 0.6098,
+                  "Y": 0.0492
+                },
+                "LeftMargin": 192.0,
+                "RightMargin": 192.0,
+                "TopMargin": 146.158,
+                "BottomMargin": 452.842,
+                "Tag": 505,
+                "ActionTag": 908175095,
+                "Size": {
+                  "X": 600.0,
+                  "Y": 31.0
+                },
+                "Name": "from_label",
+                "ctype": "TextObjectData"
+              },
+              {
+                "IsCustomSize": true,
+                "FontSize": 20,
+                "LabelText": "三个或以上玩家同意即为通过，请你是否同意",
+                "HorizontalAlignmentType": "HT_Center",
+                "VerticalAlignmentType": "VT_Center",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 492.0,
+                  "Y": 436.779
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.6933
+                },
+                "PreSize": {
+                  "X": 0.7622,
+                  "Y": 0.0635
+                },
+                "LeftMargin": 117.0,
+                "RightMargin": 117.0,
+                "TopMargin": 173.221,
+                "BottomMargin": 416.779,
+                "Tag": 506,
+                "ActionTag": -1915386969,
+                "Size": {
+                  "X": 750.0,
+                  "Y": 40.0
+                },
+                "VisibleForFrame": false,
+                "Name": "hint_label",
+                "ctype": "TextObjectData"
+              },
+              {
+                "IsCustomSize": true,
+                "FontSize": 30,
+                "LabelText": "(90秒后默认同意)",
+                "FontResource": {
+                  "Type": "Normal",
+                  "Path": "font/zhunyuan.ttf",
+                  "Plist": ""
+                },
+                "HorizontalAlignmentType": "HT_Center",
+                "VerticalAlignmentType": "VT_Center",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 492.0,
+                  "Y": 220.5
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "R": 181,
+                  "G": 135,
+                  "B": 116
+                },
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.35
+                },
+                "PreSize": {
+                  "X": 0.7622,
+                  "Y": 0.0635
+                },
+                "LeftMargin": 117.0,
+                "RightMargin": 117.0,
+                "TopMargin": 389.5,
+                "BottomMargin": 200.5,
+                "Tag": 509,
+                "ActionTag": -1952619367,
+                "Size": {
+                  "X": 750.0,
+                  "Y": 40.0
+                },
+                "Name": "lefttime_label",
+                "ctype": "TextObjectData"
+              },
+              {
+                "IsCustomSize": true,
+                "FontSize": 30,
+                "LabelText": "等待其他玩家选择...",
+                "FontResource": {
+                  "Type": "Normal",
+                  "Path": "font/zhunyuan.ttf",
+                  "Plist": ""
+                },
+                "HorizontalAlignmentType": "HT_Center",
+                "VerticalAlignmentType": "VT_Center",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 492.0,
+                  "Y": 144.9
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "R": 139,
+                  "G": 76,
+                  "B": 20
+                },
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.23
+                },
+                "PreSize": {
+                  "X": 0.7114,
+                  "Y": 0.0635
+                },
+                "LeftMargin": 142.0,
+                "RightMargin": 142.0,
+                "TopMargin": 465.1,
+                "BottomMargin": 124.9,
+                "Tag": 508,
+                "ActionTag": -1599212989,
+                "Size": {
+                  "X": 700.0,
+                  "Y": 40.0
+                },
+                "VisibleForFrame": false,
+                "Name": "waiting_label",
+                "ctype": "TextObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "NormalFileData": {
+                  "Type": "Normal",
+                  "Path": "ApplyCloseUI/agree_btn.png",
+                  "Plist": ""
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 222,
+                "Scale9Height": 92,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 354.24,
+                  "Y": 138.6
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.36,
+                  "Y": 0.22
+                },
+                "PreSize": {
+                  "X": 0.2561,
+                  "Y": 0.181
+                },
+                "LeftMargin": 228.24,
+                "RightMargin": 503.76,
+                "TopMargin": 434.4,
+                "BottomMargin": 81.6,
+                "Tag": 503,
+                "ActionTag": -792967914,
+                "Size": {
+                  "X": 252.0,
+                  "Y": 114.0
+                },
+                "Name": "yes_btn",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "NormalFileData": {
+                  "Type": "Normal",
+                  "Path": "ApplyCloseUI/refuse_btn.png",
+                  "Plist": ""
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 222,
+                "Scale9Height": 92,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 629.76,
+                  "Y": 138.6
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.64,
+                  "Y": 0.22
+                },
+                "PercentHeightEnable": true,
+                "PercentHeightEnabled": true,
+                "PreSize": {
+                  "X": 0.2561,
+                  "Y": 0.181
+                },
+                "LeftMargin": 503.76,
+                "RightMargin": 228.24,
+                "TopMargin": 434.385,
+                "BottomMargin": 81.585,
+                "Tag": 504,
+                "ActionTag": -1362966716,
+                "Size": {
+                  "X": 252.0,
+                  "Y": 114.03
+                },
+                "Name": "no_btn",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "ClipAble": false,
+                "BackColorAlpha": 102,
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "ApplyCloseUI/frame.png",
+                  "Plist": ""
+                },
+                "SingleColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "FirstColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "EndColor": {},
+                "ColorVector": {
+                  "ScaleY": 1.0
+                },
+                "Scale9OriginX": 87,
+                "Scale9OriginY": 23,
+                "Scale9Width": 92,
+                "Scale9Height": 24,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 344.4,
+                  "Y": 396.9
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.35,
+                  "Y": 0.63
+                },
+                "PreSize": {
+                  "X": 0.2703,
+                  "Y": 0.1111
+                },
+                "LeftMargin": 211.4,
+                "RightMargin": 506.6,
+                "TopMargin": 198.1,
+                "BottomMargin": 361.9,
+                "Tag": 5607,
+                "Children": [
+                  {
+                    "IsCustomSize": true,
+                    "FontSize": 30,
+                    "LabelText": "一二三四五六七",
+                    "FontResource": {
+                      "Type": "Normal",
+                      "Path": "font/zhunyuan.ttf",
+                      "Plist": ""
+                    },
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 13.3,
+                      "Y": 35.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {
+                      "R": 169,
+                      "G": 55,
+                      "B": 15
+                    },
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.05,
+                      "Y": 0.5
+                    },
+                    "PreSize": {
+                      "X": 0.6015,
+                      "Y": 0.4714
+                    },
+                    "LeftMargin": 13.3,
+                    "RightMargin": 92.7,
+                    "TopMargin": 18.5,
+                    "BottomMargin": 18.5,
+                    "Tag": 5608,
+                    "ActionTag": -139776347,
+                    "Size": {
+                      "X": 160.0,
+                      "Y": 33.0
+                    },
+                    "Name": "name_label",
+                    "ctype": "TextObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "ApplyCloseUI/agree.png",
+                      "Plist": ""
+                    },
+                    "Scale9OriginX": 13,
+                    "Scale9OriginY": 13,
+                    "Scale9Width": 16,
+                    "Scale9Height": 14,
+                    "AnchorPoint": {
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 202.16,
+                      "Y": 35.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.76,
+                      "Y": 0.5
+                    },
+                    "PreSize": {
+                      "X": 0.1579,
+                      "Y": 0.5714
+                    },
+                    "LeftMargin": 202.16,
+                    "RightMargin": 21.84,
+                    "TopMargin": 15.0,
+                    "BottomMargin": 15.0,
+                    "Tag": 5609,
+                    "ActionTag": 1596992773,
+                    "Size": {
+                      "X": 42.0,
+                      "Y": 40.0
+                    },
+                    "Name": "agree_img",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "ApplyCloseUI/refuse.png",
+                      "Plist": ""
+                    },
+                    "Scale9OriginX": 13,
+                    "Scale9OriginY": 13,
+                    "Scale9Width": 16,
+                    "Scale9Height": 14,
+                    "AnchorPoint": {
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 202.16,
+                      "Y": 35.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.76,
+                      "Y": 0.5
+                    },
+                    "PreSize": {
+                      "X": 0.1579,
+                      "Y": 0.5714
+                    },
+                    "LeftMargin": 202.16,
+                    "RightMargin": 21.84,
+                    "TopMargin": 15.0,
+                    "BottomMargin": 15.0,
+                    "Tag": 5610,
+                    "ActionTag": 2023311112,
+                    "Size": {
+                      "X": 42.0,
+                      "Y": 40.0
+                    },
+                    "VisibleForFrame": false,
+                    "Name": "refuse_img",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "ApplyCloseUI/unselect.png",
+                      "Plist": ""
+                    },
+                    "Scale9OriginX": 13,
+                    "Scale9OriginY": 13,
+                    "Scale9Width": 16,
+                    "Scale9Height": 14,
+                    "AnchorPoint": {
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 202.16,
+                      "Y": 35.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.76,
+                      "Y": 0.5
+                    },
+                    "PreSize": {
+                      "X": 0.1579,
+                      "Y": 0.5714
+                    },
+                    "LeftMargin": 202.16,
+                    "RightMargin": 21.84,
+                    "TopMargin": 15.0,
+                    "BottomMargin": 15.0,
+                    "Tag": 5611,
+                    "ActionTag": -1133191978,
+                    "Size": {
+                      "X": 42.0,
+                      "Y": 40.0
+                    },
+                    "VisibleForFrame": false,
+                    "Name": "unselect_img",
+                    "ctype": "ImageViewObjectData"
+                  }
+                ],
+                "ActionTag": -390638497,
+                "Size": {
+                  "X": 266.0,
+                  "Y": 70.0
+                },
+                "Name": "player_info_panel0",
+                "ctype": "PanelObjectData"
+              },
+              {
+                "ClipAble": false,
+                "BackColorAlpha": 102,
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "ApplyCloseUI/frame.png",
+                  "Plist": ""
+                },
+                "SingleColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "FirstColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "EndColor": {},
+                "ColorVector": {
+                  "ScaleY": 1.0
+                },
+                "Scale9OriginX": 87,
+                "Scale9OriginY": 23,
+                "Scale9Width": 92,
+                "Scale9Height": 24,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 639.6,
+                  "Y": 396.9
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.65,
+                  "Y": 0.63
+                },
+                "PreSize": {
+                  "X": 0.2703,
+                  "Y": 0.1111
+                },
+                "LeftMargin": 506.6,
+                "RightMargin": 211.4,
+                "TopMargin": 198.1,
+                "BottomMargin": 361.9,
+                "Tag": 5612,
+                "Children": [
+                  {
+                    "IsCustomSize": true,
+                    "FontSize": 30,
+                    "LabelText": "一二三四五六七",
+                    "FontResource": {
+                      "Type": "Normal",
+                      "Path": "font/zhunyuan.ttf",
+                      "Plist": ""
+                    },
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 13.3,
+                      "Y": 35.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {
+                      "R": 169,
+                      "G": 55,
+                      "B": 15
+                    },
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.05,
+                      "Y": 0.5
+                    },
+                    "PreSize": {
+                      "X": 0.6015,
+                      "Y": 0.4714
+                    },
+                    "LeftMargin": 13.3,
+                    "RightMargin": 92.7,
+                    "TopMargin": 18.5,
+                    "BottomMargin": 18.5,
+                    "Tag": 5613,
+                    "ActionTag": -1847600565,
+                    "Size": {
+                      "X": 160.0,
+                      "Y": 33.0
+                    },
+                    "Name": "name_label",
+                    "ctype": "TextObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "ApplyCloseUI/agree.png",
+                      "Plist": ""
+                    },
+                    "Scale9OriginX": 13,
+                    "Scale9OriginY": 13,
+                    "Scale9Width": 16,
+                    "Scale9Height": 14,
+                    "AnchorPoint": {
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 202.16,
+                      "Y": 35.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.76,
+                      "Y": 0.5
+                    },
+                    "PreSize": {
+                      "X": 0.1579,
+                      "Y": 0.5714
+                    },
+                    "LeftMargin": 202.16,
+                    "RightMargin": 21.84,
+                    "TopMargin": 15.0,
+                    "BottomMargin": 15.0,
+                    "Tag": 5614,
+                    "ActionTag": -190184027,
+                    "Size": {
+                      "X": 42.0,
+                      "Y": 40.0
+                    },
+                    "Name": "agree_img",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "ApplyCloseUI/refuse.png",
+                      "Plist": ""
+                    },
+                    "Scale9OriginX": 13,
+                    "Scale9OriginY": 13,
+                    "Scale9Width": 16,
+                    "Scale9Height": 14,
+                    "AnchorPoint": {
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 202.16,
+                      "Y": 35.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.76,
+                      "Y": 0.5
+                    },
+                    "PreSize": {
+                      "X": 0.1579,
+                      "Y": 0.5714
+                    },
+                    "LeftMargin": 202.16,
+                    "RightMargin": 21.84,
+                    "TopMargin": 15.0,
+                    "BottomMargin": 15.0,
+                    "Tag": 5615,
+                    "ActionTag": -1568707881,
+                    "Size": {
+                      "X": 42.0,
+                      "Y": 40.0
+                    },
+                    "VisibleForFrame": false,
+                    "Name": "refuse_img",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "ApplyCloseUI/unselect.png",
+                      "Plist": ""
+                    },
+                    "Scale9OriginX": 13,
+                    "Scale9OriginY": 13,
+                    "Scale9Width": 16,
+                    "Scale9Height": 14,
+                    "AnchorPoint": {
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 202.16,
+                      "Y": 35.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.76,
+                      "Y": 0.5
+                    },
+                    "PreSize": {
+                      "X": 0.1579,
+                      "Y": 0.5714
+                    },
+                    "LeftMargin": 202.16,
+                    "RightMargin": 21.84,
+                    "TopMargin": 15.0,
+                    "BottomMargin": 15.0,
+                    "Tag": 5616,
+                    "ActionTag": -1270657820,
+                    "Size": {
+                      "X": 42.0,
+                      "Y": 40.0
+                    },
+                    "VisibleForFrame": false,
+                    "Name": "unselect_img",
+                    "ctype": "ImageViewObjectData"
+                  }
+                ],
+                "ActionTag": -2088307711,
+                "Size": {
+                  "X": 266.0,
+                  "Y": 70.0
+                },
+                "Name": "player_info_panel1",
+                "ctype": "PanelObjectData"
+              },
+              {
+                "ClipAble": false,
+                "BackColorAlpha": 102,
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "ApplyCloseUI/frame.png",
+                  "Plist": ""
+                },
+                "SingleColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "FirstColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "EndColor": {},
+                "ColorVector": {
+                  "ScaleY": 1.0
+                },
+                "Scale9OriginX": 87,
+                "Scale9OriginY": 23,
+                "Scale9Width": 92,
+                "Scale9Height": 24,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 344.4,
+                  "Y": 289.8
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.35,
+                  "Y": 0.46
+                },
+                "PreSize": {
+                  "X": 0.2703,
+                  "Y": 0.1111
+                },
+                "LeftMargin": 211.4,
+                "RightMargin": 506.6,
+                "TopMargin": 305.2,
+                "BottomMargin": 254.8,
+                "Tag": 5617,
+                "Children": [
+                  {
+                    "IsCustomSize": true,
+                    "FontSize": 30,
+                    "LabelText": "一二三四五六七",
+                    "FontResource": {
+                      "Type": "Normal",
+                      "Path": "font/zhunyuan.ttf",
+                      "Plist": ""
+                    },
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 13.3,
+                      "Y": 35.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {
+                      "R": 169,
+                      "G": 55,
+                      "B": 15
+                    },
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.05,
+                      "Y": 0.5
+                    },
+                    "PreSize": {
+                      "X": 0.6015,
+                      "Y": 0.4714
+                    },
+                    "LeftMargin": 13.3,
+                    "RightMargin": 92.7,
+                    "TopMargin": 18.5,
+                    "BottomMargin": 18.5,
+                    "Tag": 5618,
+                    "ActionTag": -1819881314,
+                    "Size": {
+                      "X": 160.0,
+                      "Y": 33.0
+                    },
+                    "Name": "name_label",
+                    "ctype": "TextObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "ApplyCloseUI/agree.png",
+                      "Plist": ""
+                    },
+                    "Scale9OriginX": 13,
+                    "Scale9OriginY": 13,
+                    "Scale9Width": 16,
+                    "Scale9Height": 14,
+                    "AnchorPoint": {
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 202.16,
+                      "Y": 35.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.76,
+                      "Y": 0.5
+                    },
+                    "PreSize": {
+                      "X": 0.1579,
+                      "Y": 0.5714
+                    },
+                    "LeftMargin": 202.16,
+                    "RightMargin": 21.84,
+                    "TopMargin": 15.0,
+                    "BottomMargin": 15.0,
+                    "Tag": 5619,
+                    "ActionTag": -1055771366,
+                    "Size": {
+                      "X": 42.0,
+                      "Y": 40.0
+                    },
+                    "Name": "agree_img",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "ApplyCloseUI/refuse.png",
+                      "Plist": ""
+                    },
+                    "Scale9OriginX": 13,
+                    "Scale9OriginY": 13,
+                    "Scale9Width": 16,
+                    "Scale9Height": 14,
+                    "AnchorPoint": {
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 202.16,
+                      "Y": 35.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.76,
+                      "Y": 0.5
+                    },
+                    "PreSize": {
+                      "X": 0.1579,
+                      "Y": 0.5714
+                    },
+                    "LeftMargin": 202.16,
+                    "RightMargin": 21.84,
+                    "TopMargin": 15.0,
+                    "BottomMargin": 15.0,
+                    "Tag": 5620,
+                    "ActionTag": 1557572391,
+                    "Size": {
+                      "X": 42.0,
+                      "Y": 40.0
+                    },
+                    "VisibleForFrame": false,
+                    "Name": "refuse_img",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "ApplyCloseUI/unselect.png",
+                      "Plist": ""
+                    },
+                    "Scale9OriginX": 13,
+                    "Scale9OriginY": 13,
+                    "Scale9Width": 16,
+                    "Scale9Height": 14,
+                    "AnchorPoint": {
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 202.16,
+                      "Y": 35.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.76,
+                      "Y": 0.5
+                    },
+                    "PreSize": {
+                      "X": 0.1579,
+                      "Y": 0.5714
+                    },
+                    "LeftMargin": 202.16,
+                    "RightMargin": 21.84,
+                    "TopMargin": 15.0,
+                    "BottomMargin": 15.0,
+                    "Tag": 5621,
+                    "ActionTag": 1336653957,
+                    "Size": {
+                      "X": 42.0,
+                      "Y": 40.0
+                    },
+                    "VisibleForFrame": false,
+                    "Name": "unselect_img",
+                    "ctype": "ImageViewObjectData"
+                  }
+                ],
+                "ActionTag": 1074047877,
+                "Size": {
+                  "X": 266.0,
+                  "Y": 70.0
+                },
+                "Name": "player_info_panel2",
+                "ctype": "PanelObjectData"
+              },
+              {
+                "ClipAble": false,
+                "BackColorAlpha": 102,
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "ApplyCloseUI/frame.png",
+                  "Plist": ""
+                },
+                "SingleColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "FirstColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "EndColor": {},
+                "ColorVector": {
+                  "ScaleY": 1.0
+                },
+                "Scale9OriginX": 87,
+                "Scale9OriginY": 23,
+                "Scale9Width": 92,
+                "Scale9Height": 24,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 639.6,
+                  "Y": 289.8
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.65,
+                  "Y": 0.46
+                },
+                "PreSize": {
+                  "X": 0.2703,
+                  "Y": 0.1111
+                },
+                "LeftMargin": 506.6,
+                "RightMargin": 211.4,
+                "TopMargin": 305.2,
+                "BottomMargin": 254.8,
+                "Tag": 5622,
+                "Children": [
+                  {
+                    "IsCustomSize": true,
+                    "FontSize": 30,
+                    "LabelText": "一二三四五六七",
+                    "FontResource": {
+                      "Type": "Normal",
+                      "Path": "font/zhunyuan.ttf",
+                      "Plist": ""
+                    },
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 13.3,
+                      "Y": 35.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {
+                      "R": 169,
+                      "G": 55,
+                      "B": 15
+                    },
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.05,
+                      "Y": 0.5
+                    },
+                    "PreSize": {
+                      "X": 0.6015,
+                      "Y": 0.4714
+                    },
+                    "LeftMargin": 13.3,
+                    "RightMargin": 92.7,
+                    "TopMargin": 18.5,
+                    "BottomMargin": 18.5,
+                    "Tag": 5623,
+                    "ActionTag": -427119703,
+                    "Size": {
+                      "X": 160.0,
+                      "Y": 33.0
+                    },
+                    "Name": "name_label",
+                    "ctype": "TextObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "ApplyCloseUI/agree.png",
+                      "Plist": ""
+                    },
+                    "Scale9OriginX": 13,
+                    "Scale9OriginY": 13,
+                    "Scale9Width": 16,
+                    "Scale9Height": 14,
+                    "AnchorPoint": {
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 202.16,
+                      "Y": 35.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.76,
+                      "Y": 0.5
+                    },
+                    "PreSize": {
+                      "X": 0.1579,
+                      "Y": 0.5714
+                    },
+                    "LeftMargin": 202.16,
+                    "RightMargin": 21.84,
+                    "TopMargin": 15.0,
+                    "BottomMargin": 15.0,
+                    "Tag": 5624,
+                    "ActionTag": 284649894,
+                    "Size": {
+                      "X": 42.0,
+                      "Y": 40.0
+                    },
+                    "Name": "agree_img",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "ApplyCloseUI/refuse.png",
+                      "Plist": ""
+                    },
+                    "Scale9OriginX": 13,
+                    "Scale9OriginY": 13,
+                    "Scale9Width": 16,
+                    "Scale9Height": 14,
+                    "AnchorPoint": {
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 202.16,
+                      "Y": 35.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.76,
+                      "Y": 0.5
+                    },
+                    "PreSize": {
+                      "X": 0.1579,
+                      "Y": 0.5714
+                    },
+                    "LeftMargin": 202.16,
+                    "RightMargin": 21.84,
+                    "TopMargin": 15.0,
+                    "BottomMargin": 15.0,
+                    "Tag": 5625,
+                    "ActionTag": -1960279894,
+                    "Size": {
+                      "X": 42.0,
+                      "Y": 40.0
+                    },
+                    "VisibleForFrame": false,
+                    "Name": "refuse_img",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "ApplyCloseUI/unselect.png",
+                      "Plist": ""
+                    },
+                    "Scale9OriginX": 13,
+                    "Scale9OriginY": 13,
+                    "Scale9Width": 16,
+                    "Scale9Height": 14,
+                    "AnchorPoint": {
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 202.16,
+                      "Y": 35.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.76,
+                      "Y": 0.5
+                    },
+                    "PreSize": {
+                      "X": 0.1579,
+                      "Y": 0.5714
+                    },
+                    "LeftMargin": 202.16,
+                    "RightMargin": 21.84,
+                    "TopMargin": 15.0,
+                    "BottomMargin": 15.0,
+                    "Tag": 5626,
+                    "ActionTag": -1705337001,
+                    "Size": {
+                      "X": 42.0,
+                      "Y": 40.0
+                    },
+                    "VisibleForFrame": false,
+                    "Name": "unselect_img",
+                    "ctype": "ImageViewObjectData"
+                  }
+                ],
+                "ActionTag": 1418561436,
+                "Size": {
+                  "X": 266.0,
+                  "Y": 70.0
+                },
+                "Name": "player_info_panel3",
+                "ctype": "PanelObjectData"
+              }
+            ],
+            "ActionTag": -1498057888,
+            "Size": {
+              "X": 984.0,
+              "Y": 630.0
+            },
+            "Name": "applyclose_panel",
+            "ctype": "PanelObjectData"
+          }
+        ],
+        "Size": {
+          "X": 1280.0,
+          "Y": 720.0
+        },
+        "Name": "Layer",
+        "ctype": "LayerObjectData"
+      },
+      "UsedResources": [
+        "ApplyCloseUI/agree.png",
+        "ApplyCloseUI/agree_btn.png",
+        "ApplyCloseUI/frame.png",
+        "ApplyCloseUI/refuse.png",
+        "ApplyCloseUI/refuse_btn.png",
+        "ApplyCloseUI/title.png",
+        "ApplyCloseUI/unselect.png",
+        "BackGround/small_win.png",
+        "font/zhunyuan.ttf"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Layer"
+}

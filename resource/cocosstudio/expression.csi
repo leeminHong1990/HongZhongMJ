@@ -1,0 +1,62 @@
+<PlistInfoProjectFile>
+  <PropertyGroup Name="expression" Type="Plist" ID="a2947ad0-2425-4686-bc1e-9c57cdc5a5ba" Version="3.10.0.0" />
+  <Content ExportType="Png" SortAlgorithm="MaxRects" PicturePadding="1" AllowRotation="True" AllowAnySize="False" AllowTrim="True" ctype="PlistInfoData">
+    <ImageFiles>
+      <FilePathData Path="Expression/kiss_1.png" />
+      <FilePathData Path="Expression/kiss_10.png" />
+      <FilePathData Path="Expression/kiss_11.png" />
+      <FilePathData Path="Expression/kiss_12.png" />
+      <FilePathData Path="Expression/kiss_13.png" />
+      <FilePathData Path="Expression/kiss_14.png" />
+      <FilePathData Path="Expression/kiss_15.png" />
+      <FilePathData Path="Expression/kiss_16.png" />
+      <FilePathData Path="Expression/kiss_17.png" />
+      <FilePathData Path="Expression/kiss_18.png" />
+      <FilePathData Path="Expression/kiss_19.png" />
+      <FilePathData Path="Expression/kiss_2.png" />
+      <FilePathData Path="Expression/kiss_20.png" />
+      <FilePathData Path="Expression/kiss_21.png" />
+      <FilePathData Path="Expression/kiss_22.png" />
+      <FilePathData Path="Expression/kiss_23.png" />
+      <FilePathData Path="Expression/kiss_3.png" />
+      <FilePathData Path="Expression/kiss_4.png" />
+      <FilePathData Path="Expression/kiss_5.png" />
+      <FilePathData Path="Expression/kiss_6.png" />
+      <FilePathData Path="Expression/kiss_7.png" />
+      <FilePathData Path="Expression/kiss_8.png" />
+      <FilePathData Path="Expression/kiss_9.png" />
+      <FilePathData Path="Expression/cheers_1.png" />
+      <FilePathData Path="Expression/cheers_10.png" />
+      <FilePathData Path="Expression/cheers_11.png" />
+      <FilePathData Path="Expression/cheers_12.png" />
+      <FilePathData Path="Expression/cheers_13.png" />
+      <FilePathData Path="Expression/cheers_14.png" />
+      <FilePathData Path="Expression/cheers_15.png" />
+      <FilePathData Path="Expression/cheers_2.png" />
+      <FilePathData Path="Expression/cheers_3.png" />
+      <FilePathData Path="Expression/cheers_4.png" />
+      <FilePathData Path="Expression/cheers_5.png" />
+      <FilePathData Path="Expression/cheers_6.png" />
+      <FilePathData Path="Expression/cheers_7.png" />
+      <FilePathData Path="Expression/cheers_8.png" />
+      <FilePathData Path="Expression/cheers_9.png" />
+      <FilePathData Path="Expression/egg_1.png" />
+      <FilePathData Path="Expression/egg_10.png" />
+      <FilePathData Path="Expression/egg_11.png" />
+      <FilePathData Path="Expression/egg_12.png" />
+      <FilePathData Path="Expression/egg_13.png" />
+      <FilePathData Path="Expression/egg_14.png" />
+      <FilePathData Path="Expression/egg_15.png" />
+      <FilePathData Path="Expression/egg_16.png" />
+      <FilePathData Path="Expression/egg_2.png" />
+      <FilePathData Path="Expression/egg_3.png" />
+      <FilePathData Path="Expression/egg_4.png" />
+      <FilePathData Path="Expression/egg_5.png" />
+      <FilePathData Path="Expression/egg_6.png" />
+      <FilePathData Path="Expression/egg_7.png" />
+      <FilePathData Path="Expression/egg_8.png" />
+      <FilePathData Path="Expression/egg_9.png" />
+    </ImageFiles>
+    <MaxSize Width="1024" Height="512" />
+  </Content>
+</PlistInfoProjectFile>

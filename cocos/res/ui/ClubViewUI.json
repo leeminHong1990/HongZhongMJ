@@ -1,0 +1,625 @@
+{
+  "ID": "e13b828f-2c7a-4a2a-96dc-425abce61f27",
+  "Version": "3.10.0.0",
+  "Name": "ClubViewUI",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 209,
+        "Children": [
+          {
+            "ClipAble": false,
+            "BackColorAlpha": 178,
+            "ComboBoxIndex": 1,
+            "SingleColor": {
+              "R": 0,
+              "G": 0,
+              "B": 0
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "Scale9Width": 1,
+            "Scale9Height": 1,
+            "TouchEnable": true,
+            "AnchorPoint": {},
+            "Position": {
+              "X": -1280.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PositionPercentXEnabled": true,
+            "PrePosition": {
+              "X": -1.0,
+              "Y": 0.0
+            },
+            "PercentWidthEnable": true,
+            "PercentHeightEnable": true,
+            "PercentWidthEnabled": true,
+            "PercentHeightEnabled": true,
+            "PreSize": {
+              "X": 2.0,
+              "Y": 1.0
+            },
+            "LeftMargin": -1280.0,
+            "Tag": 211,
+            "Children": [
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "NormalFileData": {
+                  "Type": "Normal",
+                  "Path": "ClubViewUI/club_view_return_btn.png",
+                  "Plist": ""
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 28,
+                "Scale9Height": 58,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 0.0,
+                  "Y": 360.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.5
+                },
+                "PreSize": {
+                  "X": 0.0227,
+                  "Y": 0.1111
+                },
+                "RightMargin": 2502.0,
+                "TopMargin": 320.0,
+                "BottomMargin": 320.0,
+                "Tag": 214,
+                "ActionTag": -378084125,
+                "Size": {
+                  "X": 58.0,
+                  "Y": 80.0
+                },
+                "Name": "back_btn",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "ClipAble": false,
+                "BackColorAlpha": 102,
+                "SingleColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "FirstColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "EndColor": {},
+                "ColorVector": {
+                  "ScaleY": 1.0
+                },
+                "Scale9Width": 1,
+                "Scale9Height": 1,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5
+                },
+                "Position": {
+                  "X": 260.0,
+                  "Y": 0.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.1016,
+                  "Y": 0.0
+                },
+                "PercentHeightEnable": true,
+                "PercentHeightEnabled": true,
+                "PreSize": {
+                  "X": 0.1586,
+                  "Y": 1.0
+                },
+                "LeftMargin": 57.0,
+                "RightMargin": 2097.0,
+                "Tag": 215,
+                "Children": [
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "ClubViewUI/club_view_bg.png",
+                      "Plist": ""
+                    },
+                    "Scale9OriginX": 133,
+                    "Scale9OriginY": 232,
+                    "Scale9Width": 140,
+                    "Scale9Height": 242,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5
+                    },
+                    "Position": {
+                      "X": 203.0,
+                      "Y": 5.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.0069
+                    },
+                    "PreSize": {
+                      "X": 1.0,
+                      "Y": 0.9806
+                    },
+                    "TopMargin": 9.0,
+                    "BottomMargin": 5.0,
+                    "Tag": 213,
+                    "ActionTag": 1106628562,
+                    "Size": {
+                      "X": 406.0,
+                      "Y": 706.0
+                    },
+                    "Name": "bg_img",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "IsBounceEnabled": true,
+                    "InnerNodeSize": {
+                      "Width": 390,
+                      "Height": 620
+                    },
+                    "ScrollDirectionType": "Vertical",
+                    "ClipAble": true,
+                    "BackColorAlpha": 102,
+                    "SingleColor": {
+                      "G": 150,
+                      "B": 100
+                    },
+                    "FirstColor": {
+                      "G": 150,
+                      "B": 100
+                    },
+                    "EndColor": {},
+                    "ColorVector": {
+                      "ScaleY": 1.0
+                    },
+                    "Scale9Width": 1,
+                    "Scale9Height": 1,
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5
+                    },
+                    "Position": {
+                      "X": 201.376,
+                      "Y": 22.5
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PrePosition": {
+                      "X": 0.496,
+                      "Y": 0.0313
+                    },
+                    "PreSize": {
+                      "X": 0.9606,
+                      "Y": 0.8611
+                    },
+                    "LeftMargin": 6.376,
+                    "RightMargin": 9.624,
+                    "TopMargin": 77.5,
+                    "BottomMargin": 22.5,
+                    "Tag": 216,
+                    "Children": [
+                      {
+                        "ClipAble": false,
+                        "BackColorAlpha": 102,
+                        "SingleColor": {
+                          "R": 150,
+                          "G": 200
+                        },
+                        "FirstColor": {
+                          "R": 150,
+                          "G": 200
+                        },
+                        "EndColor": {},
+                        "ColorVector": {
+                          "ScaleY": 1.0
+                        },
+                        "Scale9Width": 1,
+                        "Scale9Height": 1,
+                        "TouchEnable": true,
+                        "AnchorPoint": {},
+                        "Position": {
+                          "X": 0.0,
+                          "Y": 0.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 0.0,
+                          "Y": 0.0
+                        },
+                        "PercentWidthEnable": true,
+                        "PercentWidthEnabled": true,
+                        "PreSize": {
+                          "X": 1.0,
+                          "Y": 0.1774
+                        },
+                        "TopMargin": 510.0,
+                        "Tag": 218,
+                        "Children": [
+                          {
+                            "FileData": {
+                              "Type": "Normal",
+                              "Path": "ClubViewUI/club_cell_bg.png",
+                              "Plist": ""
+                            },
+                            "Scale9OriginX": 129,
+                            "Scale9OriginY": 33,
+                            "Scale9Width": 134,
+                            "Scale9Height": 35,
+                            "AnchorPoint": {
+                              "ScaleX": 0.5,
+                              "ScaleY": 0.5
+                            },
+                            "Position": {
+                              "X": 195.0,
+                              "Y": 55.0
+                            },
+                            "Scale": {
+                              "ScaleX": 1.0,
+                              "ScaleY": 1.0
+                            },
+                            "CColor": {},
+                            "IconVisible": false,
+                            "PositionPercentXEnabled": true,
+                            "PositionPercentYEnabled": true,
+                            "PrePosition": {
+                              "X": 0.5,
+                              "Y": 0.5
+                            },
+                            "PreSize": {
+                              "X": 1.0051,
+                              "Y": 0.9182
+                            },
+                            "LeftMargin": -1.0,
+                            "RightMargin": -1.0,
+                            "TopMargin": 4.5,
+                            "BottomMargin": 4.5,
+                            "Tag": 219,
+                            "ActionTag": 62867523,
+                            "Size": {
+                              "X": 392.0,
+                              "Y": 101.0
+                            },
+                            "Name": "Image_3",
+                            "ctype": "ImageViewObjectData"
+                          },
+                          {
+                            "FileData": {
+                              "Type": "Normal",
+                              "Path": "CreateAgentRoomUI/player_icon.png",
+                              "Plist": ""
+                            },
+                            "Scale9OriginX": 25,
+                            "Scale9OriginY": 25,
+                            "Scale9Width": 26,
+                            "Scale9Height": 26,
+                            "AnchorPoint": {
+                              "ScaleX": 0.5,
+                              "ScaleY": 0.5
+                            },
+                            "Position": {
+                              "X": 60.0,
+                              "Y": 55.0
+                            },
+                            "Scale": {
+                              "ScaleX": 1.0,
+                              "ScaleY": 1.0
+                            },
+                            "CColor": {},
+                            "IconVisible": false,
+                            "PositionPercentYEnabled": true,
+                            "PrePosition": {
+                              "X": 0.1538,
+                              "Y": 0.5
+                            },
+                            "PreSize": {
+                              "X": 0.1949,
+                              "Y": 0.6909
+                            },
+                            "LeftMargin": 22.0,
+                            "RightMargin": 292.0,
+                            "TopMargin": 17.0,
+                            "BottomMargin": 17.0,
+                            "Tag": 220,
+                            "ActionTag": 1482993122,
+                            "Size": {
+                              "X": 76.0,
+                              "Y": 76.0
+                            },
+                            "Name": "head_bg_img",
+                            "ctype": "ImageViewObjectData"
+                          },
+                          {
+                            "IsCustomSize": true,
+                            "FontSize": 20,
+                            "LabelText": "俱乐部名字只有十个字加三字",
+                            "FontResource": {
+                              "Type": "Normal",
+                              "Path": "font/zhunyuan.ttf",
+                              "Plist": ""
+                            },
+                            "OutlineColor": {
+                              "G": 0,
+                              "B": 0
+                            },
+                            "ShadowColor": {
+                              "R": 110,
+                              "G": 110,
+                              "B": 110
+                            },
+                            "ShadowOffsetX": 2.0,
+                            "ShadowOffsetY": -2.0,
+                            "AnchorPoint": {
+                              "ScaleY": 0.5
+                            },
+                            "Position": {
+                              "X": 120.0,
+                              "Y": 71.5
+                            },
+                            "Scale": {
+                              "ScaleX": 1.0,
+                              "ScaleY": 1.0
+                            },
+                            "CColor": {
+                              "R": 161,
+                              "G": 100,
+                              "B": 46
+                            },
+                            "IconVisible": false,
+                            "PositionPercentYEnabled": true,
+                            "PrePosition": {
+                              "X": 0.3077,
+                              "Y": 0.65
+                            },
+                            "PreSize": {
+                              "X": 0.6744,
+                              "Y": 0.2091
+                            },
+                            "LeftMargin": 120.0,
+                            "RightMargin": 7.0,
+                            "TopMargin": 27.0,
+                            "BottomMargin": 60.0,
+                            "Tag": 221,
+                            "ActionTag": -862840877,
+                            "Size": {
+                              "X": 263.0,
+                              "Y": 23.0
+                            },
+                            "Name": "club_name_label",
+                            "ctype": "TextObjectData"
+                          },
+                          {
+                            "IsCustomSize": true,
+                            "FontSize": 20,
+                            "LabelText": "老板:老板名字七个字加三字",
+                            "FontResource": {
+                              "Type": "Normal",
+                              "Path": "font/zhunyuan.ttf",
+                              "Plist": ""
+                            },
+                            "OutlineColor": {
+                              "G": 0,
+                              "B": 0
+                            },
+                            "ShadowColor": {
+                              "R": 110,
+                              "G": 110,
+                              "B": 110
+                            },
+                            "ShadowOffsetX": 2.0,
+                            "ShadowOffsetY": -2.0,
+                            "AnchorPoint": {
+                              "ScaleY": 0.5
+                            },
+                            "Position": {
+                              "X": 120.0,
+                              "Y": 44.0
+                            },
+                            "Scale": {
+                              "ScaleX": 1.0,
+                              "ScaleY": 1.0
+                            },
+                            "CColor": {
+                              "R": 207,
+                              "G": 84,
+                              "B": 32
+                            },
+                            "IconVisible": false,
+                            "PositionPercentYEnabled": true,
+                            "PrePosition": {
+                              "X": 0.3077,
+                              "Y": 0.4
+                            },
+                            "PreSize": {
+                              "X": 0.6359,
+                              "Y": 0.2091
+                            },
+                            "LeftMargin": 120.0,
+                            "RightMargin": 22.0,
+                            "TopMargin": 54.5,
+                            "BottomMargin": 32.5,
+                            "Tag": 222,
+                            "ActionTag": 1185784475,
+                            "Size": {
+                              "X": 248.0,
+                              "Y": 23.0
+                            },
+                            "Name": "club_owner_label",
+                            "ctype": "TextObjectData"
+                          }
+                        ],
+                        "ActionTag": 891068934,
+                        "Size": {
+                          "X": 390.0,
+                          "Y": 110.0
+                        },
+                        "VisibleForFrame": false,
+                        "Name": "item_panel",
+                        "ctype": "PanelObjectData"
+                      }
+                    ],
+                    "ActionTag": 913995514,
+                    "Size": {
+                      "X": 390.0,
+                      "Y": 620.0
+                    },
+                    "Name": "club_scroll",
+                    "ctype": "ScrollViewObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "ClubViewUI/club_title.png",
+                      "Plist": ""
+                    },
+                    "Scale9OriginX": 146,
+                    "Scale9OriginY": 21,
+                    "Scale9Width": 152,
+                    "Scale9Height": 22,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 203.0,
+                      "Y": 676.8
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.94
+                    },
+                    "PreSize": {
+                      "X": 1.0936,
+                      "Y": 0.0889
+                    },
+                    "LeftMargin": -19.0,
+                    "RightMargin": -19.0,
+                    "TopMargin": 11.2,
+                    "BottomMargin": 644.8,
+                    "Tag": 217,
+                    "ActionTag": -972651619,
+                    "Size": {
+                      "X": 444.0,
+                      "Y": 64.0
+                    },
+                    "Name": "title_img",
+                    "ctype": "ImageViewObjectData"
+                  }
+                ],
+                "ActionTag": 1811508686,
+                "Size": {
+                  "X": 406.0,
+                  "Y": 720.0
+                },
+                "Name": "club_panel",
+                "ctype": "PanelObjectData"
+              }
+            ],
+            "ActionTag": -1689252526,
+            "Size": {
+              "X": 2560.0,
+              "Y": 720.0
+            },
+            "Name": "ui_panel",
+            "ctype": "PanelObjectData"
+          }
+        ],
+        "Size": {
+          "X": 1280.0,
+          "Y": 720.0
+        },
+        "Name": "ClubViewUI",
+        "ctype": "LayerObjectData"
+      },
+      "UsedResources": [
+        "ClubViewUI/club_cell_bg.png",
+        "ClubViewUI/club_title.png",
+        "ClubViewUI/club_view_bg.png",
+        "ClubViewUI/club_view_return_btn.png",
+        "CreateAgentRoomUI/player_icon.png",
+        "font/zhunyuan.ttf"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Layer"
+}

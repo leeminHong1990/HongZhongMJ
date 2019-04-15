@@ -1,0 +1,88 @@
+<root>
+	<Properties>
+        <clubList>
+			<Type>			UINT32_ARRAY		</Type>
+			<Flags>			BASE		</Flags>
+			<Default>		[]		</Default>
+			<Persistent>	true	</Persistent>
+		</clubList>
+	</Properties>
+
+	<BaseMethods>
+        <createClub>
+			<Exposed/>
+			<Arg>   UNICODE   </Arg>
+			<Arg>   CREATE_ROOM_DICT   </Arg>
+		</createClub>
+        <deleteClub>
+            <Exposed/>
+            <Arg>		UINT32		</Arg>
+        </deleteClub>
+		<clubOperation>
+			<Exposed/>
+            <Arg>		UINT8		</Arg>
+            <Arg>		UINT32		</Arg>
+			<Arg>		UNICODE 	</Arg>
+		</clubOperation>
+		<getClubListInfo>
+			<Exposed/>
+		</getClubListInfo>
+		<getClubDetailInfo>
+			<Exposed/>
+            <Arg>		UINT32		</Arg>
+		</getClubDetailInfo>
+	</BaseMethods>
+
+	<CellMethods>
+	</CellMethods>
+
+    <ClientMethods>
+		<gotClubListInfo>
+			<Arg>	CLUB_ABSTRACT_INFO_LIST		</Arg>
+		</gotClubListInfo>
+        <gotClubDetailInfo>
+			<Arg>	CLUB_DETAIL_INFO		</Arg>
+		</gotClubDetailInfo>
+		<createClubSucceed>
+			<Arg>	CLUB_DETAIL_INFO		</Arg>
+		</createClubSucceed>
+		<deleteClubSucceed>
+			<Arg>	UINT32		</Arg>
+		</deleteClubSucceed>
+		<gotTableDetailInfo>
+			<Arg> 	UINT8 		</Arg>
+			<Arg>	SIMPLE_PLAYER_INFO_LIST		</Arg>
+		</gotTableDetailInfo>
+		<gotClubTableList>
+			<Arg>	UINT32		</Arg>
+			<Arg>	UINT8_ARRAY		</Arg>
+		</gotClubTableList>
+		<setClubNameSucceed>
+			<Arg> 		UINT32 		</Arg>
+			<Arg>		UNICODE		</Arg>
+		</setClubNameSucceed>
+		<setClubNoticeSucceed>
+			<Arg> 		UINT32 		</Arg>
+			<Arg>		UNICODE		</Arg>
+		</setClubNoticeSucceed>
+		<setMemberNotesSucceed>
+			<Arg> 		UINT32 		</Arg>
+			<Arg> 		UINT32 		</Arg>
+			<Arg>		UNICODE		</Arg>
+		</setMemberNotesSucceed>
+		<gotClubMembers>
+			<Arg>	CLUB_MEMBER_INFO_ARRAY		</Arg>
+		</gotClubMembers>
+		<gotClubApplicants>
+			<Arg>	CLUB_APPLICANT_INFO_ARRAY		</Arg>
+		</gotClubApplicants>
+		<gotClubRecords>
+			<Arg> 		UINT32 		</Arg>
+			<Arg>	CLUB_ROOM_RESULT_ARRAY		</Arg>
+		</gotClubRecords>
+		<clubOperationFailed>
+			<Arg>		INT8		</Arg>
+		</clubOperationFailed>
+    </ClientMethods>
+</root>
+

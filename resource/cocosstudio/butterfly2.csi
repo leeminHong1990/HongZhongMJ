@@ -1,0 +1,52 @@
+<PlistInfoProjectFile>
+  <PropertyGroup Name="butterfly2" Type="Plist" ID="136e2651-835c-4ec5-897b-de9e1b7cb476" Version="3.10.0.0" />
+  <Content ExportType="Png" SortAlgorithm="MaxRects" PicturePadding="1" AllowRotation="True" AllowAnySize="False" AllowTrim="False" ctype="PlistInfoData">
+    <ImageFiles>
+      <FilePathData Path="Butterfly2UI/1.png" />
+      <FilePathData Path="Butterfly2UI/10.png" />
+      <FilePathData Path="Butterfly2UI/11.png" />
+      <FilePathData Path="Butterfly2UI/12.png" />
+      <FilePathData Path="Butterfly2UI/13.png" />
+      <FilePathData Path="Butterfly2UI/14.png" />
+      <FilePathData Path="Butterfly2UI/15.png" />
+      <FilePathData Path="Butterfly2UI/16.png" />
+      <FilePathData Path="Butterfly2UI/17.png" />
+      <FilePathData Path="Butterfly2UI/18.png" />
+      <FilePathData Path="Butterfly2UI/19.png" />
+      <FilePathData Path="Butterfly2UI/2.png" />
+      <FilePathData Path="Butterfly2UI/20.png" />
+      <FilePathData Path="Butterfly2UI/21.png" />
+      <FilePathData Path="Butterfly2UI/22.png" />
+      <FilePathData Path="Butterfly2UI/23.png" />
+      <FilePathData Path="Butterfly2UI/24.png" />
+      <FilePathData Path="Butterfly2UI/25.png" />
+      <FilePathData Path="Butterfly2UI/26.png" />
+      <FilePathData Path="Butterfly2UI/27.png" />
+      <FilePathData Path="Butterfly2UI/28.png" />
+      <FilePathData Path="Butterfly2UI/29.png" />
+      <FilePathData Path="Butterfly2UI/3.png" />
+      <FilePathData Path="Butterfly2UI/30.png" />
+      <FilePathData Path="Butterfly2UI/31.png" />
+      <FilePathData Path="Butterfly2UI/32.png" />
+      <FilePathData Path="Butterfly2UI/33.png" />
+      <FilePathData Path="Butterfly2UI/34.png" />
+      <FilePathData Path="Butterfly2UI/35.png" />
+      <FilePathData Path="Butterfly2UI/36.png" />
+      <FilePathData Path="Butterfly2UI/37.png" />
+      <FilePathData Path="Butterfly2UI/38.png" />
+      <FilePathData Path="Butterfly2UI/39.png" />
+      <FilePathData Path="Butterfly2UI/4.png" />
+      <FilePathData Path="Butterfly2UI/40.png" />
+      <FilePathData Path="Butterfly2UI/41.png" />
+      <FilePathData Path="Butterfly2UI/42.png" />
+      <FilePathData Path="Butterfly2UI/43.png" />
+      <FilePathData Path="Butterfly2UI/44.png" />
+      <FilePathData Path="Butterfly2UI/5.png" />
+      <FilePathData Path="Butterfly2UI/6.png" />
+      <FilePathData Path="Butterfly2UI/7.png" />
+      <FilePathData Path="Butterfly2UI/8.png" />
+      <FilePathData Path="Butterfly2UI/9.png" />
+    </ImageFiles>
+    <MaxSize Width="512" Height="512" />
+  </Content>
+</PlistInfoProjectFile>

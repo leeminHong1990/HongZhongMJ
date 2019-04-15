@@ -1,0 +1,51 @@
+<root>
+	<Properties>
+		<lastResetDayTime>
+			<Type>			DOUBLE			</Type>
+			<Flags>			BASE		</Flags>
+			<Persistent>		true			</Persistent>
+		</lastResetDayTime>
+
+	</Properties>
+
+	<BaseMethods>
+		<queryAllChat>
+			<Exposed/>
+			<Arg>		UINT32		</Arg>
+			<Arg>		UINT32		</Arg>
+		</queryAllChat>
+		<publishMainChat>
+			<Exposed/>
+			<Arg>		UNICODE		</Arg>
+		</publishMainChat>
+		<responseMainChat>
+			<Exposed/>
+			<Arg>		UINT32		</Arg>
+			<Arg>		UNICODE		</Arg>
+		</responseMainChat>
+		<addDiamondByClient>
+			<Exposed/>
+		</addDiamondByClient>
+		<sendWorldChannelChat>
+			<Exposed/>
+			<Arg>		UNICODE		</Arg>
+		</sendWorldChannelChat>
+	</BaseMethods>
+	
+	<ClientMethods>
+		<pushAllChat>
+			<Arg>			CHAT_INFO_LIST		</Arg>
+		</pushAllChat>
+		<pushWorldChannelChat>
+			<Arg>		UNICODE		</Arg>
+		</pushWorldChannelChat>
+		<updateClientNewEvent>
+			<Arg>		UINT32		</Arg>
+			<Arg>		UINT32		</Arg>
+		</updateClientNewEvent>
+		<pushAvatarInfo>
+			<Arg>	AVATAR_INFO </Arg>
+		</pushAvatarInfo>
+	</ClientMethods>
+</root>
+

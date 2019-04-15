@@ -1,0 +1,49 @@
+<root>
+	<Interfaces>
+	</Interfaces>
+
+	<Properties>
+		<clubId>
+			<Type>			UINT32		    </Type>
+			<Flags>			BASE			</Flags>
+			<Persistent>	true			</Persistent>
+		</clubId>
+		<name>
+			<Type>			UNICODE		    </Type>
+			<Flags>			BASE			</Flags>
+			<Persistent>	true			</Persistent>
+		</name>
+		<notice>
+			<Type>			UNICODE		    </Type>
+			<Flags>			BASE			</Flags>
+			<Persistent>	true			</Persistent>
+		</notice>
+
+		<owner>
+			<Type>		CLUB_OWNER_INFO 	</Type>
+			<Flags>			BASE			</Flags>
+			<Persistent>	true			</Persistent>
+		</owner>
+		<roomType>
+			<Type>			PY_DICT			</Type>
+			<Flags>			BASE			</Flags>
+			<Persistent>	true			</Persistent>
+		</roomType>
+        <members>
+			<Type>		CLUB_MEMBER_INFO_DICT	</Type>
+			<Flags>			BASE			</Flags>
+			<Persistent>	true			</Persistent>
+		</members>
+		<applicants>
+			<Type>		CLUB_APPLICANT_INFO_DICT	</Type>
+			<Flags>			BASE			</Flags>
+			<Persistent>	true			</Persistent>
+		</applicants>
+		<records>
+			<Type>		CLUB_ROOM_RESULT_ARRAY	</Type>
+			<Flags>			BASE			</Flags>
+			<Persistent>	true			</Persistent>
+		</records>
+
+	</Properties>
+</root>

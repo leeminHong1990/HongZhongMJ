@@ -1,0 +1,413 @@
+{
+  "ID": "03638338-4c4b-4992-b66d-e6112de7fd05",
+  "Version": "3.10.0.0",
+  "Name": "EditorUI",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 24,
+        "Children": [
+          {
+            "ClipAble": false,
+            "BackColorAlpha": 178,
+            "ComboBoxIndex": 1,
+            "SingleColor": {
+              "R": 0,
+              "G": 0,
+              "B": 0
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "TouchEnable": true,
+            "AnchorPoint": {},
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PercentWidthEnable": true,
+            "PercentHeightEnable": true,
+            "PercentWidthEnabled": true,
+            "PercentHeightEnabled": true,
+            "PreSize": {
+              "X": 1.0,
+              "Y": 1.0
+            },
+            "Tag": 25,
+            "Children": [
+              {
+                "ClipAble": false,
+                "BackColorAlpha": 102,
+                "SingleColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "FirstColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "EndColor": {},
+                "ColorVector": {
+                  "ScaleY": 1.0
+                },
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 640.0,
+                  "Y": 360.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.5
+                },
+                "PreSize": {
+                  "X": 0.4797,
+                  "Y": 0.5347
+                },
+                "LeftMargin": 333.0,
+                "RightMargin": 333.0,
+                "TopMargin": 167.5,
+                "BottomMargin": 167.5,
+                "Tag": 26,
+                "Children": [
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "EditorUI/editor_img.png",
+                      "Plist": ""
+                    },
+                    "Scale9OriginX": 202,
+                    "Scale9OriginY": 127,
+                    "Scale9Width": 210,
+                    "Scale9Height": 131,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 307.0,
+                      "Y": 192.5
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.5
+                    },
+                    "PreSize": {
+                      "X": 1.0,
+                      "Y": 1.0
+                    },
+                    "Tag": 27,
+                    "ActionTag": -1974661511,
+                    "Size": {
+                      "X": 614.0,
+                      "Y": 385.0
+                    },
+                    "Name": "Image_1",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "EditorUI/editor_label_bg.png",
+                      "Plist": ""
+                    },
+                    "Scale9OriginX": 187,
+                    "Scale9OriginY": 72,
+                    "Scale9Width": 194,
+                    "Scale9Height": 76,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5
+                    },
+                    "Position": {
+                      "X": 307.0,
+                      "Y": 120.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.3117
+                    },
+                    "PreSize": {
+                      "X": 0.9251,
+                      "Y": 0.5714
+                    },
+                    "LeftMargin": 23.0,
+                    "RightMargin": 23.0,
+                    "TopMargin": 45.0,
+                    "BottomMargin": 120.0,
+                    "Tag": 28,
+                    "ActionTag": -1307188969,
+                    "Size": {
+                      "X": 568.0,
+                      "Y": 220.0
+                    },
+                    "Name": "Image_2",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "FontSize": 14,
+                    "ButtonText": "",
+                    "TextColor": {
+                      "R": 65,
+                      "G": 65,
+                      "B": 70
+                    },
+                    "NormalFileData": {
+                      "Type": "Normal",
+                      "Path": "Default/ok_btn.png",
+                      "Plist": ""
+                    },
+                    "Scale9Enable": true,
+                    "Scale9OriginX": 15,
+                    "Scale9OriginY": 11,
+                    "Scale9Width": 222,
+                    "Scale9Height": 92,
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 307.0,
+                      "Y": 70.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.1818
+                    },
+                    "PreSize": {
+                      "X": 0.4104,
+                      "Y": 0.2961
+                    },
+                    "LeftMargin": 181.0,
+                    "RightMargin": 181.0,
+                    "TopMargin": 258.0,
+                    "BottomMargin": 13.0,
+                    "Tag": 29,
+                    "ActionTag": -129235145,
+                    "Size": {
+                      "X": 252.0,
+                      "Y": 114.0
+                    },
+                    "Name": "sure_btn",
+                    "ctype": "ButtonObjectData"
+                  },
+                  {
+                    "FontSize": 14,
+                    "ButtonText": "",
+                    "TextColor": {
+                      "R": 65,
+                      "G": 65,
+                      "B": 70
+                    },
+                    "NormalFileData": {
+                      "Type": "Normal",
+                      "Path": "EditorUI/editor_close_btn.png",
+                      "Plist": ""
+                    },
+                    "Scale9Enable": true,
+                    "Scale9OriginX": 15,
+                    "Scale9OriginY": 11,
+                    "Scale9Width": 38,
+                    "Scale9Height": 36,
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 574.104,
+                      "Y": 354.7934
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.935,
+                      "Y": 0.9215
+                    },
+                    "PreSize": {
+                      "X": 0.1107,
+                      "Y": 0.1506
+                    },
+                    "LeftMargin": 540.104,
+                    "RightMargin": 5.896,
+                    "TopMargin": 1.2066,
+                    "BottomMargin": 325.7934,
+                    "Tag": 30,
+                    "ActionTag": 130486728,
+                    "Size": {
+                      "X": 68.0,
+                      "Y": 58.0
+                    },
+                    "Name": "close_btn",
+                    "ctype": "ButtonObjectData"
+                  },
+                  {
+                    "FontResource": {
+                      "Type": "Normal",
+                      "Path": "font/zhunyuan.ttf",
+                      "Plist": ""
+                    },
+                    "FontSize": 25,
+                    "IsCustomSize": true,
+                    "LabelText": "",
+                    "PlaceHolderText": "请输入内容",
+                    "MaxLengthText": 10,
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5
+                    },
+                    "Position": {
+                      "X": 307.0,
+                      "Y": 130.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {
+                      "R": 178,
+                      "G": 122,
+                      "B": 101
+                    },
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.3377
+                    },
+                    "PreSize": {
+                      "X": 0.8958,
+                      "Y": 0.5195
+                    },
+                    "LeftMargin": 32.0,
+                    "RightMargin": 32.0,
+                    "TopMargin": 55.0,
+                    "BottomMargin": 130.0,
+                    "Tag": 31,
+                    "ActionTag": 1288717541,
+                    "Size": {
+                      "X": 550.0,
+                      "Y": 200.0
+                    },
+                    "Name": "edit_box",
+                    "ctype": "TextFieldObjectData"
+                  }
+                ],
+                "ActionTag": 165562756,
+                "Size": {
+                  "X": 614.0,
+                  "Y": 385.0
+                },
+                "Name": "editor_panel",
+                "ctype": "PanelObjectData"
+              }
+            ],
+            "ActionTag": -2123575775,
+            "Size": {
+              "X": 1280.0,
+              "Y": 720.0
+            },
+            "Name": "bg_panel",
+            "ctype": "PanelObjectData"
+          }
+        ],
+        "Size": {
+          "X": 1280.0,
+          "Y": 720.0
+        },
+        "Name": "EditorUI",
+        "ctype": "LayerObjectData"
+      },
+      "UsedResources": [
+        "Default/ok_btn.png",
+        "EditorUI/editor_close_btn.png",
+        "EditorUI/editor_img.png",
+        "EditorUI/editor_label_bg.png",
+        "font/zhunyuan.ttf"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Layer"
+}

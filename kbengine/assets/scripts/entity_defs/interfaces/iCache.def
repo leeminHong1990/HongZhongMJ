@@ -1,0 +1,67 @@
+<root>
+	<Properties>
+	</Properties>
+
+	<BaseMethods>
+		<updateCachedInfo>
+			<Arg>		UUID 			</Arg>
+			<Arg>		PY_DICT			</Arg>
+		</updateCachedInfo>
+
+		<pushPlayerInfoListToClient>
+			<Arg>		MAILBOX			</Arg>
+			<Arg>		UUID_ARRAY	</Arg>
+			<Arg>		UINT8		</Arg>
+		</pushPlayerInfoListToClient>
+
+		<delUUID2Pid>
+			<Arg>		UNICODE			</Arg>
+			<Arg>		UUID 			</Arg>
+			<Arg>		UINT32 			</Arg>
+		</delUUID2Pid>
+		<addUUID2Pid>
+			<Arg>		UNICODE			</Arg>
+			<Arg>		UUID 			</Arg>
+			<Arg>		UINT32 			</Arg>
+		</addUUID2Pid>
+		<getPidByFriend>
+			<Arg>		MAILBOX 			</Arg>
+			<Arg>		UUID 			</Arg>
+			<Arg>		UUID 			</Arg>
+			<Arg>		UINT8 			</Arg>
+		</getPidByFriend>
+
+		<getPidToEntityByUUID>
+			<Arg>		MAILBOX 			</Arg>
+			<Arg>		UUID 			</Arg>
+		</getPidToEntityByUUID>
+		
+		<getPidToPayCenterByUUID>
+			<Arg>		MAILBOX 			</Arg>
+			<Arg>		UUID 			</Arg>
+			<Arg>		UINT32 			</Arg>
+		</getPidToPayCenterByUUID>
+
+		<getPidToEntityByAccountName>
+			<Arg>		MAILBOX 			</Arg>
+			<Arg>		UNICODE 			</Arg>
+		</getPidToEntityByAccountName>
+
+		<sendNameToClient>
+			<Arg>		MAILBOX			</Arg>
+			<Arg>		UUID 			</Arg>
+		</sendNameToClient>
+
+
+		<getCachedFriendInfo>
+			<Arg>		UUID			</Arg>
+		</getCachedFriendInfo>
+
+		<buildFriendInfoList>
+			<Arg>		UUID_ARRAY			</Arg>
+		</buildFriendInfoList>
+	</BaseMethods>
+
+	<ClientMethods>
+	</ClientMethods>
+</root>

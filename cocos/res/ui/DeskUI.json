@@ -1,0 +1,257 @@
+{
+  "ID": "d73c4281-2d18-4b6f-bf8b-9ca43cbecd4d",
+  "Version": "3.10.0.0",
+  "Name": "DeskUI",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 77,
+        "Children": [
+          {
+            "ClipAble": false,
+            "BackColorAlpha": 102,
+            "SingleColor": {
+              "R": 150,
+              "G": 200
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "Scale9Width": 1,
+            "Scale9Height": 1,
+            "TouchEnable": true,
+            "AnchorPoint": {},
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 1.0,
+              "Y": 0.9478
+            },
+            "TopMargin": 12.0,
+            "Tag": 80,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "ClubUI/club_desk_0.png",
+                  "Plist": "ClubUI.plist"
+                },
+                "Scale9OriginX": 79,
+                "Scale9OriginY": 71,
+                "Scale9Width": 82,
+                "Scale9Height": 76,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 120.0,
+                  "Y": 109.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.5
+                },
+                "PreSize": {
+                  "X": 1.0,
+                  "Y": 1.0
+                },
+                "Tag": 81,
+                "ActionTag": 1623334118,
+                "Size": {
+                  "X": 240.0,
+                  "Y": 218.0
+                },
+                "Name": "desk_img",
+                "ctype": "ImageViewObjectData"
+              }
+            ],
+            "ActionTag": 987209050,
+            "Size": {
+              "X": 240.0,
+              "Y": 218.0
+            },
+            "Name": "desk_panel",
+            "ctype": "PanelObjectData"
+          },
+          {
+            "FontSize": 14,
+            "ButtonText": "",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "NormalFileData": {
+              "Type": "MarkedSubImage",
+              "Path": "ClubUI/club_desk_detail_btn.png",
+              "Plist": "ClubUI.plist"
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 11,
+            "Scale9Width": 98,
+            "Scale9Height": 3,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 1.0
+            },
+            "Position": {
+              "X": 120.0,
+              "Y": 230.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PositionPercentXEnabled": true,
+            "PositionPercentYEnabled": true,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 1.0
+            },
+            "PreSize": {
+              "X": 0.5333,
+              "Y": 0.1087
+            },
+            "LeftMargin": 56.0,
+            "RightMargin": 56.0,
+            "BottomMargin": 205.0,
+            "Tag": 82,
+            "Children": [
+              {
+                "IsCustomSize": true,
+                "FontSize": 15,
+                "LabelText": "NO.1 查看详情",
+                "FontResource": {
+                  "Type": "Normal",
+                  "Path": "font/zhunyuan.ttf",
+                  "Plist": ""
+                },
+                "HorizontalAlignmentType": "HT_Center",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 64.0,
+                  "Y": 12.5
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "R": 159,
+                  "G": 88,
+                  "B": 39
+                },
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.5
+                },
+                "PreSize": {
+                  "X": 0.9375,
+                  "Y": 0.68
+                },
+                "LeftMargin": 4.0,
+                "RightMargin": 4.0,
+                "TopMargin": 4.0,
+                "BottomMargin": 4.0,
+                "Tag": 196,
+                "ActionTag": -1370320321,
+                "Size": {
+                  "X": 120.0,
+                  "Y": 17.0
+                },
+                "Name": "desk_label",
+                "ctype": "TextObjectData"
+              }
+            ],
+            "ActionTag": -1315473791,
+            "Size": {
+              "X": 128.0,
+              "Y": 25.0
+            },
+            "Name": "detail_btn",
+            "ctype": "ButtonObjectData"
+          }
+        ],
+        "Size": {
+          "X": 240.0,
+          "Y": 230.0
+        },
+        "Name": "DeskUI",
+        "ctype": "LayerObjectData"
+      },
+      "UsedResources": [
+        "ClubUI.plist",
+        "ClubUI.png",
+        "font/zhunyuan.ttf"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Layer"
+}

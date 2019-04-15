@@ -1,0 +1,1371 @@
+{
+  "ID": "c6e7533a-1ec3-458c-b0c8-3d85d8d34f91",
+  "Version": "3.10.0.0",
+  "Name": "PlayBack3DUI",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 183,
+        "Children": [
+          {
+            "ClipAble": false,
+            "BackColorAlpha": 102,
+            "SingleColor": {
+              "R": 150,
+              "G": 200
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "Scale9OriginX": -69,
+            "Scale9OriginY": -10,
+            "Scale9Width": 138,
+            "Scale9Height": 20,
+            "AnchorPoint": {
+              "ScaleX": 0.5
+            },
+            "Position": {
+              "X": 639.936,
+              "Y": 450.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PositionPercentXEnabled": true,
+            "PositionPercentYEnabled": true,
+            "PrePosition": {
+              "X": 0.4999,
+              "Y": 0.625
+            },
+            "PreSize": {
+              "X": 0.3125,
+              "Y": 0.0694
+            },
+            "LeftMargin": 439.936,
+            "RightMargin": 440.064,
+            "TopMargin": 220.0,
+            "BottomMargin": 450.0,
+            "Tag": 751,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "Default/label_bg.png",
+                  "Plist": ""
+                },
+                "Scale9OriginX": 69,
+                "Scale9OriginY": 10,
+                "Scale9Width": 72,
+                "Scale9Height": 12,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 200.0,
+                  "Y": 25.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.5
+                },
+                "PreSize": {
+                  "X": 0.525,
+                  "Y": 0.64
+                },
+                "LeftMargin": 95.0,
+                "RightMargin": 95.0,
+                "TopMargin": 9.0,
+                "BottomMargin": 9.0,
+                "Tag": 752,
+                "ActionTag": -917742354,
+                "Size": {
+                  "X": 210.0,
+                  "Y": 32.0
+                },
+                "Alpha": 204,
+                "Name": "label_bg",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FontSize": 24,
+                "LabelText": "进度：2/191 ",
+                "FontResource": {
+                  "Type": "Normal",
+                  "Path": "font/zhunyuan.ttf",
+                  "Plist": ""
+                },
+                "VerticalAlignmentType": "VT_Center",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 172.4071,
+                  "Y": 25.1306
+                },
+                "Scale": {
+                  "ScaleX": 0.75,
+                  "ScaleY": 0.75
+                },
+                "CColor": {
+                  "R": 116,
+                  "G": 215,
+                  "B": 205
+                },
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.431,
+                  "Y": 0.5026
+                },
+                "PreSize": {
+                  "X": 0.315,
+                  "Y": 0.54
+                },
+                "LeftMargin": 109.4071,
+                "RightMargin": 164.5929,
+                "TopMargin": 11.3694,
+                "BottomMargin": 11.6306,
+                "Tag": 753,
+                "ActionTag": -1154363229,
+                "Size": {
+                  "X": 126.0,
+                  "Y": 27.0
+                },
+                "Name": "rate_label",
+                "ctype": "TextObjectData"
+              },
+              {
+                "FontSize": 24,
+                "LabelText": " 4倍速",
+                "FontResource": {
+                  "Type": "Normal",
+                  "Path": "font/zhunyuan.ttf",
+                  "Plist": ""
+                },
+                "HorizontalAlignmentType": "HT_Right",
+                "VerticalAlignmentType": "VT_Center",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 254.2538,
+                  "Y": 25.1488
+                },
+                "Scale": {
+                  "ScaleX": 0.75,
+                  "ScaleY": 0.75
+                },
+                "CColor": {
+                  "R": 249,
+                  "G": 219,
+                  "B": 8
+                },
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.6356,
+                  "Y": 0.503
+                },
+                "PreSize": {
+                  "X": 0.175,
+                  "Y": 0.54
+                },
+                "LeftMargin": 219.2538,
+                "RightMargin": 110.7462,
+                "TopMargin": 11.3512,
+                "BottomMargin": 11.6488,
+                "Tag": 754,
+                "ActionTag": -326442593,
+                "Size": {
+                  "X": 70.0,
+                  "Y": 27.0
+                },
+                "Name": "speed_label",
+                "ctype": "TextObjectData"
+              }
+            ],
+            "ActionTag": 1573799319,
+            "Size": {
+              "X": 400.0,
+              "Y": 50.0
+            },
+            "Name": "room_info_panel",
+            "ctype": "PanelObjectData"
+          },
+          {
+            "ClipAble": false,
+            "BackColorAlpha": 102,
+            "SingleColor": {
+              "R": 150,
+              "G": 200
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "Scale9Width": 1,
+            "Scale9Height": 1,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 601.6,
+              "Y": 165.6
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PositionPercentXEnabled": true,
+            "PositionPercentYEnabled": true,
+            "PrePosition": {
+              "X": 0.47,
+              "Y": 0.23
+            },
+            "PreSize": {
+              "X": 0.3281,
+              "Y": 0.0833
+            },
+            "LeftMargin": 391.6,
+            "RightMargin": 468.4,
+            "TopMargin": 524.4,
+            "BottomMargin": 135.6,
+            "Tag": 184,
+            "Children": [
+              {
+                "NormalBackFileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "PlayBack3DUI/pong_n.png",
+                  "Plist": "PlaybackUI.plist"
+                },
+                "PressedBackFileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "PlayBack3DUI/pong_s.png",
+                  "Plist": "PlaybackUI.plist"
+                },
+                "NodeNormalFileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "PlayBack3DUI/pong_s.png",
+                  "Plist": "PlaybackUI.plist"
+                },
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 126.0,
+                  "Y": 23.021
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.3,
+                  "Y": 0.3837
+                },
+                "PreSize": {
+                  "X": 0.1238,
+                  "Y": 0.8
+                },
+                "LeftMargin": 100.0,
+                "RightMargin": 268.0,
+                "TopMargin": 12.979,
+                "BottomMargin": -0.979,
+                "Tag": 66,
+                "ActionTag": 1255922239,
+                "Size": {
+                  "X": 52.0,
+                  "Y": 48.0
+                },
+                "Name": "pong_chk",
+                "ctype": "CheckBoxObjectData"
+              },
+              {
+                "NormalBackFileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "PlayBack3DUI/kong_n.png",
+                  "Plist": "PlaybackUI.plist"
+                },
+                "PressedBackFileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "PlayBack3DUI/kong_s.png",
+                  "Plist": "PlaybackUI.plist"
+                },
+                "NodeNormalFileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "PlayBack3DUI/kong_s.png",
+                  "Plist": "PlaybackUI.plist"
+                },
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 206.0,
+                  "Y": 23.021
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.4905,
+                  "Y": 0.3837
+                },
+                "PreSize": {
+                  "X": 0.1238,
+                  "Y": 0.8
+                },
+                "LeftMargin": 180.0,
+                "RightMargin": 188.0,
+                "TopMargin": 12.979,
+                "BottomMargin": -0.979,
+                "Tag": 67,
+                "ActionTag": 1407270995,
+                "Size": {
+                  "X": 52.0,
+                  "Y": 48.0
+                },
+                "Name": "kong_chk",
+                "ctype": "CheckBoxObjectData"
+              },
+              {
+                "NormalBackFileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "PlayBack3DUI/win_n.png",
+                  "Plist": "PlaybackUI.plist"
+                },
+                "PressedBackFileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "PlayBack3DUI/win_s.png",
+                  "Plist": "PlaybackUI.plist"
+                },
+                "NodeNormalFileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "PlayBack3DUI/win_s.png",
+                  "Plist": "PlaybackUI.plist"
+                },
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 286.0,
+                  "Y": 23.021
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.681,
+                  "Y": 0.3837
+                },
+                "PreSize": {
+                  "X": 0.1238,
+                  "Y": 0.8
+                },
+                "LeftMargin": 260.0,
+                "RightMargin": 108.0,
+                "TopMargin": 12.979,
+                "BottomMargin": -0.979,
+                "Tag": 68,
+                "ActionTag": -2122442184,
+                "Size": {
+                  "X": 52.0,
+                  "Y": 48.0
+                },
+                "Name": "win_chk",
+                "ctype": "CheckBoxObjectData"
+              },
+              {
+                "NormalBackFileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "PlayBack3DUI/pass_n.png",
+                  "Plist": "PlaybackUI.plist"
+                },
+                "PressedBackFileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "PlayBack3DUI/pass_s.png",
+                  "Plist": "PlaybackUI.plist"
+                },
+                "NodeNormalFileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "PlayBack3DUI/pass_s.png",
+                  "Plist": "PlaybackUI.plist"
+                },
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 365.9999,
+                  "Y": 23.021
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.8714,
+                  "Y": 0.3837
+                },
+                "PreSize": {
+                  "X": 0.1238,
+                  "Y": 0.8
+                },
+                "LeftMargin": 339.9999,
+                "RightMargin": 28.0001,
+                "TopMargin": 12.979,
+                "BottomMargin": -0.979,
+                "Tag": 69,
+                "ActionTag": -75092130,
+                "Size": {
+                  "X": 52.0,
+                  "Y": 48.0
+                },
+                "Name": "pass_chk",
+                "ctype": "CheckBoxObjectData"
+              }
+            ],
+            "ActionTag": 260526146,
+            "Size": {
+              "X": 420.0,
+              "Y": 60.0
+            },
+            "VisibleForFrame": false,
+            "Name": "player_operation_panel0",
+            "ctype": "PanelObjectData"
+          },
+          {
+            "ClipAble": false,
+            "BackColorAlpha": 102,
+            "SingleColor": {
+              "R": 150,
+              "G": 200
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "Scale9Width": 1,
+            "Scale9Height": 1,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 1053.952,
+              "Y": 427.392
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "RotationSkewX": -12.9654,
+            "RotationSkewY": -12.9489,
+            "CColor": {},
+            "IconVisible": false,
+            "PositionPercentXEnabled": true,
+            "PositionPercentYEnabled": true,
+            "PrePosition": {
+              "X": 0.8234,
+              "Y": 0.5936
+            },
+            "PreSize": {
+              "X": 0.0469,
+              "Y": 0.5833
+            },
+            "LeftMargin": 1023.952,
+            "RightMargin": 196.048,
+            "TopMargin": 82.608,
+            "BottomMargin": 217.392,
+            "Tag": 1475,
+            "Children": [
+              {
+                "NormalBackFileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "PlayBack3DUI/pong_r_n.png",
+                  "Plist": "PlaybackUI.plist"
+                },
+                "PressedBackFileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "PlayBack3DUI/pong_r_s.png",
+                  "Plist": "PlaybackUI.plist"
+                },
+                "NodeNormalFileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "PlayBack3DUI/pong_r_s.png",
+                  "Plist": "PlaybackUI.plist"
+                },
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 27.9491,
+                  "Y": 293.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.4658,
+                  "Y": 0.6976
+                },
+                "PreSize": {
+                  "X": 0.8667,
+                  "Y": 0.1143
+                },
+                "LeftMargin": 1.9491,
+                "RightMargin": 6.0509,
+                "TopMargin": 103.0,
+                "BottomMargin": 269.0,
+                "Tag": 61,
+                "ActionTag": -1113676571,
+                "Size": {
+                  "X": 52.0,
+                  "Y": 48.0
+                },
+                "Name": "pong_chk",
+                "ctype": "CheckBoxObjectData"
+              },
+              {
+                "NormalBackFileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "PlayBack3DUI/kong_r_n.png",
+                  "Plist": "PlaybackUI.plist"
+                },
+                "PressedBackFileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "PlayBack3DUI/kong_r_s.png",
+                  "Plist": "PlaybackUI.plist"
+                },
+                "NodeNormalFileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "PlayBack3DUI/kong_r_s.png",
+                  "Plist": "PlaybackUI.plist"
+                },
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 26.3534,
+                  "Y": 213.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.4392,
+                  "Y": 0.5071
+                },
+                "PreSize": {
+                  "X": 0.8667,
+                  "Y": 0.1143
+                },
+                "LeftMargin": 0.3534,
+                "RightMargin": 7.6466,
+                "TopMargin": 183.0,
+                "BottomMargin": 189.0,
+                "Tag": 62,
+                "ActionTag": 1746534120,
+                "Size": {
+                  "X": 52.0,
+                  "Y": 48.0
+                },
+                "Name": "kong_chk",
+                "ctype": "CheckBoxObjectData"
+              },
+              {
+                "NormalBackFileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "PlayBack3DUI/win_r_n.png",
+                  "Plist": "PlaybackUI.plist"
+                },
+                "PressedBackFileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "PlayBack3DUI/win_r_s.png",
+                  "Plist": "PlaybackUI.plist"
+                },
+                "NodeNormalFileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "PlayBack3DUI/win_r_s.png",
+                  "Plist": "PlaybackUI.plist"
+                },
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 29.5442,
+                  "Y": 133.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.4924,
+                  "Y": 0.3167
+                },
+                "PreSize": {
+                  "X": 0.8667,
+                  "Y": 0.1143
+                },
+                "LeftMargin": 3.5442,
+                "RightMargin": 4.4558,
+                "TopMargin": 263.0,
+                "BottomMargin": 109.0,
+                "Tag": 63,
+                "ActionTag": 82581692,
+                "Size": {
+                  "X": 52.0,
+                  "Y": 48.0
+                },
+                "Name": "win_chk",
+                "ctype": "CheckBoxObjectData"
+              },
+              {
+                "NormalBackFileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "PlayBack3DUI/pass_r_n.png",
+                  "Plist": "PlaybackUI.plist"
+                },
+                "PressedBackFileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "PlayBack3DUI/pass_r_s.png",
+                  "Plist": "PlaybackUI.plist"
+                },
+                "NodeNormalFileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "PlayBack3DUI/pass_r_s.png",
+                  "Plist": "PlaybackUI.plist"
+                },
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 27.9491,
+                  "Y": 53.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.4658,
+                  "Y": 0.1262
+                },
+                "PreSize": {
+                  "X": 0.8667,
+                  "Y": 0.1143
+                },
+                "LeftMargin": 1.9491,
+                "RightMargin": 6.0509,
+                "TopMargin": 343.0,
+                "BottomMargin": 29.0,
+                "Tag": 64,
+                "ActionTag": 52319630,
+                "Size": {
+                  "X": 52.0,
+                  "Y": 48.0
+                },
+                "Name": "pass_chk",
+                "ctype": "CheckBoxObjectData"
+              }
+            ],
+            "ActionTag": -1280614833,
+            "Size": {
+              "X": 60.0,
+              "Y": 420.0
+            },
+            "VisibleForFrame": false,
+            "Name": "player_operation_panel1",
+            "ctype": "PanelObjectData"
+          },
+          {
+            "ClipAble": false,
+            "BackColorAlpha": 102,
+            "SingleColor": {
+              "R": 150,
+              "G": 200
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "Scale9Width": 1,
+            "Scale9Height": 1,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 601.6,
+              "Y": 608.904
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PositionPercentXEnabled": true,
+            "PositionPercentYEnabled": true,
+            "PrePosition": {
+              "X": 0.47,
+              "Y": 0.8457
+            },
+            "PreSize": {
+              "X": 0.3281,
+              "Y": 0.0833
+            },
+            "LeftMargin": 391.6,
+            "RightMargin": 468.4,
+            "TopMargin": 81.096,
+            "BottomMargin": 578.904,
+            "Tag": 70,
+            "Children": [
+              {
+                "NormalBackFileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "PlayBack3DUI/pong_n.png",
+                  "Plist": "PlaybackUI.plist"
+                },
+                "PressedBackFileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "PlayBack3DUI/pong_s.png",
+                  "Plist": "PlaybackUI.plist"
+                },
+                "NodeNormalFileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "PlayBack3DUI/pong_s.png",
+                  "Plist": "PlaybackUI.plist"
+                },
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 126.0,
+                  "Y": 23.021
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.3,
+                  "Y": 0.3837
+                },
+                "PreSize": {
+                  "X": 0.1238,
+                  "Y": 0.8
+                },
+                "LeftMargin": 100.0,
+                "RightMargin": 268.0,
+                "TopMargin": 12.979,
+                "BottomMargin": -0.979,
+                "Tag": 72,
+                "ActionTag": -1925752331,
+                "Size": {
+                  "X": 52.0,
+                  "Y": 48.0
+                },
+                "Name": "pong_chk",
+                "ctype": "CheckBoxObjectData"
+              },
+              {
+                "NormalBackFileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "PlayBack3DUI/kong_n.png",
+                  "Plist": "PlaybackUI.plist"
+                },
+                "PressedBackFileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "PlayBack3DUI/kong_s.png",
+                  "Plist": "PlaybackUI.plist"
+                },
+                "NodeNormalFileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "PlayBack3DUI/kong_s.png",
+                  "Plist": "PlaybackUI.plist"
+                },
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 206.0,
+                  "Y": 23.021
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.4905,
+                  "Y": 0.3837
+                },
+                "PreSize": {
+                  "X": 0.1238,
+                  "Y": 0.8
+                },
+                "LeftMargin": 180.0,
+                "RightMargin": 188.0,
+                "TopMargin": 12.979,
+                "BottomMargin": -0.979,
+                "Tag": 73,
+                "ActionTag": -707456041,
+                "Size": {
+                  "X": 52.0,
+                  "Y": 48.0
+                },
+                "Name": "kong_chk",
+                "ctype": "CheckBoxObjectData"
+              },
+              {
+                "NormalBackFileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "PlayBack3DUI/win_n.png",
+                  "Plist": "PlaybackUI.plist"
+                },
+                "PressedBackFileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "PlayBack3DUI/win_s.png",
+                  "Plist": "PlaybackUI.plist"
+                },
+                "NodeNormalFileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "PlayBack3DUI/win_s.png",
+                  "Plist": "PlaybackUI.plist"
+                },
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 286.0,
+                  "Y": 23.021
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.681,
+                  "Y": 0.3837
+                },
+                "PreSize": {
+                  "X": 0.1238,
+                  "Y": 0.8
+                },
+                "LeftMargin": 260.0,
+                "RightMargin": 108.0,
+                "TopMargin": 12.979,
+                "BottomMargin": -0.979,
+                "Tag": 74,
+                "ActionTag": -101090178,
+                "Size": {
+                  "X": 52.0,
+                  "Y": 48.0
+                },
+                "Name": "win_chk",
+                "ctype": "CheckBoxObjectData"
+              },
+              {
+                "NormalBackFileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "PlayBack3DUI/pass_n.png",
+                  "Plist": "PlaybackUI.plist"
+                },
+                "PressedBackFileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "PlayBack3DUI/pass_s.png",
+                  "Plist": "PlaybackUI.plist"
+                },
+                "NodeNormalFileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "PlayBack3DUI/pass_s.png",
+                  "Plist": "PlaybackUI.plist"
+                },
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 365.9999,
+                  "Y": 23.021
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.8714,
+                  "Y": 0.3837
+                },
+                "PreSize": {
+                  "X": 0.1238,
+                  "Y": 0.8
+                },
+                "LeftMargin": 339.9999,
+                "RightMargin": 28.0001,
+                "TopMargin": 12.979,
+                "BottomMargin": -0.979,
+                "Tag": 75,
+                "ActionTag": -710547193,
+                "Size": {
+                  "X": 52.0,
+                  "Y": 48.0
+                },
+                "Name": "pass_chk",
+                "ctype": "CheckBoxObjectData"
+              }
+            ],
+            "ActionTag": -761530772,
+            "Size": {
+              "X": 420.0,
+              "Y": 60.0
+            },
+            "VisibleForFrame": false,
+            "Name": "player_operation_panel2",
+            "ctype": "PanelObjectData"
+          },
+          {
+            "ClipAble": false,
+            "BackColorAlpha": 102,
+            "SingleColor": {
+              "R": 150,
+              "G": 200
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "Scale9Width": 1,
+            "Scale9Height": 1,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 212.224,
+              "Y": 424.8
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "RotationSkewX": 13.8051,
+            "RotationSkewY": 13.8068,
+            "CColor": {},
+            "IconVisible": false,
+            "PositionPercentXEnabled": true,
+            "PositionPercentYEnabled": true,
+            "PrePosition": {
+              "X": 0.1658,
+              "Y": 0.59
+            },
+            "PreSize": {
+              "X": 0.0469,
+              "Y": 0.5833
+            },
+            "LeftMargin": 182.224,
+            "RightMargin": 1037.776,
+            "TopMargin": 85.2,
+            "BottomMargin": 214.8,
+            "Tag": 76,
+            "Children": [
+              {
+                "NormalBackFileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "PlayBack3DUI/pong_l_n.png",
+                  "Plist": "PlaybackUI.plist"
+                },
+                "PressedBackFileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "PlayBack3DUI/pong_l_s.png",
+                  "Plist": "PlaybackUI.plist"
+                },
+                "NodeNormalFileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "PlayBack3DUI/pong_l_s.png",
+                  "Plist": "PlaybackUI.plist"
+                },
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 27.9491,
+                  "Y": 293.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.4658,
+                  "Y": 0.6976
+                },
+                "PreSize": {
+                  "X": 0.8667,
+                  "Y": 0.1143
+                },
+                "LeftMargin": 1.9491,
+                "RightMargin": 6.0509,
+                "TopMargin": 103.0,
+                "BottomMargin": 269.0,
+                "Tag": 78,
+                "ActionTag": -969952863,
+                "Size": {
+                  "X": 52.0,
+                  "Y": 48.0
+                },
+                "Name": "pong_chk",
+                "ctype": "CheckBoxObjectData"
+              },
+              {
+                "NormalBackFileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "PlayBack3DUI/kong_l_n.png",
+                  "Plist": "PlaybackUI.plist"
+                },
+                "PressedBackFileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "PlayBack3DUI/kong_l_s.png",
+                  "Plist": "PlaybackUI.plist"
+                },
+                "NodeNormalFileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "PlayBack3DUI/kong_l_s.png",
+                  "Plist": "PlaybackUI.plist"
+                },
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 26.3534,
+                  "Y": 213.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.4392,
+                  "Y": 0.5071
+                },
+                "PreSize": {
+                  "X": 0.8667,
+                  "Y": 0.1143
+                },
+                "LeftMargin": 0.3534,
+                "RightMargin": 7.6466,
+                "TopMargin": 183.0,
+                "BottomMargin": 189.0,
+                "Tag": 79,
+                "ActionTag": -2081700667,
+                "Size": {
+                  "X": 52.0,
+                  "Y": 48.0
+                },
+                "Name": "kong_chk",
+                "ctype": "CheckBoxObjectData"
+              },
+              {
+                "NormalBackFileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "PlayBack3DUI/win_l_n.png",
+                  "Plist": "PlaybackUI.plist"
+                },
+                "PressedBackFileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "PlayBack3DUI/win_l_s.png",
+                  "Plist": "PlaybackUI.plist"
+                },
+                "NodeNormalFileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "PlayBack3DUI/win_l_s.png",
+                  "Plist": "PlaybackUI.plist"
+                },
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 29.5442,
+                  "Y": 133.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.4924,
+                  "Y": 0.3167
+                },
+                "PreSize": {
+                  "X": 0.8667,
+                  "Y": 0.1143
+                },
+                "LeftMargin": 3.5442,
+                "RightMargin": 4.4558,
+                "TopMargin": 263.0,
+                "BottomMargin": 109.0,
+                "Tag": 80,
+                "ActionTag": 645903828,
+                "Size": {
+                  "X": 52.0,
+                  "Y": 48.0
+                },
+                "Name": "win_chk",
+                "ctype": "CheckBoxObjectData"
+              },
+              {
+                "NormalBackFileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "PlayBack3DUI/pass_l_n.png",
+                  "Plist": "PlaybackUI.plist"
+                },
+                "PressedBackFileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "PlayBack3DUI/pass_l_s.png",
+                  "Plist": "PlaybackUI.plist"
+                },
+                "NodeNormalFileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "PlayBack3DUI/pass_l_s.png",
+                  "Plist": "PlaybackUI.plist"
+                },
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 27.9491,
+                  "Y": 53.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.4658,
+                  "Y": 0.1262
+                },
+                "PreSize": {
+                  "X": 0.8667,
+                  "Y": 0.1143
+                },
+                "LeftMargin": 1.9491,
+                "RightMargin": 6.0509,
+                "TopMargin": 343.0,
+                "BottomMargin": 29.0,
+                "Tag": 81,
+                "ActionTag": -2111118945,
+                "Size": {
+                  "X": 52.0,
+                  "Y": 48.0
+                },
+                "Name": "pass_chk",
+                "ctype": "CheckBoxObjectData"
+              }
+            ],
+            "ActionTag": 443443310,
+            "Size": {
+              "X": 60.0,
+              "Y": 420.0
+            },
+            "VisibleForFrame": false,
+            "Name": "player_operation_panel3",
+            "ctype": "PanelObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "MarkedSubImage",
+              "Path": "PlayBack2DUI/finger.png",
+              "Plist": "PlaybackUI.plist"
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleY": 1.0
+            },
+            "Position": {
+              "X": -179.3012,
+              "Y": 189.4958
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": -0.1401,
+              "Y": 0.2632
+            },
+            "PreSize": {
+              "X": 0.0578,
+              "Y": 0.1083
+            },
+            "LeftMargin": -179.3012,
+            "RightMargin": 1385.3011,
+            "TopMargin": 530.5042,
+            "BottomMargin": 111.4958,
+            "Tag": 82,
+            "ActionTag": -574708197,
+            "Size": {
+              "X": 74.0,
+              "Y": 78.0
+            },
+            "Name": "finger_img",
+            "ctype": "SpriteObjectData"
+          }
+        ],
+        "Size": {
+          "X": 1280.0,
+          "Y": 720.0
+        },
+        "Name": "Layer",
+        "ctype": "LayerObjectData"
+      },
+      "UsedResources": [
+        "Default/label_bg.png",
+        "font/zhunyuan.ttf",
+        "PlaybackUI.plist",
+        "PlaybackUI.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Layer"
+}

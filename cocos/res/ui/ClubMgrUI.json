@@ -1,0 +1,1242 @@
+{
+  "ID": "ed0ab384-98d8-43a1-aca2-c99f13b66701",
+  "Version": "3.10.0.0",
+  "Name": "ClubMgrUI",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Children": [
+          {
+            "ClipAble": false,
+            "BackColorAlpha": 178,
+            "ComboBoxIndex": 1,
+            "SingleColor": {
+              "R": 0,
+              "G": 0,
+              "B": 0
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "Scale9Width": 1,
+            "Scale9Height": 1,
+            "TouchEnable": true,
+            "AnchorPoint": {},
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PercentWidthEnable": true,
+            "PercentHeightEnable": true,
+            "PercentWidthEnabled": true,
+            "PercentHeightEnabled": true,
+            "PreSize": {
+              "X": 1.0,
+              "Y": 1.0
+            },
+            "Tag": 2,
+            "Children": [
+              {
+                "ClipAble": false,
+                "BackColorAlpha": 102,
+                "SingleColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "FirstColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "EndColor": {},
+                "ColorVector": {
+                  "ScaleY": 1.0
+                },
+                "Scale9Width": 1,
+                "Scale9Height": 1,
+                "TouchEnable": true,
+                "AnchorPoint": {},
+                "Position": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PercentWidthEnable": true,
+                "PercentHeightEnable": true,
+                "PercentWidthEnabled": true,
+                "PercentHeightEnabled": true,
+                "PreSize": {
+                  "X": 1.0,
+                  "Y": 1.0
+                },
+                "Tag": 420,
+                "ActionTag": -1986507064,
+                "Size": {
+                  "X": 1280.0,
+                  "Y": 720.0
+                },
+                "Name": "click_panel",
+                "ctype": "PanelObjectData"
+              },
+              {
+                "ClipAble": false,
+                "BackColorAlpha": 102,
+                "SingleColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "FirstColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "EndColor": {},
+                "ColorVector": {
+                  "ScaleY": 1.0
+                },
+                "Scale9Width": 1,
+                "Scale9Height": 1,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 640.0,
+                  "Y": 360.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.5
+                },
+                "PreSize": {
+                  "X": 0.5625,
+                  "Y": 0.9444
+                },
+                "LeftMargin": 280.0,
+                "RightMargin": 280.0,
+                "TopMargin": 20.0,
+                "BottomMargin": 20.0,
+                "Tag": 3,
+                "Children": [
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "BackGround/joinroom_bg.png",
+                      "Plist": ""
+                    },
+                    "Scale9OriginX": 422,
+                    "Scale9OriginY": 237,
+                    "Scale9Width": 4,
+                    "Scale9Height": 222,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 360.0,
+                      "Y": 340.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.5
+                    },
+                    "PreSize": {
+                      "X": 1.1778,
+                      "Y": 1.0235
+                    },
+                    "LeftMargin": -64.0,
+                    "RightMargin": -64.0,
+                    "TopMargin": -8.0,
+                    "BottomMargin": -8.0,
+                    "Tag": 4,
+                    "ActionTag": -1130158696,
+                    "Size": {
+                      "X": 848.0,
+                      "Y": 696.0
+                    },
+                    "Name": "bg_img",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "ClubMgrUI/club_mgr_billboard.png",
+                      "Plist": ""
+                    },
+                    "Scale9OriginX": 187,
+                    "Scale9OriginY": 72,
+                    "Scale9Width": 194,
+                    "Scale9Height": 76,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 360.0,
+                      "Y": 250.0008
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.3676
+                    },
+                    "PreSize": {
+                      "X": 0.7889,
+                      "Y": 0.3235
+                    },
+                    "LeftMargin": 76.0,
+                    "RightMargin": 76.0,
+                    "TopMargin": 319.9992,
+                    "BottomMargin": 140.0008,
+                    "Tag": 5,
+                    "ActionTag": -1844643951,
+                    "Size": {
+                      "X": 568.0,
+                      "Y": 220.0
+                    },
+                    "Name": "bill_board_bg",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "ClubMgrUI/club_mgr_mem.png",
+                      "Plist": ""
+                    },
+                    "Scale9OriginX": 31,
+                    "Scale9OriginY": 14,
+                    "Scale9Width": 32,
+                    "Scale9Height": 16,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 130.0,
+                      "Y": 440.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.1806,
+                      "Y": 0.6471
+                    },
+                    "PreSize": {
+                      "X": 0.1306,
+                      "Y": 0.0647
+                    },
+                    "LeftMargin": 83.0,
+                    "RightMargin": 543.0,
+                    "TopMargin": 218.0,
+                    "BottomMargin": 418.0,
+                    "Tag": 9,
+                    "ActionTag": -1269650824,
+                    "Size": {
+                      "X": 94.0,
+                      "Y": 44.0
+                    },
+                    "Name": "mem_img",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "ClubMgrUI/club_mgr_name.png",
+                      "Plist": ""
+                    },
+                    "Scale9OriginX": 31,
+                    "Scale9OriginY": 14,
+                    "Scale9Width": 32,
+                    "Scale9Height": 16,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 130.0,
+                      "Y": 560.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.1806,
+                      "Y": 0.8235
+                    },
+                    "PreSize": {
+                      "X": 0.1306,
+                      "Y": 0.0647
+                    },
+                    "LeftMargin": 83.0,
+                    "RightMargin": 543.0,
+                    "TopMargin": 98.0,
+                    "BottomMargin": 538.0,
+                    "Tag": 10,
+                    "ActionTag": 283779880,
+                    "Size": {
+                      "X": 94.0,
+                      "Y": 44.0
+                    },
+                    "Name": "name_img",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "ClubMgrUI/club_mgr_owner.png",
+                      "Plist": ""
+                    },
+                    "Scale9OriginX": 31,
+                    "Scale9OriginY": 14,
+                    "Scale9Width": 32,
+                    "Scale9Height": 16,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 130.0,
+                      "Y": 500.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.1806,
+                      "Y": 0.7353
+                    },
+                    "PreSize": {
+                      "X": 0.1306,
+                      "Y": 0.0647
+                    },
+                    "LeftMargin": 83.0,
+                    "RightMargin": 543.0,
+                    "TopMargin": 158.0,
+                    "BottomMargin": 478.0,
+                    "Tag": 11,
+                    "ActionTag": 1088793576,
+                    "Size": {
+                      "X": 94.0,
+                      "Y": 44.0
+                    },
+                    "Name": "owner_img",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "FlipX": true,
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "ClubMgrUI/club_mgr_slider.png",
+                      "Plist": ""
+                    },
+                    "Scale9OriginX": 83,
+                    "Scale9OriginY": 6,
+                    "Scale9Width": 86,
+                    "Scale9Height": 8,
+                    "AnchorPoint": {
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 302.4,
+                      "Y": 380.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PrePosition": {
+                      "X": 0.42,
+                      "Y": 0.5588
+                    },
+                    "PreSize": {
+                      "X": 0.35,
+                      "Y": 0.0294
+                    },
+                    "LeftMargin": 302.4,
+                    "RightMargin": 165.6,
+                    "TopMargin": 290.0,
+                    "BottomMargin": 370.0,
+                    "Tag": 13,
+                    "ActionTag": 968767810,
+                    "Size": {
+                      "X": 252.0,
+                      "Y": 20.0
+                    },
+                    "Name": "slider_1",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "ClubMgrUI/club_mgr_owner_bg.png",
+                      "Plist": ""
+                    },
+                    "Scale9OriginX": 110,
+                    "Scale9OriginY": 13,
+                    "Scale9Width": 114,
+                    "Scale9Height": 14,
+                    "AnchorPoint": {
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 200.0,
+                      "Y": 560.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.2778,
+                      "Y": 0.8235
+                    },
+                    "PreSize": {
+                      "X": 0.4639,
+                      "Y": 0.0588
+                    },
+                    "LeftMargin": 200.0,
+                    "RightMargin": 186.0,
+                    "TopMargin": 100.0,
+                    "BottomMargin": 540.0,
+                    "Tag": 12,
+                    "ActionTag": -129347072,
+                    "Size": {
+                      "X": 334.0,
+                      "Y": 40.0
+                    },
+                    "Name": "nam_bg_img",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "ClubMgrUI/club_mgr_owner_bg.png",
+                      "Plist": ""
+                    },
+                    "Scale9OriginX": 110,
+                    "Scale9OriginY": 13,
+                    "Scale9Width": 114,
+                    "Scale9Height": 14,
+                    "AnchorPoint": {
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 200.0,
+                      "Y": 500.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.2778,
+                      "Y": 0.7353
+                    },
+                    "PreSize": {
+                      "X": 0.4639,
+                      "Y": 0.0588
+                    },
+                    "LeftMargin": 200.0,
+                    "RightMargin": 186.0,
+                    "TopMargin": 160.0,
+                    "BottomMargin": 480.0,
+                    "Tag": 14,
+                    "ActionTag": -1364141951,
+                    "Size": {
+                      "X": 334.0,
+                      "Y": 40.0
+                    },
+                    "Name": "owner_bg_img",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "ClubMgrUI/club_mgr_owner_bg.png",
+                      "Plist": ""
+                    },
+                    "Scale9Enable": true,
+                    "Scale9OriginX": 110,
+                    "Scale9OriginY": 13,
+                    "Scale9Width": 114,
+                    "Scale9Height": 14,
+                    "AnchorPoint": {
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 200.0,
+                      "Y": 440.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.2778,
+                      "Y": 0.6471
+                    },
+                    "PreSize": {
+                      "X": 0.1736,
+                      "Y": 0.0588
+                    },
+                    "LeftMargin": 200.0,
+                    "RightMargin": 395.0,
+                    "TopMargin": 220.0,
+                    "BottomMargin": 420.0,
+                    "Tag": 15,
+                    "ActionTag": -160825202,
+                    "Size": {
+                      "X": 125.0,
+                      "Y": 40.0
+                    },
+                    "Name": "mem_bg_img",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "ClubMgrUI/club_mgr_img.png",
+                      "Plist": ""
+                    },
+                    "Scale9OriginX": 58,
+                    "Scale9OriginY": 15,
+                    "Scale9Width": 62,
+                    "Scale9Height": 16,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 360.0,
+                      "Y": 650.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.9559
+                    },
+                    "PreSize": {
+                      "X": 0.2472,
+                      "Y": 0.0676
+                    },
+                    "LeftMargin": 271.0,
+                    "RightMargin": 271.0,
+                    "TopMargin": 7.0,
+                    "BottomMargin": 627.0,
+                    "Tag": 23,
+                    "ActionTag": 1848937039,
+                    "Size": {
+                      "X": 178.0,
+                      "Y": 46.0
+                    },
+                    "Name": "Image_12",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "ClubMgrUI/club_mgr_slider.png",
+                      "Plist": ""
+                    },
+                    "Scale9OriginX": 83,
+                    "Scale9OriginY": 6,
+                    "Scale9Width": 86,
+                    "Scale9Height": 8,
+                    "AnchorPoint": {
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 417.6,
+                      "Y": 380.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PrePosition": {
+                      "X": 0.58,
+                      "Y": 0.5588
+                    },
+                    "PreSize": {
+                      "X": 0.35,
+                      "Y": 0.0294
+                    },
+                    "LeftMargin": 417.6,
+                    "RightMargin": 50.4,
+                    "TopMargin": 290.0,
+                    "BottomMargin": 370.0,
+                    "Tag": 16,
+                    "ActionTag": -484475804,
+                    "Size": {
+                      "X": 252.0,
+                      "Y": 20.0
+                    },
+                    "Name": "slider_2",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "ClubMgrUI/cub_mgr_billboard.png",
+                      "Plist": ""
+                    },
+                    "Scale9OriginX": 27,
+                    "Scale9OriginY": 12,
+                    "Scale9Width": 30,
+                    "Scale9Height": 14,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 360.0,
+                      "Y": 380.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.5588
+                    },
+                    "PreSize": {
+                      "X": 0.1167,
+                      "Y": 0.0559
+                    },
+                    "LeftMargin": 318.0,
+                    "RightMargin": 318.0,
+                    "TopMargin": 281.0,
+                    "BottomMargin": 361.0,
+                    "Tag": 17,
+                    "ActionTag": 1708559452,
+                    "Size": {
+                      "X": 84.0,
+                      "Y": 38.0
+                    },
+                    "Name": "billboard_img",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "IsCustomSize": true,
+                    "FontSize": 28,
+                    "LabelText": "",
+                    "FontResource": {
+                      "Type": "Normal",
+                      "Path": "font/zhunyuan.ttf",
+                      "Plist": ""
+                    },
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 204.8146,
+                      "Y": 560.1805
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {
+                      "R": 151,
+                      "G": 70,
+                      "B": 40
+                    },
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.2845,
+                      "Y": 0.8238
+                    },
+                    "PreSize": {
+                      "X": 0.4486,
+                      "Y": 0.0471
+                    },
+                    "LeftMargin": 204.8146,
+                    "RightMargin": 192.1854,
+                    "TopMargin": 103.8195,
+                    "BottomMargin": 544.1805,
+                    "Tag": 19,
+                    "ActionTag": -818572498,
+                    "Size": {
+                      "X": 323.0,
+                      "Y": 32.0
+                    },
+                    "Name": "name_label",
+                    "ctype": "TextObjectData"
+                  },
+                  {
+                    "IsCustomSize": true,
+                    "FontSize": 28,
+                    "LabelText": "",
+                    "FontResource": {
+                      "Type": "Normal",
+                      "Path": "font/zhunyuan.ttf",
+                      "Plist": ""
+                    },
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 206.2858,
+                      "Y": 499.7373
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {
+                      "R": 151,
+                      "G": 70,
+                      "B": 40
+                    },
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.2865,
+                      "Y": 0.7349
+                    },
+                    "PreSize": {
+                      "X": 0.4486,
+                      "Y": 0.0471
+                    },
+                    "LeftMargin": 206.2858,
+                    "RightMargin": 190.7142,
+                    "TopMargin": 164.2627,
+                    "BottomMargin": 483.7373,
+                    "Tag": 20,
+                    "ActionTag": -257317025,
+                    "Size": {
+                      "X": 323.0,
+                      "Y": 32.0
+                    },
+                    "Name": "onwer_label",
+                    "ctype": "TextObjectData"
+                  },
+                  {
+                    "IsCustomSize": true,
+                    "FontSize": 30,
+                    "LabelText": "",
+                    "FontResource": {
+                      "Type": "Normal",
+                      "Path": "font/zhunyuan.ttf",
+                      "Plist": ""
+                    },
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 261.8691,
+                      "Y": 439.8
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {
+                      "R": 151,
+                      "G": 70,
+                      "B": 40
+                    },
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.3637,
+                      "Y": 0.6468
+                    },
+                    "PreSize": {
+                      "X": 0.1694,
+                      "Y": 0.05
+                    },
+                    "LeftMargin": 200.8691,
+                    "RightMargin": 397.1309,
+                    "TopMargin": 223.2,
+                    "BottomMargin": 422.8,
+                    "Tag": 21,
+                    "ActionTag": 78765845,
+                    "Size": {
+                      "X": 122.0,
+                      "Y": 34.0
+                    },
+                    "Name": "mem_label",
+                    "ctype": "TextObjectData"
+                  },
+                  {
+                    "IsCustomSize": true,
+                    "FontSize": 25,
+                    "LabelText": "",
+                    "FontResource": {
+                      "Type": "Normal",
+                      "Path": "font/zhunyuan.ttf",
+                      "Plist": ""
+                    },
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {},
+                    "Position": {
+                      "X": 82.1904,
+                      "Y": 150.0541
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {
+                      "R": 152,
+                      "G": 71,
+                      "B": 41
+                    },
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.1142,
+                      "Y": 0.2207
+                    },
+                    "PreSize": {
+                      "X": 0.7708,
+                      "Y": 0.2941
+                    },
+                    "LeftMargin": 82.1904,
+                    "RightMargin": 82.8096,
+                    "TopMargin": 329.9459,
+                    "BottomMargin": 150.0541,
+                    "Tag": 22,
+                    "ActionTag": 1550759354,
+                    "Size": {
+                      "X": 555.0,
+                      "Y": 200.0
+                    },
+                    "Name": "billboard_label",
+                    "ctype": "TextObjectData"
+                  },
+                  {
+                    "FontSize": 14,
+                    "ButtonText": "",
+                    "TextColor": {
+                      "R": 65,
+                      "G": 65,
+                      "B": 70
+                    },
+                    "NormalFileData": {
+                      "Type": "Normal",
+                      "Path": "ClubMgrUI/club_mgr_dismiss.png",
+                      "Plist": ""
+                    },
+                    "Scale9Enable": true,
+                    "Scale9OriginX": 15,
+                    "Scale9OriginY": 11,
+                    "Scale9Width": 296,
+                    "Scale9Height": 66,
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 360.0,
+                      "Y": 82.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.1206
+                    },
+                    "PreSize": {
+                      "X": 0.4528,
+                      "Y": 0.1294
+                    },
+                    "LeftMargin": 197.0,
+                    "RightMargin": 197.0,
+                    "TopMargin": 554.0,
+                    "BottomMargin": 38.0,
+                    "Tag": 8,
+                    "ActionTag": -267038484,
+                    "Size": {
+                      "X": 326.0,
+                      "Y": 88.0
+                    },
+                    "Name": "dismiss_btn",
+                    "ctype": "ButtonObjectData"
+                  },
+                  {
+                    "FontSize": 14,
+                    "ButtonText": "",
+                    "TextColor": {
+                      "R": 65,
+                      "G": 65,
+                      "B": 70
+                    },
+                    "NormalFileData": {
+                      "Type": "Normal",
+                      "Path": "ClubMgrUI/cub_mgr_editor.png",
+                      "Plist": ""
+                    },
+                    "Scale9Enable": true,
+                    "Scale9OriginX": 15,
+                    "Scale9OriginY": 11,
+                    "Scale9Width": 12,
+                    "Scale9Height": 22,
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 560.0,
+                      "Y": 560.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.7778,
+                      "Y": 0.8235
+                    },
+                    "PreSize": {
+                      "X": 0.0583,
+                      "Y": 0.0647
+                    },
+                    "LeftMargin": 539.0,
+                    "RightMargin": 139.0,
+                    "TopMargin": 98.0,
+                    "BottomMargin": 538.0,
+                    "Tag": 7,
+                    "ActionTag": -697772984,
+                    "Size": {
+                      "X": 42.0,
+                      "Y": 44.0
+                    },
+                    "Name": "name_btn",
+                    "ctype": "ButtonObjectData"
+                  },
+                  {
+                    "FontSize": 14,
+                    "ButtonText": "",
+                    "TextColor": {
+                      "R": 65,
+                      "G": 65,
+                      "B": 70
+                    },
+                    "NormalFileData": {
+                      "Type": "Normal",
+                      "Path": "ClubMgrUI/cub_mgr_editor.png",
+                      "Plist": ""
+                    },
+                    "Scale9Enable": true,
+                    "Scale9OriginX": 15,
+                    "Scale9OriginY": 11,
+                    "Scale9Width": 12,
+                    "Scale9Height": 22,
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 617.976,
+                      "Y": 168.028
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.8583,
+                      "Y": 0.2471
+                    },
+                    "PreSize": {
+                      "X": 0.0583,
+                      "Y": 0.0647
+                    },
+                    "LeftMargin": 596.976,
+                    "RightMargin": 81.024,
+                    "TopMargin": 489.972,
+                    "BottomMargin": 146.028,
+                    "Tag": 6,
+                    "ActionTag": -344989536,
+                    "Size": {
+                      "X": 42.0,
+                      "Y": 44.0
+                    },
+                    "Name": "billboard_btn",
+                    "ctype": "ButtonObjectData"
+                  },
+                  {
+                    "FontSize": 14,
+                    "ButtonText": "",
+                    "TextColor": {
+                      "R": 65,
+                      "G": 65,
+                      "B": 70
+                    },
+                    "NormalFileData": {
+                      "Type": "Normal",
+                      "Path": "Default/close_btn_bright.png",
+                      "Plist": ""
+                    },
+                    "Scale9Enable": true,
+                    "Scale9OriginX": 15,
+                    "Scale9OriginY": 11,
+                    "Scale9Width": 56,
+                    "Scale9Height": 140,
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 727.2717,
+                      "Y": 577.0453
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 1.0101,
+                      "Y": 0.8486
+                    },
+                    "PreSize": {
+                      "X": 0.1194,
+                      "Y": 0.2382
+                    },
+                    "LeftMargin": 684.2717,
+                    "RightMargin": -50.2717,
+                    "TopMargin": 21.9547,
+                    "BottomMargin": 496.0453,
+                    "Tag": 877,
+                    "ActionTag": -1384090046,
+                    "Size": {
+                      "X": 86.0,
+                      "Y": 162.0
+                    },
+                    "Name": "close_btn",
+                    "ctype": "ButtonObjectData"
+                  }
+                ],
+                "ActionTag": 1642904229,
+                "Size": {
+                  "X": 720.0,
+                  "Y": 680.0
+                },
+                "Name": "mgr_panel",
+                "ctype": "PanelObjectData"
+              }
+            ],
+            "ActionTag": -1092308948,
+            "Size": {
+              "X": 1280.0,
+              "Y": 720.0
+            },
+            "Name": "club_mgr_panel",
+            "ctype": "PanelObjectData"
+          }
+        ],
+        "Size": {
+          "X": 1280.0,
+          "Y": 720.0
+        },
+        "Name": "ClubMgrUI",
+        "ctype": "LayerObjectData"
+      },
+      "UsedResources": [
+        "BackGround/joinroom_bg.png",
+        "ClubMgrUI/club_mgr_billboard.png",
+        "ClubMgrUI/club_mgr_dismiss.png",
+        "ClubMgrUI/club_mgr_img.png",
+        "ClubMgrUI/club_mgr_mem.png",
+        "ClubMgrUI/club_mgr_name.png",
+        "ClubMgrUI/club_mgr_owner.png",
+        "ClubMgrUI/club_mgr_owner_bg.png",
+        "ClubMgrUI/club_mgr_slider.png",
+        "ClubMgrUI/cub_mgr_billboard.png",
+        "ClubMgrUI/cub_mgr_editor.png",
+        "Default/close_btn_bright.png",
+        "font/zhunyuan.ttf"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Layer"
+}

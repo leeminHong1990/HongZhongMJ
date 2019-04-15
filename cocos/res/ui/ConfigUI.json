@@ -1,0 +1,784 @@
+{
+  "ID": "6811e486-2edc-4882-9e3a-d61482ccaec0",
+  "Version": "3.10.0.0",
+  "Name": "ConfigUI",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 20,
+        "Children": [
+          {
+            "ClipAble": false,
+            "BackColorAlpha": 102,
+            "FileData": {
+              "Type": "Normal",
+              "Path": "BackGround/small_win.png",
+              "Plist": ""
+            },
+            "SingleColor": {
+              "R": 150,
+              "G": 200
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "Scale9OriginX": 80,
+            "Scale9OriginY": 80,
+            "Scale9Width": 824,
+            "Scale9Height": 470,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 640.0,
+              "Y": 360.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PositionPercentXEnabled": true,
+            "PositionPercentYEnabled": true,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.5
+            },
+            "PreSize": {
+              "X": 0.7688,
+              "Y": 0.875
+            },
+            "LeftMargin": 148.0,
+            "RightMargin": 148.0,
+            "TopMargin": 45.0,
+            "BottomMargin": 45.0,
+            "Tag": 58,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "ConfigUI/title.png",
+                  "Plist": ""
+                },
+                "Scale9OriginX": 29,
+                "Scale9OriginY": 15,
+                "Scale9Width": 120,
+                "Scale9Height": 16,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 492.0,
+                  "Y": 592.2
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.94
+                },
+                "PreSize": {
+                  "X": 0.1809,
+                  "Y": 0.073
+                },
+                "LeftMargin": 403.0,
+                "RightMargin": 403.0,
+                "TopMargin": 14.8,
+                "BottomMargin": 569.2,
+                "Tag": 60,
+                "ActionTag": -1370079531,
+                "Size": {
+                  "X": 178.0,
+                  "Y": 46.0
+                },
+                "Name": "title_img",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "ConfigUI/yellow_bg.png",
+                  "Plist": ""
+                },
+                "Scale9OriginX": 184,
+                "Scale9OriginY": 100,
+                "Scale9Width": 284,
+                "Scale9Height": 12,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 492.0,
+                  "Y": 346.5
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.55
+                },
+                "PreSize": {
+                  "X": 0.6626,
+                  "Y": 0.3365
+                },
+                "LeftMargin": 166.0,
+                "RightMargin": 166.0,
+                "TopMargin": 177.5,
+                "BottomMargin": 240.5,
+                "Tag": 59,
+                "ActionTag": -1907265378,
+                "Size": {
+                  "X": 652.0,
+                  "Y": 212.0
+                },
+                "Name": "config_bg",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "PressedFileData": {
+                  "Type": "Normal",
+                  "Path": "Default/close_btn_bright.png",
+                  "Plist": ""
+                },
+                "NormalFileData": {
+                  "Type": "Normal",
+                  "Path": "Default/close_btn.png",
+                  "Plist": ""
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 56,
+                "Scale9Height": 140,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 929.88,
+                  "Y": 516.6
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.945,
+                  "Y": 0.82
+                },
+                "PreSize": {
+                  "X": 0.0874,
+                  "Y": 0.2571
+                },
+                "LeftMargin": 886.88,
+                "RightMargin": 11.12,
+                "TopMargin": 32.4,
+                "BottomMargin": 435.6,
+                "Tag": 61,
+                "ActionTag": 1452952928,
+                "Size": {
+                  "X": 86.0,
+                  "Y": 162.0
+                },
+                "Name": "return_btn",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "ConfigUI/music_title_out.png",
+                  "Plist": ""
+                },
+                "Scale9OriginX": 16,
+                "Scale9OriginY": 8,
+                "Scale9Width": 60,
+                "Scale9Height": 22,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 255.84,
+                  "Y": 396.9
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.26,
+                  "Y": 0.63
+                },
+                "PreSize": {
+                  "X": 0.0935,
+                  "Y": 0.0603
+                },
+                "LeftMargin": 209.84,
+                "RightMargin": 682.16,
+                "TopMargin": 214.1,
+                "BottomMargin": 377.9,
+                "Tag": 62,
+                "ActionTag": -111688169,
+                "Size": {
+                  "X": 92.0,
+                  "Y": 38.0
+                },
+                "Name": "music_img",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "BackGroundData": {
+                  "Type": "Normal",
+                  "Path": "ConfigUI/bar_bg.png",
+                  "Plist": ""
+                },
+                "ProgressBarData": {
+                  "Type": "Normal",
+                  "Path": "ConfigUI/bar.png",
+                  "Plist": ""
+                },
+                "BallNormalData": {
+                  "Type": "Normal",
+                  "Path": "ConfigUI/bar_out_btn.png",
+                  "Plist": ""
+                },
+                "BallPressedData": {
+                  "Type": "Normal",
+                  "Path": "ConfigUI/bar_out_btn.png",
+                  "Plist": ""
+                },
+                "BallDisabledData": {
+                  "Type": "Normal",
+                  "Path": "ConfigUI/bar_out_btn.png",
+                  "Plist": ""
+                },
+                "PercentInfo": 49,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 551.04,
+                  "Y": 396.9
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.56,
+                  "Y": 0.63
+                },
+                "PreSize": {
+                  "X": 0.4126,
+                  "Y": 0.0317
+                },
+                "LeftMargin": 348.04,
+                "RightMargin": 229.96,
+                "TopMargin": 223.1,
+                "BottomMargin": 386.9,
+                "Tag": 63,
+                "ActionTag": -615496557,
+                "Size": {
+                  "X": 406.0,
+                  "Y": 20.0
+                },
+                "Name": "music_slider",
+                "ctype": "SliderObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "ConfigUI/effect_title_out.png",
+                  "Plist": ""
+                },
+                "Scale9OriginX": 16,
+                "Scale9OriginY": 8,
+                "Scale9Width": 60,
+                "Scale9Height": 22,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 255.84,
+                  "Y": 283.5
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.26,
+                  "Y": 0.45
+                },
+                "PreSize": {
+                  "X": 0.0935,
+                  "Y": 0.0603
+                },
+                "LeftMargin": 209.84,
+                "RightMargin": 682.16,
+                "TopMargin": 327.5,
+                "BottomMargin": 264.5,
+                "Tag": 64,
+                "ActionTag": 551884901,
+                "Size": {
+                  "X": 92.0,
+                  "Y": 38.0
+                },
+                "Name": "effect_img",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "BackGroundData": {
+                  "Type": "Normal",
+                  "Path": "ConfigUI/bar_bg.png",
+                  "Plist": ""
+                },
+                "ProgressBarData": {
+                  "Type": "Normal",
+                  "Path": "ConfigUI/bar.png",
+                  "Plist": ""
+                },
+                "BallNormalData": {
+                  "Type": "Normal",
+                  "Path": "ConfigUI/bar_out_btn.png",
+                  "Plist": ""
+                },
+                "BallPressedData": {
+                  "Type": "Normal",
+                  "Path": "ConfigUI/bar_out_btn.png",
+                  "Plist": ""
+                },
+                "BallDisabledData": {
+                  "Type": "Normal",
+                  "Path": "ConfigUI/bar_out_btn.png",
+                  "Plist": ""
+                },
+                "PercentInfo": 50,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 551.04,
+                  "Y": 283.5
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.56,
+                  "Y": 0.45
+                },
+                "PreSize": {
+                  "X": 0.4126,
+                  "Y": 0.0317
+                },
+                "LeftMargin": 348.04,
+                "RightMargin": 229.96,
+                "TopMargin": 336.5,
+                "BottomMargin": 273.5,
+                "Tag": 65,
+                "ActionTag": -925897654,
+                "Size": {
+                  "X": 406.0,
+                  "Y": 20.0
+                },
+                "Name": "effect_slider",
+                "ctype": "SliderObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "NormalFileData": {
+                  "Type": "Normal",
+                  "Path": "ConfigUI/logout_btn.png",
+                  "Plist": ""
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 222,
+                "Scale9Height": 92,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 492.0,
+                  "Y": 126.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.2
+                },
+                "PreSize": {
+                  "X": 0.2561,
+                  "Y": 0.181
+                },
+                "LeftMargin": 366.0,
+                "RightMargin": 366.0,
+                "TopMargin": 447.0,
+                "BottomMargin": 69.0,
+                "Tag": 70,
+                "ActionTag": 451839788,
+                "Size": {
+                  "X": 252.0,
+                  "Y": 114.0
+                },
+                "Name": "logout_btn",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "CheckedState": true,
+                "NormalBackFileData": {
+                  "Type": "Normal",
+                  "Path": "ConfigUI/chx_bg.png",
+                  "Plist": ""
+                },
+                "PressedBackFileData": {
+                  "Type": "Normal",
+                  "Path": "ConfigUI/chx_bg.png",
+                  "Plist": ""
+                },
+                "DisableBackFileData": {
+                  "Type": "Normal",
+                  "Path": "ConfigUI/chx_bg.png",
+                  "Plist": ""
+                },
+                "NodeNormalFileData": {
+                  "Type": "Normal",
+                  "Path": "ConfigUI/chx.png",
+                  "Plist": ""
+                },
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 295.2,
+                  "Y": 472.5
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.3,
+                  "Y": 0.75
+                },
+                "PreSize": {
+                  "X": 0.0447,
+                  "Y": 0.0698
+                },
+                "LeftMargin": 273.2,
+                "RightMargin": 666.8,
+                "TopMargin": 135.5,
+                "BottomMargin": 450.5,
+                "Tag": 1406,
+                "ActionTag": 543283440,
+                "Size": {
+                  "X": 44.0,
+                  "Y": 44.0
+                },
+                "VisibleForFrame": false,
+                "Name": "language_chx1",
+                "ctype": "CheckBoxObjectData"
+              },
+              {
+                "NormalBackFileData": {
+                  "Type": "Normal",
+                  "Path": "ConfigUI/chx_bg.png",
+                  "Plist": ""
+                },
+                "PressedBackFileData": {
+                  "Type": "Normal",
+                  "Path": "ConfigUI/chx_bg.png",
+                  "Plist": ""
+                },
+                "DisableBackFileData": {
+                  "Type": "Normal",
+                  "Path": "ConfigUI/chx_bg.png",
+                  "Plist": ""
+                },
+                "NodeNormalFileData": {
+                  "Type": "Normal",
+                  "Path": "ConfigUI/chx.png",
+                  "Plist": ""
+                },
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 590.4,
+                  "Y": 472.5
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.6,
+                  "Y": 0.75
+                },
+                "PreSize": {
+                  "X": 0.0447,
+                  "Y": 0.0698
+                },
+                "LeftMargin": 568.4,
+                "RightMargin": 371.6,
+                "TopMargin": 135.5,
+                "BottomMargin": 450.5,
+                "Tag": 67,
+                "ActionTag": -226867051,
+                "Size": {
+                  "X": 44.0,
+                  "Y": 44.0
+                },
+                "VisibleForFrame": false,
+                "Name": "language_chx2",
+                "ctype": "CheckBoxObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "ConfigUI/local_language_out.png",
+                  "Plist": ""
+                },
+                "Scale9OriginX": 16,
+                "Scale9OriginY": 8,
+                "Scale9Width": 90,
+                "Scale9Height": 22,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 393.6,
+                  "Y": 472.5
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.4,
+                  "Y": 0.75
+                },
+                "PreSize": {
+                  "X": 0.124,
+                  "Y": 0.0603
+                },
+                "LeftMargin": 332.6,
+                "RightMargin": 529.4,
+                "TopMargin": 138.5,
+                "BottomMargin": 453.5,
+                "Tag": 1405,
+                "ActionTag": -66497577,
+                "Size": {
+                  "X": 122.0,
+                  "Y": 38.0
+                },
+                "VisibleForFrame": false,
+                "Name": "local_language_img",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "ConfigUI/pt_language_out.png",
+                  "Plist": ""
+                },
+                "Scale9OriginX": 16,
+                "Scale9OriginY": 8,
+                "Scale9Width": 90,
+                "Scale9Height": 22,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 688.8,
+                  "Y": 472.5
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.7,
+                  "Y": 0.75
+                },
+                "PreSize": {
+                  "X": 0.124,
+                  "Y": 0.0603
+                },
+                "LeftMargin": 627.8,
+                "RightMargin": 234.2,
+                "TopMargin": 138.5,
+                "BottomMargin": 453.5,
+                "Tag": 1404,
+                "ActionTag": 1355389145,
+                "Size": {
+                  "X": 122.0,
+                  "Y": 38.0
+                },
+                "VisibleForFrame": false,
+                "Name": "pt_language_img",
+                "ctype": "ImageViewObjectData"
+              }
+            ],
+            "ActionTag": -549672210,
+            "Size": {
+              "X": 984.0,
+              "Y": 630.0
+            },
+            "Name": "gameconfig_panel",
+            "ctype": "PanelObjectData"
+          }
+        ],
+        "Size": {
+          "X": 1280.0,
+          "Y": 720.0
+        },
+        "Name": "Layer",
+        "ctype": "LayerObjectData"
+      },
+      "UsedResources": [
+        "BackGround/small_win.png",
+        "ConfigUI/bar.png",
+        "ConfigUI/bar_bg.png",
+        "ConfigUI/bar_out_btn.png",
+        "ConfigUI/chx.png",
+        "ConfigUI/chx_bg.png",
+        "ConfigUI/effect_title_out.png",
+        "ConfigUI/local_language_out.png",
+        "ConfigUI/logout_btn.png",
+        "ConfigUI/music_title_out.png",
+        "ConfigUI/pt_language_out.png",
+        "ConfigUI/title.png",
+        "ConfigUI/yellow_bg.png",
+        "Default/close_btn.png",
+        "Default/close_btn_bright.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Layer"
+}

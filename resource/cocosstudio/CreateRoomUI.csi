@@ -1,0 +1,20 @@
+<PlistInfoProjectFile>
+  <PropertyGroup Name="CreateRoomUI" Type="Plist" ID="c09732d6-7698-42f2-b627-72d0c1ac3e1b" Version="3.10.0.0" />
+  <Content ExportType="Png" SortAlgorithm="MaxRects" PicturePadding="1" AllowRotation="True" AllowAnySize="False" AllowTrim="False" ctype="PlistInfoData">
+    <ImageFiles>
+      <FilePathData Path="CreateRoomUI/createroom_gou.png" />
+      <FilePathData Path="CreateRoomUI/createroom_touxiangk.png" />
+      <FilePathData Path="CreateRoomUI/creatRoomUI_txt_2.png" />
+      <FilePathData Path="CreateRoomUI/creatRoomUI_txt_3.png" />
+      <FilePathData Path="CreateRoomUI/creatRoomUI_txt_4.png" />
+      <FilePathData Path="CreateRoomUI/creatRoomUI_txt_maNumber.png" />
+      <FilePathData Path="CreateRoomUI/creatRoomUI_txt_round.png" />
+      <FilePathData Path="CreateRoomUI/creatRoomUI_txt_round_16.png" />
+      <FilePathData Path="CreateRoomUI/creatRoomUI_txt_round_8.png" />
+      <FilePathData Path="CreateRoomUI/creatRoomUI_txt_1.png" />
+      <FilePathData Path="CreateRoomUI/creatRoomUI_txt_6.png" />
+      <FilePathData Path="CreateRoomUI/createroom_agent.png" />
+    </ImageFiles>
+    <MaxSize Width="1024" Height="1024" />
+  </Content>
+</PlistInfoProjectFile>

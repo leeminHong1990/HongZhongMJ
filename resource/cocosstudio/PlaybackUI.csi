@@ -1,0 +1,54 @@
+<PlistInfoProjectFile>
+  <PropertyGroup Name="PlaybackUI" Type="Plist" ID="21110b37-e73d-4743-81a5-10160cd89000" Version="3.10.0.0" />
+  <Content ExportType="Png" SortAlgorithm="MaxRects" PicturePadding="1" AllowRotation="True" AllowAnySize="False" AllowTrim="False" ctype="PlistInfoData">
+    <ImageFiles>
+      <FilePathData Path="PlayBack3DUI/kong_l_n.png" />
+      <FilePathData Path="PlayBack3DUI/kong_l_s.png" />
+      <FilePathData Path="PlayBack3DUI/kong_n.png" />
+      <FilePathData Path="PlayBack3DUI/kong_r_n.png" />
+      <FilePathData Path="PlayBack3DUI/kong_r_s.png" />
+      <FilePathData Path="PlayBack3DUI/kong_s.png" />
+      <FilePathData Path="PlayBack3DUI/pass_l_n.png" />
+      <FilePathData Path="PlayBack3DUI/pass_l_s.png" />
+      <FilePathData Path="PlayBack3DUI/pass_n.png" />
+      <FilePathData Path="PlayBack3DUI/pass_r_n.png" />
+      <FilePathData Path="PlayBack3DUI/pass_r_s.png" />
+      <FilePathData Path="PlayBack3DUI/pass_s.png" />
+      <FilePathData Path="PlayBack3DUI/pong_l_n.png" />
+      <FilePathData Path="PlayBack3DUI/pong_l_s.png" />
+      <FilePathData Path="PlayBack3DUI/pong_n.png" />
+      <FilePathData Path="PlayBack3DUI/pong_r_n.png" />
+      <FilePathData Path="PlayBack3DUI/pong_r_s.png" />
+      <FilePathData Path="PlayBack3DUI/pong_s.png" />
+      <FilePathData Path="PlayBack3DUI/win_l_n.png" />
+      <FilePathData Path="PlayBack3DUI/win_l_s.png" />
+      <FilePathData Path="PlayBack3DUI/win_n.png" />
+      <FilePathData Path="PlayBack3DUI/win_r_n.png" />
+      <FilePathData Path="PlayBack3DUI/win_r_s.png" />
+      <FilePathData Path="PlayBack3DUI/win_s.png" />
+      <FilePathData Path="PlayBack2DUI/chow_n.png" />
+      <FilePathData Path="PlayBack2DUI/chow_s.png" />
+      <FilePathData Path="PlayBack2DUI/finger.png" />
+      <FilePathData Path="PlayBack2DUI/kong_n.png" />
+      <FilePathData Path="PlayBack2DUI/kong_s.png" />
+      <FilePathData Path="PlayBack2DUI/pass_n.png" />
+      <FilePathData Path="PlayBack2DUI/pass_s.png" />
+      <FilePathData Path="PlayBack2DUI/pong_n.png" />
+      <FilePathData Path="PlayBack2DUI/pong_s.png" />
+      <FilePathData Path="PlayBack2DUI/win_n.png" />
+      <FilePathData Path="PlayBack2DUI/win_s.png" />
+      <FilePathData Path="PlayBackControlUI/bg.png" />
+      <FilePathData Path="PlayBackControlUI/close_n.png" />
+      <FilePathData Path="PlayBackControlUI/close_p.png" />
+      <FilePathData Path="PlayBackControlUI/pause_n.png" />
+      <FilePathData Path="PlayBackControlUI/pause_p.png" />
+      <FilePathData Path="PlayBackControlUI/play_n.png" />
+      <FilePathData Path="PlayBackControlUI/play_p.png" />
+      <FilePathData Path="PlayBackControlUI/replay_n.png" />
+      <FilePathData Path="PlayBackControlUI/replay_p.png" />
+      <FilePathData Path="PlayBackControlUI/speed_n.png" />
+      <FilePathData Path="PlayBackControlUI/speed_p.png" />
+    </ImageFiles>
+    <MaxSize Width="1024" Height="1024" />
+  </Content>
+</PlistInfoProjectFile>

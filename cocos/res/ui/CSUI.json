@@ -1,0 +1,491 @@
+{
+  "ID": "9ba5ccb2-d04e-48cd-adba-f8eba922b7f5",
+  "Version": "3.10.0.0",
+  "Name": "CSUI",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 1065,
+        "Children": [
+          {
+            "ClipAble": false,
+            "BackColorAlpha": 178,
+            "ComboBoxIndex": 1,
+            "SingleColor": {
+              "R": 0,
+              "G": 0,
+              "B": 0
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "Scale9Width": 1,
+            "Scale9Height": 1,
+            "TouchEnable": true,
+            "AnchorPoint": {},
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PercentWidthEnable": true,
+            "PercentHeightEnable": true,
+            "PercentWidthEnabled": true,
+            "PercentHeightEnabled": true,
+            "PreSize": {
+              "X": 1.0,
+              "Y": 1.0
+            },
+            "Tag": 1066,
+            "ActionTag": 668871188,
+            "Size": {
+              "X": 1280.0,
+              "Y": 720.0
+            },
+            "Name": "bg_panel",
+            "ctype": "PanelObjectData"
+          },
+          {
+            "ClipAble": false,
+            "BackColorAlpha": 102,
+            "FileData": {
+              "Type": "Normal",
+              "Path": "BackGround/player_win.png",
+              "Plist": ""
+            },
+            "SingleColor": {
+              "R": 150,
+              "G": 200
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 100,
+            "Scale9OriginY": 100,
+            "Scale9Width": 414,
+            "Scale9Height": 185,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 640.0,
+              "Y": 360.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PositionPercentXEnabled": true,
+            "PositionPercentYEnabled": true,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.5
+            },
+            "PreSize": {
+              "X": 0.4797,
+              "Y": 0.5347
+            },
+            "LeftMargin": 333.0,
+            "RightMargin": 333.0,
+            "TopMargin": 167.5,
+            "BottomMargin": 167.5,
+            "Tag": 1075,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "CSUI/cs_wx_num.png",
+                  "Plist": ""
+                },
+                "Scale9OriginX": 68,
+                "Scale9OriginY": 14,
+                "Scale9Width": 73,
+                "Scale9Height": 15,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 200.2176,
+                  "Y": 207.2209
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.3261,
+                  "Y": 0.5382
+                },
+                "PreSize": {
+                  "X": 0.3404,
+                  "Y": 0.1117
+                },
+                "LeftMargin": 95.7176,
+                "RightMargin": 309.2824,
+                "TopMargin": 156.2791,
+                "BottomMargin": 185.7209,
+                "Tag": 1079,
+                "ActionTag": -1382231375,
+                "Size": {
+                  "X": 209.0,
+                  "Y": 43.0
+                },
+                "Name": "cs_wx_img",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "CSUI/cs_wx_bg.png",
+                  "Plist": ""
+                },
+                "Scale9OriginX": 71,
+                "Scale9OriginY": 13,
+                "Scale9Width": 76,
+                "Scale9Height": 16,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 394.1177,
+                  "Y": 206.6816
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.6419,
+                  "Y": 0.5368
+                },
+                "PreSize": {
+                  "X": 0.355,
+                  "Y": 0.1091
+                },
+                "LeftMargin": 285.1177,
+                "RightMargin": 110.8823,
+                "TopMargin": 157.3184,
+                "BottomMargin": 185.6816,
+                "Tag": 1080,
+                "ActionTag": 2062615596,
+                "Size": {
+                  "X": 218.0,
+                  "Y": 42.0
+                },
+                "Name": "cs_wx_bg_img",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "CSUI/cs_title.png",
+                  "Plist": ""
+                },
+                "Scale9OriginX": 50,
+                "Scale9OriginY": 23,
+                "Scale9Width": 52,
+                "Scale9Height": 24,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 307.0,
+                  "Y": 308.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.8
+                },
+                "PreSize": {
+                  "X": 0.2476,
+                  "Y": 0.1818
+                },
+                "LeftMargin": 231.0,
+                "RightMargin": 231.0,
+                "TopMargin": 42.0,
+                "BottomMargin": 273.0,
+                "Tag": 1081,
+                "ActionTag": 2140813313,
+                "Size": {
+                  "X": 152.0,
+                  "Y": 70.0
+                },
+                "Name": "cs_title",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "IsCustomSize": true,
+                "FontSize": 30,
+                "LabelText": "",
+                "FontResource": {
+                  "Type": "Normal",
+                  "Path": "font/zhunyuan.ttf",
+                  "Plist": ""
+                },
+                "HorizontalAlignmentType": "HT_Center",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 394.1181,
+                  "Y": 207.6441
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "G": 251,
+                  "B": 228
+                },
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.6419,
+                  "Y": 0.5393
+                },
+                "PreSize": {
+                  "X": 0.3388,
+                  "Y": 0.0883
+                },
+                "LeftMargin": 290.1181,
+                "RightMargin": 115.8819,
+                "TopMargin": 160.3559,
+                "BottomMargin": 190.6441,
+                "Tag": 1082,
+                "ActionTag": 1607033977,
+                "Size": {
+                  "X": 208.0,
+                  "Y": 34.0
+                },
+                "Name": "wx_label",
+                "ctype": "TextObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "NormalFileData": {
+                  "Type": "Normal",
+                  "Path": "CSUI/cs_copy.png",
+                  "Plist": ""
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 222,
+                "Scale9Height": 92,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 307.0,
+                  "Y": 107.8
+                },
+                "Scale": {
+                  "ScaleX": 0.8,
+                  "ScaleY": 0.8
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.28
+                },
+                "PreSize": {
+                  "X": 0.4104,
+                  "Y": 0.2961
+                },
+                "LeftMargin": 181.0,
+                "RightMargin": 181.0,
+                "TopMargin": 220.2,
+                "BottomMargin": 50.8,
+                "Tag": 1078,
+                "ActionTag": 329054961,
+                "Size": {
+                  "X": 252.0,
+                  "Y": 114.0
+                },
+                "Name": "copy_btn",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "NormalFileData": {
+                  "Type": "Normal",
+                  "Path": "Default/return_btn.png",
+                  "Plist": ""
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 12,
+                "Scale9Height": 20,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 555.7314,
+                  "Y": 336.1435
+                },
+                "Scale": {
+                  "ScaleX": 1.5,
+                  "ScaleY": 1.5
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.9051,
+                  "Y": 0.8731
+                },
+                "PreSize": {
+                  "X": 0.0684,
+                  "Y": 0.1091
+                },
+                "LeftMargin": 534.7314,
+                "RightMargin": 37.2686,
+                "TopMargin": 27.8565,
+                "BottomMargin": 315.1435,
+                "Tag": 1077,
+                "ActionTag": -2094310024,
+                "Size": {
+                  "X": 42.0,
+                  "Y": 42.0
+                },
+                "Name": "return_btn",
+                "ctype": "ButtonObjectData"
+              }
+            ],
+            "ActionTag": -1111112722,
+            "Size": {
+              "X": 614.0,
+              "Y": 385.0
+            },
+            "Name": "cs_panel",
+            "ctype": "PanelObjectData"
+          }
+        ],
+        "Size": {
+          "X": 1280.0,
+          "Y": 720.0
+        },
+        "Name": "CSUI",
+        "ctype": "LayerObjectData"
+      },
+      "UsedResources": [
+        "BackGround/player_win.png",
+        "CSUI/cs_copy.png",
+        "CSUI/cs_title.png",
+        "CSUI/cs_wx_bg.png",
+        "CSUI/cs_wx_num.png",
+        "Default/return_btn.png",
+        "font/zhunyuan.ttf"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Layer"
+}

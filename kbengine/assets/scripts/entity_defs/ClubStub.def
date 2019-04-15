@@ -1,0 +1,26 @@
+<root>
+	<Interfaces>
+	</Interfaces>
+
+	<Properties>
+		<clubCount>
+			<Type>			UINT32		    </Type>
+			<Flags>			BASE			</Flags>
+			<Persistent>	true			</Persistent>
+		</clubCount>
+        <clubList>
+			<Type>			UINT32_ARRAY	</Type>
+			<Flags>			BASE			</Flags>
+			<Persistent>	true			</Persistent>
+		</clubList>
+	</Properties>
+
+	<BaseMethods>
+		<clubOperation>
+			<Arg>		UINT32 			</Arg>
+			<Arg>		MAILBOX 			</Arg>
+			<Arg>		UNICODE 			</Arg>
+		</clubOperation>
+	</BaseMethods>
+</root>
+

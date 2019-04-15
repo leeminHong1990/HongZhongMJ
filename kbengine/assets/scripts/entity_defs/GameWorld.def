@@ -1,0 +1,42 @@
+<root>
+	<Interfaces>
+		<Interface>			GameObject		    </Interface>
+		<Interface>			iWorldRoomManager	</Interface>
+		<Interface>			iWorldActivity		</Interface>
+		<Interface>			iRoomRecord		</Interface>
+	</Interfaces>
+
+	<Properties>
+		<userCount>
+			<Type>			UINT32		</Type>
+			<Flags>			BASE			</Flags>
+			<Persistent>	true			</Persistent>
+		</userCount>
+
+		<serverStartTime>
+			<Type>			DOUBLE		</Type>
+			<Flags>			BASE			</Flags>
+			<Persistent>	true			</Persistent>
+		</serverStartTime>
+	</Properties>
+
+	<BaseMethods>
+		<loginToSpace>
+			<Arg>		MAILBOX		</Arg>
+		</loginToSpace>
+
+		<logoutSpace>
+			<Arg>		UID	</Arg>
+		</logoutSpace>
+
+		<canLogin>
+			<Arg>		MAILBOX 			</Arg>
+			<Arg>		UNICODE 			</Arg>
+		</canLogin>
+
+		<genGlobalBirthData>
+			<Arg>		MAILBOX			</Arg>
+		</genGlobalBirthData>
+	</BaseMethods>
+</root>
+

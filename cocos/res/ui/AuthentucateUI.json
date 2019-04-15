@@ -1,0 +1,1744 @@
+{
+  "ID": "05f108d1-96f9-43d7-bc1d-2d0a92bcb10f",
+  "Version": "3.10.0.0",
+  "Name": "AuthentucateUI",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 5204,
+        "Children": [
+          {
+            "ClipAble": false,
+            "BackColorAlpha": 102,
+            "SingleColor": {
+              "R": 150,
+              "G": 200
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "Scale9Width": 1,
+            "Scale9Height": 1,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 640.0,
+              "Y": 360.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PositionPercentXEnabled": true,
+            "PositionPercentYEnabled": true,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.5
+            },
+            "PreSize": {
+              "X": 0.7688,
+              "Y": 0.875
+            },
+            "LeftMargin": 148.0,
+            "RightMargin": 148.0,
+            "TopMargin": 45.0,
+            "BottomMargin": 45.0,
+            "Tag": 5205,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "BackGround/small_win.png",
+                  "Plist": ""
+                },
+                "Scale9OriginX": 324,
+                "Scale9OriginY": 207,
+                "Scale9Width": 336,
+                "Scale9Height": 216,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 492.0,
+                  "Y": 315.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.5
+                },
+                "PreSize": {
+                  "X": 1.0,
+                  "Y": 1.0
+                },
+                "Tag": 5206,
+                "ActionTag": -1060441093,
+                "Size": {
+                  "X": 984.0,
+                  "Y": 630.0
+                },
+                "Name": "bg_img",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "AuthentucateUI/title.png",
+                  "Plist": ""
+                },
+                "Scale9OriginX": 58,
+                "Scale9OriginY": 15,
+                "Scale9Width": 62,
+                "Scale9Height": 16,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 492.0,
+                  "Y": 592.2
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.94
+                },
+                "PreSize": {
+                  "X": 0.1809,
+                  "Y": 0.073
+                },
+                "LeftMargin": 403.0,
+                "RightMargin": 403.0,
+                "TopMargin": 14.8,
+                "BottomMargin": 569.2,
+                "Tag": 5208,
+                "ActionTag": -1126621172,
+                "Size": {
+                  "X": 178.0,
+                  "Y": 46.0
+                },
+                "Name": "title_img",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "PressedFileData": {
+                  "Type": "Normal",
+                  "Path": "Default/close_btn_bright.png",
+                  "Plist": ""
+                },
+                "NormalFileData": {
+                  "Type": "Normal",
+                  "Path": "Default/close_btn.png",
+                  "Plist": ""
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 56,
+                "Scale9Height": 140,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 924.96,
+                  "Y": 516.6
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.94,
+                  "Y": 0.82
+                },
+                "PreSize": {
+                  "X": 0.0874,
+                  "Y": 0.2571
+                },
+                "LeftMargin": 881.96,
+                "RightMargin": 16.04,
+                "TopMargin": 32.4,
+                "BottomMargin": 435.6,
+                "Tag": 5218,
+                "ActionTag": -1909628075,
+                "Size": {
+                  "X": 86.0,
+                  "Y": 162.0
+                },
+                "Name": "close_btn",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "ClipAble": false,
+                "BackColorAlpha": 102,
+                "SingleColor": {
+                  "R": 0,
+                  "G": 0,
+                  "B": 0
+                },
+                "FirstColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "EndColor": {},
+                "ColorVector": {
+                  "ScaleY": 1.0
+                },
+                "Scale9Width": 1,
+                "Scale9Height": 1,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 492.0,
+                  "Y": 289.8
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.46
+                },
+                "PreSize": {
+                  "X": 0.7927,
+                  "Y": 0.7937
+                },
+                "LeftMargin": 102.0,
+                "RightMargin": 102.0,
+                "TopMargin": 90.2,
+                "BottomMargin": 39.8,
+                "Tag": 5480,
+                "Children": [
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "AuthentucateUI/bg.png",
+                      "Plist": ""
+                    },
+                    "Scale9OriginX": 58,
+                    "Scale9OriginY": 15,
+                    "Scale9Width": 170,
+                    "Scale9Height": 28,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 202.8,
+                      "Y": 435.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.26,
+                      "Y": 0.87
+                    },
+                    "PreSize": {
+                      "X": 0.3667,
+                      "Y": 0.116
+                    },
+                    "LeftMargin": 59.8,
+                    "RightMargin": 434.2,
+                    "TopMargin": 36.0,
+                    "BottomMargin": 406.0,
+                    "Tag": 5216,
+                    "ActionTag": -2091538741,
+                    "Size": {
+                      "X": 286.0,
+                      "Y": 58.0
+                    },
+                    "Name": "bg_img0",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "AuthentucateUI/bg.png",
+                      "Plist": ""
+                    },
+                    "Scale9OriginX": 58,
+                    "Scale9OriginY": 15,
+                    "Scale9Width": 170,
+                    "Scale9Height": 28,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 585.0,
+                      "Y": 435.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.75,
+                      "Y": 0.87
+                    },
+                    "PreSize": {
+                      "X": 0.3667,
+                      "Y": 0.116
+                    },
+                    "LeftMargin": 442.0,
+                    "RightMargin": 52.0,
+                    "TopMargin": 36.0,
+                    "BottomMargin": 406.0,
+                    "Tag": 5217,
+                    "ActionTag": -751792652,
+                    "Size": {
+                      "X": 286.0,
+                      "Y": 58.0
+                    },
+                    "Name": "bg_img1",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "AuthentucateUI/binding_cellphone.png",
+                      "Plist": ""
+                    },
+                    "Scale9OriginX": 58,
+                    "Scale9OriginY": 15,
+                    "Scale9Width": 36,
+                    "Scale9Height": 10,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 202.8,
+                      "Y": 435.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.26,
+                      "Y": 0.87
+                    },
+                    "PreSize": {
+                      "X": 0.1949,
+                      "Y": 0.08
+                    },
+                    "LeftMargin": 126.8,
+                    "RightMargin": 501.2,
+                    "TopMargin": 45.0,
+                    "BottomMargin": 415.0,
+                    "Tag": 5213,
+                    "ActionTag": -1680983941,
+                    "Size": {
+                      "X": 152.0,
+                      "Y": 40.0
+                    },
+                    "Name": "cellphone_img",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "AuthentucateUI/binding_identification.png",
+                      "Plist": ""
+                    },
+                    "Scale9OriginX": 58,
+                    "Scale9OriginY": 15,
+                    "Scale9Width": 36,
+                    "Scale9Height": 10,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 585.0,
+                      "Y": 435.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.75,
+                      "Y": 0.87
+                    },
+                    "PreSize": {
+                      "X": 0.1949,
+                      "Y": 0.08
+                    },
+                    "LeftMargin": 509.0,
+                    "RightMargin": 119.0,
+                    "TopMargin": 45.0,
+                    "BottomMargin": 415.0,
+                    "Tag": 5214,
+                    "ActionTag": -1436339596,
+                    "Size": {
+                      "X": 152.0,
+                      "Y": 40.0
+                    },
+                    "Name": "identification_img",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "FontSize": 14,
+                    "ButtonText": "",
+                    "TextColor": {
+                      "R": 65,
+                      "G": 65,
+                      "B": 70
+                    },
+                    "NormalFileData": {
+                      "Type": "Normal",
+                      "Path": "AuthentucateUI/cellphone_btn.png",
+                      "Plist": ""
+                    },
+                    "Scale9Enable": true,
+                    "Scale9OriginX": 15,
+                    "Scale9OriginY": 11,
+                    "Scale9Width": 290,
+                    "Scale9Height": 298,
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 195.0,
+                      "Y": 230.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.25,
+                      "Y": 0.46
+                    },
+                    "PreSize": {
+                      "X": 0.4103,
+                      "Y": 0.64
+                    },
+                    "LeftMargin": 35.0,
+                    "RightMargin": 425.0,
+                    "TopMargin": 110.0,
+                    "BottomMargin": 70.0,
+                    "Tag": 5211,
+                    "ActionTag": 942762468,
+                    "Size": {
+                      "X": 320.0,
+                      "Y": 320.0
+                    },
+                    "Name": "cellphone_btn",
+                    "ctype": "ButtonObjectData"
+                  },
+                  {
+                    "FontSize": 14,
+                    "ButtonText": "",
+                    "TextColor": {
+                      "R": 65,
+                      "G": 65,
+                      "B": 70
+                    },
+                    "NormalFileData": {
+                      "Type": "Normal",
+                      "Path": "AuthentucateUI/identification_btn.png",
+                      "Plist": ""
+                    },
+                    "Scale9Enable": true,
+                    "Scale9OriginX": 15,
+                    "Scale9OriginY": 11,
+                    "Scale9Width": 290,
+                    "Scale9Height": 298,
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 585.0,
+                      "Y": 230.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.75,
+                      "Y": 0.46
+                    },
+                    "PreSize": {
+                      "X": 0.4103,
+                      "Y": 0.64
+                    },
+                    "LeftMargin": 425.0,
+                    "RightMargin": 35.0,
+                    "TopMargin": 110.0,
+                    "BottomMargin": 70.0,
+                    "Tag": 5212,
+                    "ActionTag": -2013509808,
+                    "Size": {
+                      "X": 320.0,
+                      "Y": 320.0
+                    },
+                    "Name": "identification_btn",
+                    "ctype": "ButtonObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "AuthentucateUI/tips.png",
+                      "Plist": ""
+                    },
+                    "Scale9OriginX": 58,
+                    "Scale9OriginY": 15,
+                    "Scale9Width": 314,
+                    "Scale9Height": 1,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 390.0,
+                      "Y": 25.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.05
+                    },
+                    "PreSize": {
+                      "X": 0.5513,
+                      "Y": 0.06
+                    },
+                    "LeftMargin": 175.0,
+                    "RightMargin": 175.0,
+                    "TopMargin": 460.0,
+                    "BottomMargin": 10.0,
+                    "Tag": 5215,
+                    "ActionTag": 1186535130,
+                    "Size": {
+                      "X": 430.0,
+                      "Y": 30.0
+                    },
+                    "Name": "tips_img",
+                    "ctype": "ImageViewObjectData"
+                  }
+                ],
+                "ActionTag": 448447831,
+                "Size": {
+                  "X": 780.0,
+                  "Y": 500.0
+                },
+                "Name": "init_panel",
+                "ctype": "PanelObjectData"
+              },
+              {
+                "ClipAble": false,
+                "BackColorAlpha": 102,
+                "SingleColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "FirstColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "EndColor": {},
+                "ColorVector": {
+                  "ScaleY": 1.0
+                },
+                "Scale9Width": 1,
+                "Scale9Height": 1,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 492.0,
+                  "Y": 289.8
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.46
+                },
+                "PreSize": {
+                  "X": 0.7927,
+                  "Y": 0.7937
+                },
+                "LeftMargin": 102.0,
+                "RightMargin": 102.0,
+                "TopMargin": 90.2,
+                "BottomMargin": 39.8,
+                "Tag": 5481,
+                "Children": [
+                  {
+                    "IsCustomSize": true,
+                    "FontSize": 40,
+                    "LabelText": "手机号",
+                    "FontResource": {
+                      "Type": "Normal",
+                      "Path": "font/zhunyuan.ttf",
+                      "Plist": ""
+                    },
+                    "HorizontalAlignmentType": "HT_Right",
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 225.264,
+                      "Y": 375.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {
+                      "R": 153,
+                      "G": 89,
+                      "B": 64
+                    },
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.2888,
+                      "Y": 0.75
+                    },
+                    "PreSize": {
+                      "X": 0.2564,
+                      "Y": 0.092
+                    },
+                    "LeftMargin": 25.264,
+                    "RightMargin": 554.736,
+                    "TopMargin": 102.0,
+                    "BottomMargin": 352.0,
+                    "Tag": 5488,
+                    "ActionTag": 968243394,
+                    "Size": {
+                      "X": 200.0,
+                      "Y": 46.0
+                    },
+                    "Name": "phone_num_label",
+                    "ctype": "TextObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "AuthentucateUI/cellphone_bg.png",
+                      "Plist": ""
+                    },
+                    "Scale9OriginX": 71,
+                    "Scale9OriginY": 15,
+                    "Scale9Width": 318,
+                    "Scale9Height": 16,
+                    "AnchorPoint": {
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 241.8,
+                      "Y": 375.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.31,
+                      "Y": 0.75
+                    },
+                    "PreSize": {
+                      "X": 0.5897,
+                      "Y": 0.092
+                    },
+                    "LeftMargin": 241.8,
+                    "RightMargin": 78.2,
+                    "TopMargin": 102.0,
+                    "BottomMargin": 352.0,
+                    "Tag": 5482,
+                    "ActionTag": 1307346068,
+                    "Size": {
+                      "X": 460.0,
+                      "Y": 46.0
+                    },
+                    "Name": "cellphone_bg_img",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "FontResource": {
+                      "Type": "Normal",
+                      "Path": "font/zhunyuan.ttf",
+                      "Plist": ""
+                    },
+                    "FontSize": 38,
+                    "IsCustomSize": true,
+                    "LabelText": "",
+                    "PlaceHolderText": "",
+                    "MaxLengthText": 10,
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 249.6,
+                      "Y": 375.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {
+                      "R": 153,
+                      "G": 89,
+                      "B": 64
+                    },
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.32,
+                      "Y": 0.75
+                    },
+                    "PreSize": {
+                      "X": 0.5692,
+                      "Y": 0.08
+                    },
+                    "LeftMargin": 249.6,
+                    "RightMargin": 86.4,
+                    "TopMargin": 105.0,
+                    "BottomMargin": 355.0,
+                    "Tag": 5490,
+                    "ActionTag": 1587008538,
+                    "Size": {
+                      "X": 444.0,
+                      "Y": 40.0
+                    },
+                    "Name": "phone_num_tf",
+                    "ctype": "TextFieldObjectData"
+                  },
+                  {
+                    "IsCustomSize": true,
+                    "FontSize": 40,
+                    "LabelText": "验证码",
+                    "FontResource": {
+                      "Type": "Normal",
+                      "Path": "font/zhunyuan.ttf",
+                      "Plist": ""
+                    },
+                    "HorizontalAlignmentType": "HT_Right",
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 224.328,
+                      "Y": 280.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {
+                      "R": 153,
+                      "G": 89,
+                      "B": 64
+                    },
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.2876,
+                      "Y": 0.56
+                    },
+                    "PreSize": {
+                      "X": 0.2564,
+                      "Y": 0.092
+                    },
+                    "LeftMargin": 24.328,
+                    "RightMargin": 555.672,
+                    "TopMargin": 197.0,
+                    "BottomMargin": 257.0,
+                    "Tag": 5489,
+                    "ActionTag": -1192636610,
+                    "Size": {
+                      "X": 200.0,
+                      "Y": 46.0
+                    },
+                    "Name": "verificate_num_label",
+                    "ctype": "TextObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "AuthentucateUI/verificate_bg.png",
+                      "Plist": ""
+                    },
+                    "Scale9OriginX": 71,
+                    "Scale9OriginY": 15,
+                    "Scale9Width": 74,
+                    "Scale9Height": 16,
+                    "AnchorPoint": {
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 241.8,
+                      "Y": 280.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.31,
+                      "Y": 0.56
+                    },
+                    "PreSize": {
+                      "X": 0.2769,
+                      "Y": 0.092
+                    },
+                    "LeftMargin": 241.8,
+                    "RightMargin": 322.2,
+                    "TopMargin": 197.0,
+                    "BottomMargin": 257.0,
+                    "Tag": 5483,
+                    "ActionTag": 1068941252,
+                    "Size": {
+                      "X": 216.0,
+                      "Y": 46.0
+                    },
+                    "Name": "verificate_bg_img",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "FontResource": {
+                      "Type": "Normal",
+                      "Path": "font/zhunyuan.ttf",
+                      "Plist": ""
+                    },
+                    "FontSize": 38,
+                    "IsCustomSize": true,
+                    "LabelText": "",
+                    "PlaceHolderText": "",
+                    "MaxLengthText": 10,
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 249.6,
+                      "Y": 280.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {
+                      "R": 153,
+                      "G": 89,
+                      "B": 64
+                    },
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.32,
+                      "Y": 0.56
+                    },
+                    "PreSize": {
+                      "X": 0.2564,
+                      "Y": 0.08
+                    },
+                    "LeftMargin": 249.6,
+                    "RightMargin": 330.4,
+                    "TopMargin": 200.0,
+                    "BottomMargin": 260.0,
+                    "Tag": 5491,
+                    "ActionTag": -1210507537,
+                    "Size": {
+                      "X": 200.0,
+                      "Y": 40.0
+                    },
+                    "Name": "verificate_num_tf",
+                    "ctype": "TextFieldObjectData"
+                  },
+                  {
+                    "FontSize": 14,
+                    "ButtonText": "",
+                    "TextColor": {
+                      "R": 65,
+                      "G": 65,
+                      "B": 70
+                    },
+                    "NormalFileData": {
+                      "Type": "Normal",
+                      "Path": "AuthentucateUI/verificate_btn.png",
+                      "Plist": ""
+                    },
+                    "Scale9Enable": true,
+                    "Scale9OriginX": 15,
+                    "Scale9OriginY": 11,
+                    "Scale9Width": 120,
+                    "Scale9Height": 12,
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 561.6,
+                      "Y": 280.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.72,
+                      "Y": 0.56
+                    },
+                    "PreSize": {
+                      "X": 0.1923,
+                      "Y": 0.068
+                    },
+                    "LeftMargin": 486.6,
+                    "RightMargin": 143.4,
+                    "TopMargin": 203.0,
+                    "BottomMargin": 263.0,
+                    "Tag": 5487,
+                    "ActionTag": 226396951,
+                    "Size": {
+                      "X": 150.0,
+                      "Y": 34.0
+                    },
+                    "Name": "verificate_btn",
+                    "ctype": "ButtonObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "AuthentucateUI/tips.png",
+                      "Plist": ""
+                    },
+                    "Scale9OriginX": 71,
+                    "Scale9OriginY": 15,
+                    "Scale9Width": 288,
+                    "Scale9Height": 1,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 390.0,
+                      "Y": 190.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.38
+                    },
+                    "PreSize": {
+                      "X": 0.5513,
+                      "Y": 0.06
+                    },
+                    "LeftMargin": 175.0,
+                    "RightMargin": 175.0,
+                    "TopMargin": 295.0,
+                    "BottomMargin": 175.0,
+                    "Tag": 5485,
+                    "ActionTag": 2023252591,
+                    "Size": {
+                      "X": 430.0,
+                      "Y": 30.0
+                    },
+                    "Name": "tips_img",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "FontSize": 14,
+                    "ButtonText": "",
+                    "TextColor": {
+                      "R": 65,
+                      "G": 65,
+                      "B": 70
+                    },
+                    "NormalFileData": {
+                      "Type": "Normal",
+                      "Path": "AuthentucateUI/submit_btn.png",
+                      "Plist": ""
+                    },
+                    "Scale9Enable": true,
+                    "Scale9OriginX": 15,
+                    "Scale9OriginY": 11,
+                    "Scale9Width": 222,
+                    "Scale9Height": 92,
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 390.0,
+                      "Y": 105.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.21
+                    },
+                    "PreSize": {
+                      "X": 0.3231,
+                      "Y": 0.228
+                    },
+                    "LeftMargin": 264.0,
+                    "RightMargin": 264.0,
+                    "TopMargin": 338.0,
+                    "BottomMargin": 48.0,
+                    "Tag": 5486,
+                    "ActionTag": -215345216,
+                    "Size": {
+                      "X": 252.0,
+                      "Y": 114.0
+                    },
+                    "Name": "submit_btn",
+                    "ctype": "ButtonObjectData"
+                  }
+                ],
+                "ActionTag": -675361506,
+                "Size": {
+                  "X": 780.0,
+                  "Y": 500.0
+                },
+                "VisibleForFrame": false,
+                "Name": "cellphone_panel",
+                "ctype": "PanelObjectData"
+              },
+              {
+                "ClipAble": false,
+                "BackColorAlpha": 102,
+                "SingleColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "FirstColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "EndColor": {},
+                "ColorVector": {
+                  "ScaleY": 1.0
+                },
+                "Scale9Width": 1,
+                "Scale9Height": 1,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 492.0,
+                  "Y": 289.8
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.46
+                },
+                "PreSize": {
+                  "X": 0.7927,
+                  "Y": 0.7937
+                },
+                "LeftMargin": 102.0,
+                "RightMargin": 102.0,
+                "TopMargin": 90.2,
+                "BottomMargin": 39.8,
+                "Tag": 5492,
+                "Children": [
+                  {
+                    "IsCustomSize": true,
+                    "FontSize": 40,
+                    "LabelText": "真实姓名",
+                    "FontResource": {
+                      "Type": "Normal",
+                      "Path": "font/zhunyuan.ttf",
+                      "Plist": ""
+                    },
+                    "HorizontalAlignmentType": "HT_Right",
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 228.696,
+                      "Y": 375.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {
+                      "R": 153,
+                      "G": 89,
+                      "B": 64
+                    },
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.2932,
+                      "Y": 0.75
+                    },
+                    "PreSize": {
+                      "X": 0.2564,
+                      "Y": 0.092
+                    },
+                    "LeftMargin": 28.696,
+                    "RightMargin": 551.304,
+                    "TopMargin": 102.0,
+                    "BottomMargin": 352.0,
+                    "Tag": 5493,
+                    "ActionTag": -87787097,
+                    "Size": {
+                      "X": 200.0,
+                      "Y": 46.0
+                    },
+                    "Name": "name_label",
+                    "ctype": "TextObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "AuthentucateUI/cellphone_bg.png",
+                      "Plist": ""
+                    },
+                    "Scale9OriginX": 71,
+                    "Scale9OriginY": 15,
+                    "Scale9Width": 318,
+                    "Scale9Height": 16,
+                    "AnchorPoint": {
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 241.8,
+                      "Y": 375.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.31,
+                      "Y": 0.75
+                    },
+                    "PreSize": {
+                      "X": 0.5897,
+                      "Y": 0.092
+                    },
+                    "LeftMargin": 241.8,
+                    "RightMargin": 78.2,
+                    "TopMargin": 102.0,
+                    "BottomMargin": 352.0,
+                    "Tag": 5494,
+                    "ActionTag": -1424475791,
+                    "Size": {
+                      "X": 460.0,
+                      "Y": 46.0
+                    },
+                    "Name": "name_bg_img",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "FontResource": {
+                      "Type": "Normal",
+                      "Path": "font/zhunyuan.ttf",
+                      "Plist": ""
+                    },
+                    "FontSize": 38,
+                    "IsCustomSize": true,
+                    "LabelText": "",
+                    "PlaceHolderText": "",
+                    "MaxLengthText": 10,
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 249.6,
+                      "Y": 375.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {
+                      "R": 153,
+                      "G": 89,
+                      "B": 64
+                    },
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.32,
+                      "Y": 0.75
+                    },
+                    "PreSize": {
+                      "X": 0.5692,
+                      "Y": 0.08
+                    },
+                    "LeftMargin": 249.6,
+                    "RightMargin": 86.4,
+                    "TopMargin": 105.0,
+                    "BottomMargin": 355.0,
+                    "Tag": 5495,
+                    "ActionTag": 1074963962,
+                    "Size": {
+                      "X": 444.0,
+                      "Y": 40.0
+                    },
+                    "Name": "name_tf",
+                    "ctype": "TextFieldObjectData"
+                  },
+                  {
+                    "IsCustomSize": true,
+                    "FontSize": 40,
+                    "LabelText": "身份验证",
+                    "FontResource": {
+                      "Type": "Normal",
+                      "Path": "font/zhunyuan.ttf",
+                      "Plist": ""
+                    },
+                    "HorizontalAlignmentType": "HT_Right",
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 229.71,
+                      "Y": 280.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {
+                      "R": 153,
+                      "G": 89,
+                      "B": 64
+                    },
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.2945,
+                      "Y": 0.56
+                    },
+                    "PreSize": {
+                      "X": 0.2564,
+                      "Y": 0.092
+                    },
+                    "LeftMargin": 29.71,
+                    "RightMargin": 550.29,
+                    "TopMargin": 197.0,
+                    "BottomMargin": 257.0,
+                    "Tag": 5496,
+                    "ActionTag": -944125450,
+                    "Size": {
+                      "X": 200.0,
+                      "Y": 46.0
+                    },
+                    "Name": "id_num_label",
+                    "ctype": "TextObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "AuthentucateUI/cellphone_bg.png",
+                      "Plist": ""
+                    },
+                    "Scale9OriginX": 71,
+                    "Scale9OriginY": 15,
+                    "Scale9Width": 318,
+                    "Scale9Height": 16,
+                    "AnchorPoint": {
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 241.8,
+                      "Y": 280.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.31,
+                      "Y": 0.56
+                    },
+                    "PreSize": {
+                      "X": 0.5897,
+                      "Y": 0.092
+                    },
+                    "LeftMargin": 241.8,
+                    "RightMargin": 78.2,
+                    "TopMargin": 197.0,
+                    "BottomMargin": 257.0,
+                    "Tag": 5497,
+                    "ActionTag": -571201672,
+                    "Size": {
+                      "X": 460.0,
+                      "Y": 46.0
+                    },
+                    "Name": "id_num_bg_img",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "FontResource": {
+                      "Type": "Normal",
+                      "Path": "font/zhunyuan.ttf",
+                      "Plist": ""
+                    },
+                    "FontSize": 38,
+                    "IsCustomSize": true,
+                    "LabelText": "",
+                    "PlaceHolderText": "",
+                    "MaxLengthText": 10,
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 249.6,
+                      "Y": 280.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {
+                      "R": 153,
+                      "G": 89,
+                      "B": 64
+                    },
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.32,
+                      "Y": 0.56
+                    },
+                    "PreSize": {
+                      "X": 0.5692,
+                      "Y": 0.08
+                    },
+                    "LeftMargin": 249.6,
+                    "RightMargin": 86.4,
+                    "TopMargin": 200.0,
+                    "BottomMargin": 260.0,
+                    "Tag": 5498,
+                    "ActionTag": -1900195295,
+                    "Size": {
+                      "X": 444.0,
+                      "Y": 40.0
+                    },
+                    "Name": "id_num_tf",
+                    "ctype": "TextFieldObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "AuthentucateUI/id_tips.png",
+                      "Plist": ""
+                    },
+                    "Scale9OriginX": 71,
+                    "Scale9OriginY": 15,
+                    "Scale9Width": 414,
+                    "Scale9Height": 1,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 390.0,
+                      "Y": 190.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.38
+                    },
+                    "PreSize": {
+                      "X": 0.7128,
+                      "Y": 0.06
+                    },
+                    "LeftMargin": 112.0,
+                    "RightMargin": 112.0,
+                    "TopMargin": 295.0,
+                    "BottomMargin": 175.0,
+                    "Tag": 5500,
+                    "ActionTag": -278818368,
+                    "Size": {
+                      "X": 556.0,
+                      "Y": 30.0
+                    },
+                    "Name": "id_tips_img",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "FontSize": 14,
+                    "ButtonText": "",
+                    "TextColor": {
+                      "R": 65,
+                      "G": 65,
+                      "B": 70
+                    },
+                    "NormalFileData": {
+                      "Type": "Normal",
+                      "Path": "AuthentucateUI/submit_btn.png",
+                      "Plist": ""
+                    },
+                    "Scale9Enable": true,
+                    "Scale9OriginX": 15,
+                    "Scale9OriginY": 11,
+                    "Scale9Width": 222,
+                    "Scale9Height": 92,
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 390.0,
+                      "Y": 105.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.21
+                    },
+                    "PreSize": {
+                      "X": 0.3231,
+                      "Y": 0.228
+                    },
+                    "LeftMargin": 264.0,
+                    "RightMargin": 264.0,
+                    "TopMargin": 338.0,
+                    "BottomMargin": 48.0,
+                    "Tag": 5501,
+                    "ActionTag": 314039346,
+                    "Size": {
+                      "X": 252.0,
+                      "Y": 114.0
+                    },
+                    "Name": "submit_btn",
+                    "ctype": "ButtonObjectData"
+                  }
+                ],
+                "ActionTag": 1566367465,
+                "Size": {
+                  "X": 780.0,
+                  "Y": 500.0
+                },
+                "VisibleForFrame": false,
+                "Name": "id_panel",
+                "ctype": "PanelObjectData"
+              }
+            ],
+            "ActionTag": -140323569,
+            "Size": {
+              "X": 984.0,
+              "Y": 630.0
+            },
+            "Name": "authentucate_panel",
+            "ctype": "PanelObjectData"
+          }
+        ],
+        "Size": {
+          "X": 1280.0,
+          "Y": 720.0
+        },
+        "Name": "Layer",
+        "ctype": "LayerObjectData"
+      },
+      "UsedResources": [
+        "AuthentucateUI/bg.png",
+        "AuthentucateUI/binding_cellphone.png",
+        "AuthentucateUI/binding_identification.png",
+        "AuthentucateUI/cellphone_bg.png",
+        "AuthentucateUI/cellphone_btn.png",
+        "AuthentucateUI/id_tips.png",
+        "AuthentucateUI/identification_btn.png",
+        "AuthentucateUI/submit_btn.png",
+        "AuthentucateUI/tips.png",
+        "AuthentucateUI/title.png",
+        "AuthentucateUI/verificate_bg.png",
+        "AuthentucateUI/verificate_btn.png",
+        "BackGround/small_win.png",
+        "Default/close_btn.png",
+        "Default/close_btn_bright.png",
+        "font/zhunyuan.ttf"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Layer"
+}

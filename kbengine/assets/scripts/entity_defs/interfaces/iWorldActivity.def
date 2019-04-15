@@ -1,0 +1,26 @@
+<root>
+	<Properties>
+        <daily_act_useful>
+            <Type>			UINT8		    </Type>
+			<Flags>			BASE			</Flags>
+			<Default>		1			    </Default>
+			<Persistent>	true			</Persistent>
+        </daily_act_useful>
+        <daily_begin>
+            <Type>			DOUBLE      	</Type>
+			<Flags>			BASE			</Flags>
+			<Default>		12.0	        </Default>
+			<Persistent>	true			</Persistent>
+        </daily_begin>
+        <daily_end>
+            <Type>			DOUBLE      	</Type>
+			<Flags>			BASE			</Flags>
+			<Default>		13.0		    </Default>
+			<Persistent>	true			</Persistent>
+        </daily_end>
+	</Properties>
+
+	<BaseMethods>
+	</BaseMethods>
+</root>
+

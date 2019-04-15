@@ -1,0 +1,233 @@
+<root>
+	<Volatile>
+		<position> 0 </position>
+		<yaw> 0 </yaw>
+		<pitch> 0 </pitch>
+		<roll> 0 </roll>
+	</Volatile>
+
+	<Interfaces>
+		<Interface>	GameObject		</Interface>
+	</Interfaces>
+
+	<Properties>
+		<playingRoomList>
+			<Type>			UINT32_ARRAY		</Type>
+			<Flags>			BASE		</Flags>
+			<Default>		[]		</Default>
+			<Persistent>	true	</Persistent>
+		</playingRoomList>
+		<completeRoomList>
+			<Type>			PY_LIST		</Type>
+			<Flags>			BASE		</Flags>
+			<Default>		[]		</Default>
+			<Persistent>	true		</Persistent>
+		</completeRoomList>
+	</Properties>
+
+
+	<BaseMethods>
+		<createRoom>
+			<Exposed/>
+			<Arg>   CREATE_ROOM_DICT    </Arg>
+		</createRoom>
+		<enterRoom>
+			<Exposed/>
+			<Arg>		UINT32		</Arg>
+		</enterRoom>
+		<quitRoom>
+			<Exposed/>
+		</quitRoom>
+		<doOperation>
+			<Exposed/>
+			<Arg>	UINT8	</Arg>
+			<Arg>	UINT32_ARRAY	</Arg>
+		</doOperation>
+		<confirmOperation>
+			<Exposed/>
+			<Arg>	UINT8	</Arg>
+			<Arg>	UINT32_ARRAY	</Arg>
+		</confirmOperation>
+		<prepare>
+			<Exposed/>
+		</prepare>
+		<upLocationInfo>
+			<Exposed/>
+			<Arg>	UNICODE </Arg>
+			<Arg>	STRING </Arg>
+			<Arg>	STRING </Arg>
+		</upLocationInfo>
+		<sendEmotion>
+			<Exposed/>
+			<Arg>	INT8 </Arg>
+		</sendEmotion>
+		<sendMsg>
+			<Exposed/>
+			<Arg>	INT8 </Arg>
+			<Arg>	UNICODE </Arg>
+		</sendMsg>
+		<sendExpression>
+			<Exposed/>
+			<Arg>	INT8 </Arg>
+			<Arg>	INT8 </Arg>
+			<Arg>	INT8 </Arg>
+		</sendExpression>
+		<sendVoice>
+			<Exposed/>
+			<Arg>	STRING </Arg>
+		</sendVoice>
+		<sendAppVoice>
+			<Exposed/>
+			<Arg>	STRING </Arg>
+			<Arg>	FLOAT </Arg>
+		</sendAppVoice>
+		<applyDismissRoom>
+			<Exposed/>
+		</applyDismissRoom>
+		<voteDismissRoom>
+			<Exposed/>
+			<Arg>	INT8 </Arg>
+		</voteDismissRoom>
+		<getPlayingRoomInfo>
+			<Exposed/>
+		</getPlayingRoomInfo>
+		<getCompleteRoomInfo>
+			<Exposed/>
+		</getCompleteRoomInfo>
+		<agentDismissRoom>
+		    <Exposed/>
+			<Arg>	UINT32    </Arg>
+		</agentDismissRoom>
+	</BaseMethods>
+
+	<CellMethods>
+	</CellMethods>
+
+	<ClientMethods>
+		<createRoomSucceed>
+			<Arg>		INIT_ROOM_INFO	</Arg>
+		</createRoomSucceed>
+        <createRoomFailed>
+			<Arg>		INT8		</Arg>
+		</createRoomFailed>
+		<enterRoomSucceed>
+			<Arg>		INT8		</Arg>
+			<Arg>		INIT_ROOM_INFO	</Arg>
+		</enterRoomSucceed>
+		<enterRoomFailed>
+			<Arg>		INT8		</Arg>
+		</enterRoomFailed>
+		<othersEnterRoom>
+			<Arg>	INIT_PLAYER_INFO	</Arg>
+		</othersEnterRoom>
+		<othersQuitRoom>
+			<Arg>	INT8	</Arg>
+		</othersQuitRoom>
+		<quitRoomFailed>
+			<Arg>	INT32	</Arg>
+		</quitRoomFailed>
+		<quitRoomSucceed>
+		</quitRoomSucceed>
+
+		<startGame>
+			<Arg> INT8 </Arg>
+			<Arg>		UINT32_ARRAY		</Arg>
+			<Arg>		UINT32_ARRAY_ARRAY	</Arg>
+			<Arg>		UINT32_ARRAY		</Arg>
+			<Arg>		UINT8				</Arg>
+			<Arg>		UINT8_ARRAY			</Arg>
+			<Arg>		UINT8_ARRAY_ARRAY	</Arg>
+		</startGame>
+		<postOperation>
+			<Arg>		INT8		</Arg>
+			<Arg>		UINT32		</Arg>
+			<Arg>		UINT32_ARRAY		</Arg>
+		</postOperation>
+
+		<postWinOperation>
+		    <Arg>		INT8		</Arg>
+		    <Arg>		UINT32		</Arg>
+		    <Arg>		INT8_ARRAY		</Arg>
+		</postWinOperation>
+		<postMultiOperation>
+			<Arg>		INT8_ARRAY		</Arg>
+			<Arg>		INT8_ARRAY		</Arg>
+			<Arg>		UINT32_ARRAY		</Arg>
+		</postMultiOperation>
+		<doOperationFailed>
+			<Arg>		INT8		</Arg>
+		</doOperationFailed>
+		<waitForOperation>
+			<Arg>		UINT32_ARRAY		</Arg>
+			<Arg>		UINT32_ARRAY		</Arg>
+		</waitForOperation>
+
+		<roundResult>
+			<Arg>		ROUND_ROOM_INFO		</Arg>
+		</roundResult>
+		<finalResult>
+			<Arg>		FINAL_PLAYER_INFO_LIST		</Arg>
+			<Arg>		ROUND_ROOM_INFO		</Arg>
+		</finalResult>
+		<subtotalResult>
+			<Arg>		FINAL_PLAYER_INFO_LIST		</Arg>
+		</subtotalResult>
+		<readyForNextRound>
+			<Arg>	INT8	</Arg>			
+		</readyForNextRound>
+		<recvEmotion>
+			<Arg>	INT8	</Arg>
+			<Arg>	INT8	</Arg>
+		</recvEmotion>
+		<recvMsg>
+			<Arg>	INT8	</Arg>
+			<Arg>	INT8	</Arg>
+			<Arg>	UNICODE	</Arg>
+		</recvMsg>
+		<recvExpression>
+			<Arg>	INT8	</Arg>
+			<Arg>	INT8	</Arg>
+			<Arg>	INT8	</Arg>
+		</recvExpression>
+		<recvVoice>
+			<Arg>	INT8	</Arg>
+			<Arg>	STRING	</Arg>
+		</recvVoice>
+		<recvAppVoice>
+			<Arg>	INT8	</Arg>
+			<Arg>	STRING	</Arg>
+			<Arg>	FLOAT </Arg>
+		</recvAppVoice>
+		<handleReconnect>
+			<Arg> REC_ROOM_INFO	 </Arg>
+		</handleReconnect>
+
+		<pushRoundRecord>
+			<Arg> ROUND_RECORD_DICT </Arg>
+		</pushRoundRecord>
+		<pushGameRecordList>
+			<Arg> GAME_RECORD_LIST </Arg>
+		</pushGameRecordList>
+		<reqDismissRoom>
+			<Arg> UINT8 </Arg>
+		</reqDismissRoom>
+		<voteDismissResult>
+			<Arg> UINT8 </Arg>
+			<Arg> INT8 </Arg>
+		</voteDismissResult>
+		<notifyPlayerOnlineStatus>
+			<Arg> UINT8 </Arg>
+			<Arg> INT8 </Arg>
+		</notifyPlayerOnlineStatus>
+		<createAgentRoomSucceed>
+			<Arg> AGENT_ROOM_INFO_ARRAY	</Arg>
+		</createAgentRoomSucceed>
+		<gotPlayingRoomInfo>
+			<Arg> AGENT_ROOM_INFO_ARRAY </Arg>
+		</gotPlayingRoomInfo>
+		<gotCompleteRoomInfo>
+			<Arg> COMPLETE_ROOM_INFO_ARRAY </Arg>
+		</gotCompleteRoomInfo>
+	</ClientMethods>
+</root>
+

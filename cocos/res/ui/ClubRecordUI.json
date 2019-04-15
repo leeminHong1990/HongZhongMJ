@@ -1,0 +1,2895 @@
+{
+  "ID": "51ae1140-fc07-4aa7-841c-23cde49328df",
+  "Version": "3.10.0.0",
+  "Name": "ClubRecordUI",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Children": [
+          {
+            "ClipAble": false,
+            "BackColorAlpha": 178,
+            "ComboBoxIndex": 1,
+            "SingleColor": {
+              "R": 0,
+              "G": 0,
+              "B": 0
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "Scale9Width": 1,
+            "Scale9Height": 1,
+            "TouchEnable": true,
+            "AnchorPoint": {},
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PercentWidthEnable": true,
+            "PercentHeightEnable": true,
+            "PercentWidthEnabled": true,
+            "PercentHeightEnabled": true,
+            "PreSize": {
+              "X": 1.0,
+              "Y": 1.0
+            },
+            "Tag": 2,
+            "ActionTag": -268513149,
+            "Size": {
+              "X": 1280.0,
+              "Y": 720.0
+            },
+            "Name": "Panel_1",
+            "ctype": "PanelObjectData"
+          },
+          {
+            "ClipAble": false,
+            "BackColorAlpha": 102,
+            "FileData": {
+              "Type": "Normal",
+              "Path": "BackGround/record_bg.png",
+              "Plist": ""
+            },
+            "SingleColor": {
+              "R": 150,
+              "G": 200
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "Scale9OriginX": 80,
+            "Scale9OriginY": 80,
+            "Scale9Width": 1120,
+            "Scale9Height": 560,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 638.336,
+              "Y": 361.656
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PositionPercentXEnabled": true,
+            "PositionPercentYEnabled": true,
+            "PrePosition": {
+              "X": 0.4987,
+              "Y": 0.5023
+            },
+            "PreSize": {
+              "X": 1.0,
+              "Y": 1.0
+            },
+            "LeftMargin": -1.664,
+            "RightMargin": 1.6641,
+            "TopMargin": -1.656,
+            "BottomMargin": 1.656,
+            "Tag": 56,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "RecordUI/title.png",
+                  "Plist": ""
+                },
+                "Scale9OriginX": 32,
+                "Scale9OriginY": 17,
+                "Scale9Width": 114,
+                "Scale9Height": 12,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 640.0,
+                  "Y": 698.4
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.97
+                },
+                "PreSize": {
+                  "X": 0.1391,
+                  "Y": 0.0639
+                },
+                "LeftMargin": 551.0,
+                "RightMargin": 551.0,
+                "TopMargin": -1.4,
+                "BottomMargin": 675.4,
+                "Tag": 57,
+                "ActionTag": 1309127120,
+                "Size": {
+                  "X": 178.0,
+                  "Y": 46.0
+                },
+                "Name": "title_img",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "NormalFileData": {
+                  "Type": "Normal",
+                  "Path": "Default/back_btn.png",
+                  "Plist": ""
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 116,
+                "Scale9Height": 34,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 153.6,
+                  "Y": 698.4
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.12,
+                  "Y": 0.97
+                },
+                "PreSize": {
+                  "X": 0.1141,
+                  "Y": 0.0778
+                },
+                "LeftMargin": 80.6,
+                "RightMargin": 1053.4,
+                "TopMargin": -6.4,
+                "BottomMargin": 670.4,
+                "Tag": 59,
+                "ActionTag": -1035200303,
+                "Size": {
+                  "X": 146.0,
+                  "Y": 56.0
+                },
+                "Name": "return_btn",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "ClubRecordUI/club_record_bg.png",
+                  "Plist": ""
+                },
+                "Scale9OriginX": 411,
+                "Scale9OriginY": 198,
+                "Scale9Width": 426,
+                "Scale9Height": 206,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 640.0,
+                  "Y": 306.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.425
+                },
+                "PreSize": {
+                  "X": 0.975,
+                  "Y": 0.8361
+                },
+                "LeftMargin": 16.0,
+                "RightMargin": 16.0,
+                "TopMargin": 113.0,
+                "BottomMargin": 5.0,
+                "Tag": 107,
+                "ActionTag": 456495403,
+                "Size": {
+                  "X": 1248.0,
+                  "Y": 602.0
+                },
+                "Name": "Image_17",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "DisabledFileData": {
+                  "Type": "Normal",
+                  "Path": "ClubRecordUI/club_record_sel_light.png",
+                  "Plist": ""
+                },
+                "PressedFileData": {
+                  "Type": "Normal",
+                  "Path": "ClubRecordUI/club_record_sel_dark.png",
+                  "Plist": ""
+                },
+                "NormalFileData": {
+                  "Type": "Normal",
+                  "Path": "ClubRecordUI/club_record_sel_dark.png",
+                  "Plist": ""
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 212,
+                "Scale9Height": 62,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 422.4,
+                  "Y": 634.5713
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PrePosition": {
+                  "X": 0.33,
+                  "Y": 0.8813
+                },
+                "PreSize": {
+                  "X": 0.1891,
+                  "Y": 0.1167
+                },
+                "LeftMargin": 301.4,
+                "RightMargin": 736.6,
+                "TopMargin": 43.4287,
+                "BottomMargin": 592.5713,
+                "Tag": 108,
+                "Children": [
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "ClubRecordUI/club_record_all.png",
+                      "Plist": ""
+                    },
+                    "Scale9OriginX": 79,
+                    "Scale9OriginY": 27,
+                    "Scale9Width": 84,
+                    "Scale9Height": 30,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 121.0,
+                      "Y": 42.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.5
+                    },
+                    "PreSize": {
+                      "X": 1.0,
+                      "Y": 1.0
+                    },
+                    "Tag": 113,
+                    "ActionTag": -1444107619,
+                    "Size": {
+                      "X": 242.0,
+                      "Y": 84.0
+                    },
+                    "Name": "Image_18",
+                    "ctype": "ImageViewObjectData"
+                  }
+                ],
+                "ActionTag": -748005163,
+                "Size": {
+                  "X": 242.0,
+                  "Y": 84.0
+                },
+                "Name": "record_all_btn",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "DisabledFileData": {
+                  "Type": "Normal",
+                  "Path": "ClubRecordUI/club_record_sel_light.png",
+                  "Plist": ""
+                },
+                "PressedFileData": {
+                  "Type": "Normal",
+                  "Path": "ClubRecordUI/club_record_sel_dark.png",
+                  "Plist": ""
+                },
+                "NormalFileData": {
+                  "Type": "Normal",
+                  "Path": "ClubRecordUI/club_record_sel_dark.png",
+                  "Plist": ""
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 212,
+                "Scale9Height": 62,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 640.0,
+                  "Y": 632.5713
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.8786
+                },
+                "PreSize": {
+                  "X": 0.1891,
+                  "Y": 0.1167
+                },
+                "LeftMargin": 519.0,
+                "RightMargin": 519.0,
+                "TopMargin": 45.4287,
+                "BottomMargin": 590.5713,
+                "Tag": 114,
+                "Children": [
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "ClubRecordUI/club_record_yesterday.png",
+                      "Plist": ""
+                    },
+                    "Scale9OriginX": 79,
+                    "Scale9OriginY": 27,
+                    "Scale9Width": 84,
+                    "Scale9Height": 30,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 121.0,
+                      "Y": 42.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.5
+                    },
+                    "PreSize": {
+                      "X": 1.0,
+                      "Y": 1.0
+                    },
+                    "Tag": 115,
+                    "ActionTag": 232409909,
+                    "Size": {
+                      "X": 242.0,
+                      "Y": 84.0
+                    },
+                    "Name": "Image_18",
+                    "ctype": "ImageViewObjectData"
+                  }
+                ],
+                "ActionTag": -782210331,
+                "Size": {
+                  "X": 242.0,
+                  "Y": 84.0
+                },
+                "Name": "record_yesterday_btn",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "DisabledFileData": {
+                  "Type": "Normal",
+                  "Path": "ClubRecordUI/club_record_sel_light.png",
+                  "Plist": ""
+                },
+                "PressedFileData": {
+                  "Type": "Normal",
+                  "Path": "ClubRecordUI/club_record_sel_dark.png",
+                  "Plist": ""
+                },
+                "NormalFileData": {
+                  "Type": "Normal",
+                  "Path": "ClubRecordUI/club_record_sel_dark.png",
+                  "Plist": ""
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 212,
+                "Scale9Height": 62,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 857.6,
+                  "Y": 634.5713
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PrePosition": {
+                  "X": 0.67,
+                  "Y": 0.8813
+                },
+                "PreSize": {
+                  "X": 0.1891,
+                  "Y": 0.1167
+                },
+                "LeftMargin": 736.6,
+                "RightMargin": 301.4,
+                "TopMargin": 43.4287,
+                "BottomMargin": 592.5713,
+                "Tag": 116,
+                "Children": [
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "ClubRecordUI/club_record_mine.png",
+                      "Plist": ""
+                    },
+                    "Scale9OriginX": 79,
+                    "Scale9OriginY": 27,
+                    "Scale9Width": 84,
+                    "Scale9Height": 30,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 121.0,
+                      "Y": 42.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.5
+                    },
+                    "PreSize": {
+                      "X": 1.0,
+                      "Y": 1.0
+                    },
+                    "Tag": 117,
+                    "ActionTag": 360921925,
+                    "Size": {
+                      "X": 242.0,
+                      "Y": 84.0
+                    },
+                    "Name": "Image_18",
+                    "ctype": "ImageViewObjectData"
+                  }
+                ],
+                "ActionTag": 2017300910,
+                "Size": {
+                  "X": 242.0,
+                  "Y": 84.0
+                },
+                "Name": "record_mine_btn",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "IsBounceEnabled": true,
+                "InnerNodeSize": {
+                  "Width": 1180,
+                  "Height": 575
+                },
+                "ScrollDirectionType": "Vertical",
+                "ClipAble": true,
+                "BackColorAlpha": 102,
+                "SingleColor": {
+                  "G": 150,
+                  "B": 100
+                },
+                "FirstColor": {
+                  "G": 150,
+                  "B": 100
+                },
+                "EndColor": {},
+                "ColorVector": {
+                  "ScaleY": 1.0
+                },
+                "Scale9Width": 1,
+                "Scale9Height": 1,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5
+                },
+                "Position": {
+                  "X": 640.0,
+                  "Y": 21.5
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.0299
+                },
+                "PreSize": {
+                  "X": 0.9219,
+                  "Y": 0.7986
+                },
+                "LeftMargin": 50.0,
+                "RightMargin": 50.0,
+                "TopMargin": 123.5,
+                "BottomMargin": 21.5,
+                "Tag": 118,
+                "Children": [
+                  {
+                    "ClipAble": false,
+                    "BackColorAlpha": 102,
+                    "SingleColor": {
+                      "R": 150,
+                      "G": 200
+                    },
+                    "FirstColor": {
+                      "R": 150,
+                      "G": 200
+                    },
+                    "EndColor": {},
+                    "ColorVector": {
+                      "ScaleY": 1.0
+                    },
+                    "Scale9Width": 1,
+                    "Scale9Height": 1,
+                    "AnchorPoint": {},
+                    "Position": {
+                      "X": 0.0,
+                      "Y": -1.0509
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": -0.0018
+                    },
+                    "PercentWidthEnable": true,
+                    "PercentWidthEnabled": true,
+                    "PreSize": {
+                      "X": 1.0,
+                      "Y": 0.1739
+                    },
+                    "TopMargin": 476.0509,
+                    "BottomMargin": -1.0509,
+                    "Tag": 119,
+                    "Children": [
+                      {
+                        "FileData": {
+                          "Type": "Normal",
+                          "Path": "ClubRecordUI/club_record_cell_bg.png",
+                          "Plist": ""
+                        },
+                        "Scale9OriginX": 376,
+                        "Scale9OriginY": 31,
+                        "Scale9Width": 388,
+                        "Scale9Height": 1,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5
+                        },
+                        "Position": {
+                          "X": 590.0,
+                          "Y": 0.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PositionPercentXEnabled": true,
+                        "PrePosition": {
+                          "X": 0.5,
+                          "Y": 0.0
+                        },
+                        "PreSize": {
+                          "X": 0.9661,
+                          "Y": 0.63
+                        },
+                        "LeftMargin": 20.0,
+                        "RightMargin": 20.0,
+                        "TopMargin": 37.0,
+                        "Tag": 120,
+                        "ActionTag": -1029986982,
+                        "Size": {
+                          "X": 1140.0,
+                          "Y": 63.0
+                        },
+                        "Name": "Image_21",
+                        "ctype": "ImageViewObjectData"
+                      },
+                      {
+                        "FontSize": 22,
+                        "LabelText": "房号:1234567",
+                        "FontResource": {
+                          "Type": "Normal",
+                          "Path": "font/zhunyuan.ttf",
+                          "Plist": ""
+                        },
+                        "HorizontalAlignmentType": "HT_Center",
+                        "OutlineColor": {
+                          "G": 0,
+                          "B": 0
+                        },
+                        "ShadowColor": {
+                          "R": 110,
+                          "G": 110,
+                          "B": 110
+                        },
+                        "ShadowOffsetX": 2.0,
+                        "ShadowOffsetY": -2.0,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 95.0,
+                          "Y": 80.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {
+                          "R": 196,
+                          "G": 135,
+                          "B": 69
+                        },
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 0.0805,
+                          "Y": 0.8
+                        },
+                        "PreSize": {
+                          "X": 0.1119,
+                          "Y": 0.25
+                        },
+                        "LeftMargin": 29.0,
+                        "RightMargin": 1019.0,
+                        "TopMargin": 7.5,
+                        "BottomMargin": 67.5,
+                        "Tag": 123,
+                        "ActionTag": -882994601,
+                        "Size": {
+                          "X": 132.0,
+                          "Y": 25.0
+                        },
+                        "Name": "room_id_label",
+                        "ctype": "TextObjectData"
+                      },
+                      {
+                        "FontSize": 22,
+                        "LabelText": "01-01 24:00:00      ",
+                        "FontResource": {
+                          "Type": "Normal",
+                          "Path": "font/zhunyuan.ttf",
+                          "Plist": ""
+                        },
+                        "OutlineColor": {
+                          "G": 0,
+                          "B": 0
+                        },
+                        "ShadowColor": {
+                          "R": 110,
+                          "G": 110,
+                          "B": 110
+                        },
+                        "ShadowOffsetX": 2.0,
+                        "ShadowOffsetY": -2.0,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 95.0,
+                          "Y": 31.5
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {
+                          "R": 196,
+                          "G": 135,
+                          "B": 69
+                        },
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 0.0805,
+                          "Y": 0.315
+                        },
+                        "PreSize": {
+                          "X": 0.1466,
+                          "Y": 0.25
+                        },
+                        "LeftMargin": 8.5,
+                        "RightMargin": 998.5,
+                        "TopMargin": 56.0,
+                        "BottomMargin": 19.0,
+                        "Tag": 129,
+                        "ActionTag": -1121202191,
+                        "Size": {
+                          "X": 173.0,
+                          "Y": 25.0
+                        },
+                        "Name": "time_label",
+                        "ctype": "TextObjectData"
+                      },
+                      {
+                        "IsCustomSize": true,
+                        "FontSize": 22,
+                        "LabelText": "此处只有七个字(1234567)",
+                        "FontResource": {
+                          "Type": "Normal",
+                          "Path": "font/zhunyuan.ttf",
+                          "Plist": ""
+                        },
+                        "HorizontalAlignmentType": "HT_Center",
+                        "OutlineColor": {
+                          "G": 0,
+                          "B": 0
+                        },
+                        "ShadowColor": {
+                          "R": 110,
+                          "G": 110,
+                          "B": 110
+                        },
+                        "ShadowOffsetX": 2.0,
+                        "ShadowOffsetY": -2.0,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 320.0,
+                          "Y": 80.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {
+                          "R": 196,
+                          "G": 135,
+                          "B": 69
+                        },
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 0.2712,
+                          "Y": 0.8
+                        },
+                        "PreSize": {
+                          "X": 0.2288,
+                          "Y": 0.25
+                        },
+                        "LeftMargin": 185.0,
+                        "RightMargin": 725.0,
+                        "TopMargin": 7.5,
+                        "BottomMargin": 67.5,
+                        "Tag": 130,
+                        "ActionTag": -775639891,
+                        "Size": {
+                          "X": 270.0,
+                          "Y": 25.0
+                        },
+                        "Name": "name_label_0",
+                        "ctype": "TextObjectData"
+                      },
+                      {
+                        "IsCustomSize": true,
+                        "FontSize": 22,
+                        "LabelText": "此处只有七个字(1234567)",
+                        "FontResource": {
+                          "Type": "Normal",
+                          "Path": "font/zhunyuan.ttf",
+                          "Plist": ""
+                        },
+                        "HorizontalAlignmentType": "HT_Center",
+                        "OutlineColor": {
+                          "G": 0,
+                          "B": 0
+                        },
+                        "ShadowColor": {
+                          "R": 110,
+                          "G": 110,
+                          "B": 110
+                        },
+                        "ShadowOffsetX": 2.0,
+                        "ShadowOffsetY": -2.0,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 565.0,
+                          "Y": 80.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {
+                          "R": 196,
+                          "G": 135,
+                          "B": 69
+                        },
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 0.4788,
+                          "Y": 0.8
+                        },
+                        "PreSize": {
+                          "X": 0.2288,
+                          "Y": 0.25
+                        },
+                        "LeftMargin": 430.0,
+                        "RightMargin": 480.0,
+                        "TopMargin": 7.5,
+                        "BottomMargin": 67.5,
+                        "Tag": 135,
+                        "ActionTag": -721902515,
+                        "Size": {
+                          "X": 270.0,
+                          "Y": 25.0
+                        },
+                        "Name": "name_label_1",
+                        "ctype": "TextObjectData"
+                      },
+                      {
+                        "IsCustomSize": true,
+                        "FontSize": 22,
+                        "LabelText": "此处只有七个字(1234567)",
+                        "FontResource": {
+                          "Type": "Normal",
+                          "Path": "font/zhunyuan.ttf",
+                          "Plist": ""
+                        },
+                        "HorizontalAlignmentType": "HT_Center",
+                        "OutlineColor": {
+                          "G": 0,
+                          "B": 0
+                        },
+                        "ShadowColor": {
+                          "R": 110,
+                          "G": 110,
+                          "B": 110
+                        },
+                        "ShadowOffsetX": 2.0,
+                        "ShadowOffsetY": -2.0,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 810.0,
+                          "Y": 80.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {
+                          "R": 196,
+                          "G": 135,
+                          "B": 69
+                        },
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 0.6864,
+                          "Y": 0.8
+                        },
+                        "PreSize": {
+                          "X": 0.2288,
+                          "Y": 0.25
+                        },
+                        "LeftMargin": 675.0,
+                        "RightMargin": 235.0,
+                        "TopMargin": 7.5,
+                        "BottomMargin": 67.5,
+                        "Tag": 136,
+                        "ActionTag": 836140383,
+                        "Size": {
+                          "X": 270.0,
+                          "Y": 25.0
+                        },
+                        "Name": "name_label_2",
+                        "ctype": "TextObjectData"
+                      },
+                      {
+                        "IsCustomSize": true,
+                        "FontSize": 22,
+                        "LabelText": "此处只有七个字(1234567)",
+                        "FontResource": {
+                          "Type": "Normal",
+                          "Path": "font/zhunyuan.ttf",
+                          "Plist": ""
+                        },
+                        "HorizontalAlignmentType": "HT_Center",
+                        "OutlineColor": {
+                          "G": 0,
+                          "B": 0
+                        },
+                        "ShadowColor": {
+                          "R": 110,
+                          "G": 110,
+                          "B": 110
+                        },
+                        "ShadowOffsetX": 2.0,
+                        "ShadowOffsetY": -2.0,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 1055.0,
+                          "Y": 80.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {
+                          "R": 196,
+                          "G": 135,
+                          "B": 69
+                        },
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 0.8941,
+                          "Y": 0.8
+                        },
+                        "PreSize": {
+                          "X": 0.2288,
+                          "Y": 0.25
+                        },
+                        "LeftMargin": 920.0,
+                        "RightMargin": -10.0,
+                        "TopMargin": 7.5,
+                        "BottomMargin": 67.5,
+                        "Tag": 137,
+                        "ActionTag": -336074283,
+                        "Size": {
+                          "X": 270.0,
+                          "Y": 25.0
+                        },
+                        "Name": "name_label_3",
+                        "ctype": "TextObjectData"
+                      },
+                      {
+                        "IsCustomSize": true,
+                        "FontSize": 26,
+                        "LabelText": "99999 ",
+                        "FontResource": {
+                          "Type": "Normal",
+                          "Path": "font/zhunyuan.ttf",
+                          "Plist": ""
+                        },
+                        "HorizontalAlignmentType": "HT_Center",
+                        "OutlineColor": {
+                          "G": 0,
+                          "B": 0
+                        },
+                        "ShadowColor": {
+                          "R": 110,
+                          "G": 110,
+                          "B": 110
+                        },
+                        "ShadowOffsetX": 2.0,
+                        "ShadowOffsetY": -2.0,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 320.0,
+                          "Y": 31.5
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 0.2712,
+                          "Y": 0.315
+                        },
+                        "PreSize": {
+                          "X": 0.089,
+                          "Y": 0.3
+                        },
+                        "LeftMargin": 267.5,
+                        "RightMargin": 807.5,
+                        "TopMargin": 53.5,
+                        "BottomMargin": 16.5,
+                        "Tag": 138,
+                        "ActionTag": 996851350,
+                        "Size": {
+                          "X": 105.0,
+                          "Y": 30.0
+                        },
+                        "Name": "score_label_0",
+                        "ctype": "TextObjectData"
+                      },
+                      {
+                        "IsCustomSize": true,
+                        "FontSize": 26,
+                        "LabelText": "99999 ",
+                        "FontResource": {
+                          "Type": "Normal",
+                          "Path": "font/zhunyuan.ttf",
+                          "Plist": ""
+                        },
+                        "HorizontalAlignmentType": "HT_Center",
+                        "OutlineColor": {
+                          "G": 0,
+                          "B": 0
+                        },
+                        "ShadowColor": {
+                          "R": 110,
+                          "G": 110,
+                          "B": 110
+                        },
+                        "ShadowOffsetX": 2.0,
+                        "ShadowOffsetY": -2.0,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 565.0,
+                          "Y": 31.5
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 0.4788,
+                          "Y": 0.315
+                        },
+                        "PreSize": {
+                          "X": 0.089,
+                          "Y": 0.3
+                        },
+                        "LeftMargin": 512.5,
+                        "RightMargin": 562.5,
+                        "TopMargin": 53.5,
+                        "BottomMargin": 16.5,
+                        "Tag": 139,
+                        "ActionTag": 138141464,
+                        "Size": {
+                          "X": 105.0,
+                          "Y": 30.0
+                        },
+                        "Name": "score_label_1",
+                        "ctype": "TextObjectData"
+                      },
+                      {
+                        "IsCustomSize": true,
+                        "FontSize": 26,
+                        "LabelText": "99999 ",
+                        "FontResource": {
+                          "Type": "Normal",
+                          "Path": "font/zhunyuan.ttf",
+                          "Plist": ""
+                        },
+                        "HorizontalAlignmentType": "HT_Center",
+                        "OutlineColor": {
+                          "G": 0,
+                          "B": 0
+                        },
+                        "ShadowColor": {
+                          "R": 110,
+                          "G": 110,
+                          "B": 110
+                        },
+                        "ShadowOffsetX": 2.0,
+                        "ShadowOffsetY": -2.0,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 1055.0,
+                          "Y": 31.5
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 0.8941,
+                          "Y": 0.315
+                        },
+                        "PreSize": {
+                          "X": 0.089,
+                          "Y": 0.3
+                        },
+                        "LeftMargin": 1002.5,
+                        "RightMargin": 72.5,
+                        "TopMargin": 53.5,
+                        "BottomMargin": 16.5,
+                        "Tag": 140,
+                        "ActionTag": 873872955,
+                        "Size": {
+                          "X": 105.0,
+                          "Y": 30.0
+                        },
+                        "Name": "score_label_3",
+                        "ctype": "TextObjectData"
+                      },
+                      {
+                        "IsCustomSize": true,
+                        "FontSize": 26,
+                        "LabelText": "99999 ",
+                        "FontResource": {
+                          "Type": "Normal",
+                          "Path": "font/zhunyuan.ttf",
+                          "Plist": ""
+                        },
+                        "HorizontalAlignmentType": "HT_Center",
+                        "OutlineColor": {
+                          "G": 0,
+                          "B": 0
+                        },
+                        "ShadowColor": {
+                          "R": 110,
+                          "G": 110,
+                          "B": 110
+                        },
+                        "ShadowOffsetX": 2.0,
+                        "ShadowOffsetY": -2.0,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 810.0,
+                          "Y": 31.5
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 0.6864,
+                          "Y": 0.315
+                        },
+                        "PreSize": {
+                          "X": 0.089,
+                          "Y": 0.3
+                        },
+                        "LeftMargin": 757.5,
+                        "RightMargin": 317.5,
+                        "TopMargin": 53.5,
+                        "BottomMargin": 16.5,
+                        "Tag": 141,
+                        "ActionTag": -1290494090,
+                        "Size": {
+                          "X": 105.0,
+                          "Y": 30.0
+                        },
+                        "Name": "score_label_2",
+                        "ctype": "TextObjectData"
+                      }
+                    ],
+                    "ActionTag": -1507776916,
+                    "Size": {
+                      "X": 1180.0,
+                      "Y": 100.0
+                    },
+                    "VisibleForFrame": false,
+                    "Name": "item_panel",
+                    "ctype": "PanelObjectData"
+                  }
+                ],
+                "ActionTag": 1113276272,
+                "Size": {
+                  "X": 1180.0,
+                  "Y": 575.0
+                },
+                "Name": "record_all_scroll",
+                "ctype": "ScrollViewObjectData"
+              },
+              {
+                "IsBounceEnabled": true,
+                "InnerNodeSize": {
+                  "Width": 1180,
+                  "Height": 575
+                },
+                "ScrollDirectionType": "Vertical",
+                "ClipAble": true,
+                "BackColorAlpha": 102,
+                "SingleColor": {
+                  "G": 150,
+                  "B": 100
+                },
+                "FirstColor": {
+                  "G": 150,
+                  "B": 100
+                },
+                "EndColor": {},
+                "ColorVector": {
+                  "ScaleY": 1.0
+                },
+                "Scale9Width": 1,
+                "Scale9Height": 1,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5
+                },
+                "Position": {
+                  "X": 640.0,
+                  "Y": 21.5
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.0299
+                },
+                "PreSize": {
+                  "X": 0.9219,
+                  "Y": 0.7986
+                },
+                "LeftMargin": 50.0,
+                "RightMargin": 50.0,
+                "TopMargin": 123.5,
+                "BottomMargin": 21.5,
+                "Tag": 361,
+                "Children": [
+                  {
+                    "ClipAble": false,
+                    "BackColorAlpha": 102,
+                    "SingleColor": {
+                      "R": 150,
+                      "G": 200
+                    },
+                    "FirstColor": {
+                      "R": 150,
+                      "G": 200
+                    },
+                    "EndColor": {},
+                    "ColorVector": {
+                      "ScaleY": 1.0
+                    },
+                    "Scale9Width": 1,
+                    "Scale9Height": 1,
+                    "AnchorPoint": {},
+                    "Position": {
+                      "X": 0.0,
+                      "Y": -1.0509
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": -0.0018
+                    },
+                    "PercentWidthEnable": true,
+                    "PercentWidthEnabled": true,
+                    "PreSize": {
+                      "X": 1.0,
+                      "Y": 0.1739
+                    },
+                    "TopMargin": 476.0509,
+                    "BottomMargin": -1.0509,
+                    "Tag": 362,
+                    "Children": [
+                      {
+                        "FileData": {
+                          "Type": "Normal",
+                          "Path": "ClubRecordUI/club_record_cell_bg.png",
+                          "Plist": ""
+                        },
+                        "Scale9OriginX": 376,
+                        "Scale9OriginY": 31,
+                        "Scale9Width": 388,
+                        "Scale9Height": 1,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5
+                        },
+                        "Position": {
+                          "X": 590.0,
+                          "Y": 0.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PositionPercentXEnabled": true,
+                        "PrePosition": {
+                          "X": 0.5,
+                          "Y": 0.0
+                        },
+                        "PreSize": {
+                          "X": 0.9661,
+                          "Y": 0.63
+                        },
+                        "LeftMargin": 20.0,
+                        "RightMargin": 20.0,
+                        "TopMargin": 37.0,
+                        "Tag": 363,
+                        "ActionTag": 2100016542,
+                        "Size": {
+                          "X": 1140.0,
+                          "Y": 63.0
+                        },
+                        "Name": "Image_21",
+                        "ctype": "ImageViewObjectData"
+                      },
+                      {
+                        "FontSize": 22,
+                        "LabelText": "房号:1234567",
+                        "FontResource": {
+                          "Type": "Normal",
+                          "Path": "font/zhunyuan.ttf",
+                          "Plist": ""
+                        },
+                        "HorizontalAlignmentType": "HT_Center",
+                        "OutlineColor": {
+                          "G": 0,
+                          "B": 0
+                        },
+                        "ShadowColor": {
+                          "R": 110,
+                          "G": 110,
+                          "B": 110
+                        },
+                        "ShadowOffsetX": 2.0,
+                        "ShadowOffsetY": -2.0,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 95.0,
+                          "Y": 80.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {
+                          "R": 196,
+                          "G": 135,
+                          "B": 69
+                        },
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 0.0805,
+                          "Y": 0.8
+                        },
+                        "PreSize": {
+                          "X": 0.1119,
+                          "Y": 0.25
+                        },
+                        "LeftMargin": 29.0,
+                        "RightMargin": 1019.0,
+                        "TopMargin": 7.5,
+                        "BottomMargin": 67.5,
+                        "Tag": 364,
+                        "ActionTag": 122584816,
+                        "Size": {
+                          "X": 132.0,
+                          "Y": 25.0
+                        },
+                        "Name": "room_id_label",
+                        "ctype": "TextObjectData"
+                      },
+                      {
+                        "FontSize": 22,
+                        "LabelText": "01-01 24:00:00      ",
+                        "FontResource": {
+                          "Type": "Normal",
+                          "Path": "font/zhunyuan.ttf",
+                          "Plist": ""
+                        },
+                        "OutlineColor": {
+                          "G": 0,
+                          "B": 0
+                        },
+                        "ShadowColor": {
+                          "R": 110,
+                          "G": 110,
+                          "B": 110
+                        },
+                        "ShadowOffsetX": 2.0,
+                        "ShadowOffsetY": -2.0,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 95.0,
+                          "Y": 31.5
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {
+                          "R": 196,
+                          "G": 135,
+                          "B": 69
+                        },
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 0.0805,
+                          "Y": 0.315
+                        },
+                        "PreSize": {
+                          "X": 0.1466,
+                          "Y": 0.25
+                        },
+                        "LeftMargin": 8.5,
+                        "RightMargin": 998.5,
+                        "TopMargin": 56.0,
+                        "BottomMargin": 19.0,
+                        "Tag": 365,
+                        "ActionTag": 1046071635,
+                        "Size": {
+                          "X": 173.0,
+                          "Y": 25.0
+                        },
+                        "Name": "time_label",
+                        "ctype": "TextObjectData"
+                      },
+                      {
+                        "IsCustomSize": true,
+                        "FontSize": 22,
+                        "LabelText": "此处只有七个字(1234567)",
+                        "FontResource": {
+                          "Type": "Normal",
+                          "Path": "font/zhunyuan.ttf",
+                          "Plist": ""
+                        },
+                        "HorizontalAlignmentType": "HT_Center",
+                        "OutlineColor": {
+                          "G": 0,
+                          "B": 0
+                        },
+                        "ShadowColor": {
+                          "R": 110,
+                          "G": 110,
+                          "B": 110
+                        },
+                        "ShadowOffsetX": 2.0,
+                        "ShadowOffsetY": -2.0,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 320.0,
+                          "Y": 80.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {
+                          "R": 196,
+                          "G": 135,
+                          "B": 69
+                        },
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 0.2712,
+                          "Y": 0.8
+                        },
+                        "PreSize": {
+                          "X": 0.2288,
+                          "Y": 0.25
+                        },
+                        "LeftMargin": 185.0,
+                        "RightMargin": 725.0,
+                        "TopMargin": 7.5,
+                        "BottomMargin": 67.5,
+                        "Tag": 366,
+                        "ActionTag": -454522252,
+                        "Size": {
+                          "X": 270.0,
+                          "Y": 25.0
+                        },
+                        "Name": "name_label_0",
+                        "ctype": "TextObjectData"
+                      },
+                      {
+                        "IsCustomSize": true,
+                        "FontSize": 22,
+                        "LabelText": "此处只有七个字(1234567) ",
+                        "FontResource": {
+                          "Type": "Normal",
+                          "Path": "font/zhunyuan.ttf",
+                          "Plist": ""
+                        },
+                        "HorizontalAlignmentType": "HT_Center",
+                        "OutlineColor": {
+                          "G": 0,
+                          "B": 0
+                        },
+                        "ShadowColor": {
+                          "R": 110,
+                          "G": 110,
+                          "B": 110
+                        },
+                        "ShadowOffsetX": 2.0,
+                        "ShadowOffsetY": -2.0,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 565.0,
+                          "Y": 80.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {
+                          "R": 196,
+                          "G": 135,
+                          "B": 69
+                        },
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 0.4788,
+                          "Y": 0.8
+                        },
+                        "PreSize": {
+                          "X": 0.2288,
+                          "Y": 0.25
+                        },
+                        "LeftMargin": 430.0,
+                        "RightMargin": 480.0,
+                        "TopMargin": 7.5,
+                        "BottomMargin": 67.5,
+                        "Tag": 367,
+                        "ActionTag": 454034786,
+                        "Size": {
+                          "X": 270.0,
+                          "Y": 25.0
+                        },
+                        "Name": "name_label_1",
+                        "ctype": "TextObjectData"
+                      },
+                      {
+                        "IsCustomSize": true,
+                        "FontSize": 22,
+                        "LabelText": "此处只有七个字(1234567)",
+                        "FontResource": {
+                          "Type": "Normal",
+                          "Path": "font/zhunyuan.ttf",
+                          "Plist": ""
+                        },
+                        "HorizontalAlignmentType": "HT_Center",
+                        "OutlineColor": {
+                          "G": 0,
+                          "B": 0
+                        },
+                        "ShadowColor": {
+                          "R": 110,
+                          "G": 110,
+                          "B": 110
+                        },
+                        "ShadowOffsetX": 2.0,
+                        "ShadowOffsetY": -2.0,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 810.0,
+                          "Y": 80.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {
+                          "R": 196,
+                          "G": 135,
+                          "B": 69
+                        },
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 0.6864,
+                          "Y": 0.8
+                        },
+                        "PreSize": {
+                          "X": 0.2288,
+                          "Y": 0.25
+                        },
+                        "LeftMargin": 675.0,
+                        "RightMargin": 235.0,
+                        "TopMargin": 7.5,
+                        "BottomMargin": 67.5,
+                        "Tag": 368,
+                        "ActionTag": 1187949607,
+                        "Size": {
+                          "X": 270.0,
+                          "Y": 25.0
+                        },
+                        "Name": "name_label_2",
+                        "ctype": "TextObjectData"
+                      },
+                      {
+                        "IsCustomSize": true,
+                        "FontSize": 22,
+                        "LabelText": "此处只有七个字(1234567)",
+                        "FontResource": {
+                          "Type": "Normal",
+                          "Path": "font/zhunyuan.ttf",
+                          "Plist": ""
+                        },
+                        "HorizontalAlignmentType": "HT_Center",
+                        "OutlineColor": {
+                          "G": 0,
+                          "B": 0
+                        },
+                        "ShadowColor": {
+                          "R": 110,
+                          "G": 110,
+                          "B": 110
+                        },
+                        "ShadowOffsetX": 2.0,
+                        "ShadowOffsetY": -2.0,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 1055.0,
+                          "Y": 80.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {
+                          "R": 196,
+                          "G": 135,
+                          "B": 69
+                        },
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 0.8941,
+                          "Y": 0.8
+                        },
+                        "PreSize": {
+                          "X": 0.2288,
+                          "Y": 0.25
+                        },
+                        "LeftMargin": 920.0,
+                        "RightMargin": -10.0,
+                        "TopMargin": 7.5,
+                        "BottomMargin": 67.5,
+                        "Tag": 369,
+                        "ActionTag": -985763273,
+                        "Size": {
+                          "X": 270.0,
+                          "Y": 25.0
+                        },
+                        "Name": "name_label_3",
+                        "ctype": "TextObjectData"
+                      },
+                      {
+                        "IsCustomSize": true,
+                        "FontSize": 26,
+                        "LabelText": "99999      ",
+                        "FontResource": {
+                          "Type": "Normal",
+                          "Path": "font/zhunyuan.ttf",
+                          "Plist": ""
+                        },
+                        "HorizontalAlignmentType": "HT_Center",
+                        "OutlineColor": {
+                          "G": 0,
+                          "B": 0
+                        },
+                        "ShadowColor": {
+                          "R": 110,
+                          "G": 110,
+                          "B": 110
+                        },
+                        "ShadowOffsetX": 2.0,
+                        "ShadowOffsetY": -2.0,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 320.0,
+                          "Y": 31.5
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 0.2712,
+                          "Y": 0.315
+                        },
+                        "PreSize": {
+                          "X": 0.089,
+                          "Y": 0.3
+                        },
+                        "LeftMargin": 267.5,
+                        "RightMargin": 807.5,
+                        "TopMargin": 53.5,
+                        "BottomMargin": 16.5,
+                        "Tag": 370,
+                        "ActionTag": 1069854799,
+                        "Size": {
+                          "X": 105.0,
+                          "Y": 30.0
+                        },
+                        "Name": "score_label_0",
+                        "ctype": "TextObjectData"
+                      },
+                      {
+                        "IsCustomSize": true,
+                        "FontSize": 26,
+                        "LabelText": "99999 ",
+                        "FontResource": {
+                          "Type": "Normal",
+                          "Path": "font/zhunyuan.ttf",
+                          "Plist": ""
+                        },
+                        "HorizontalAlignmentType": "HT_Center",
+                        "OutlineColor": {
+                          "G": 0,
+                          "B": 0
+                        },
+                        "ShadowColor": {
+                          "R": 110,
+                          "G": 110,
+                          "B": 110
+                        },
+                        "ShadowOffsetX": 2.0,
+                        "ShadowOffsetY": -2.0,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 565.0,
+                          "Y": 31.5
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 0.4788,
+                          "Y": 0.315
+                        },
+                        "PreSize": {
+                          "X": 0.089,
+                          "Y": 0.3
+                        },
+                        "LeftMargin": 512.5,
+                        "RightMargin": 562.5,
+                        "TopMargin": 53.5,
+                        "BottomMargin": 16.5,
+                        "Tag": 371,
+                        "ActionTag": -930839772,
+                        "Size": {
+                          "X": 105.0,
+                          "Y": 30.0
+                        },
+                        "Name": "score_label_1",
+                        "ctype": "TextObjectData"
+                      },
+                      {
+                        "IsCustomSize": true,
+                        "FontSize": 26,
+                        "LabelText": "99999 ",
+                        "FontResource": {
+                          "Type": "Normal",
+                          "Path": "font/zhunyuan.ttf",
+                          "Plist": ""
+                        },
+                        "HorizontalAlignmentType": "HT_Center",
+                        "OutlineColor": {
+                          "G": 0,
+                          "B": 0
+                        },
+                        "ShadowColor": {
+                          "R": 110,
+                          "G": 110,
+                          "B": 110
+                        },
+                        "ShadowOffsetX": 2.0,
+                        "ShadowOffsetY": -2.0,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 1055.0,
+                          "Y": 31.5
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 0.8941,
+                          "Y": 0.315
+                        },
+                        "PreSize": {
+                          "X": 0.089,
+                          "Y": 0.3
+                        },
+                        "LeftMargin": 1002.5,
+                        "RightMargin": 72.5,
+                        "TopMargin": 53.5,
+                        "BottomMargin": 16.5,
+                        "Tag": 372,
+                        "ActionTag": -1275572890,
+                        "Size": {
+                          "X": 105.0,
+                          "Y": 30.0
+                        },
+                        "Name": "score_label_3",
+                        "ctype": "TextObjectData"
+                      },
+                      {
+                        "IsCustomSize": true,
+                        "FontSize": 26,
+                        "LabelText": "99999 ",
+                        "FontResource": {
+                          "Type": "Normal",
+                          "Path": "font/zhunyuan.ttf",
+                          "Plist": ""
+                        },
+                        "HorizontalAlignmentType": "HT_Center",
+                        "OutlineColor": {
+                          "G": 0,
+                          "B": 0
+                        },
+                        "ShadowColor": {
+                          "R": 110,
+                          "G": 110,
+                          "B": 110
+                        },
+                        "ShadowOffsetX": 2.0,
+                        "ShadowOffsetY": -2.0,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 810.0,
+                          "Y": 31.5
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 0.6864,
+                          "Y": 0.315
+                        },
+                        "PreSize": {
+                          "X": 0.089,
+                          "Y": 0.3
+                        },
+                        "LeftMargin": 757.5,
+                        "RightMargin": 317.5,
+                        "TopMargin": 53.5,
+                        "BottomMargin": 16.5,
+                        "Tag": 373,
+                        "ActionTag": -924081499,
+                        "Size": {
+                          "X": 105.0,
+                          "Y": 30.0
+                        },
+                        "Name": "score_label_2",
+                        "ctype": "TextObjectData"
+                      }
+                    ],
+                    "ActionTag": 958794790,
+                    "Size": {
+                      "X": 1180.0,
+                      "Y": 100.0
+                    },
+                    "VisibleForFrame": false,
+                    "Name": "item_panel",
+                    "ctype": "PanelObjectData"
+                  }
+                ],
+                "ActionTag": -2015580388,
+                "Size": {
+                  "X": 1180.0,
+                  "Y": 575.0
+                },
+                "Name": "record_yesterday_scroll",
+                "ctype": "ScrollViewObjectData"
+              },
+              {
+                "IsBounceEnabled": true,
+                "InnerNodeSize": {
+                  "Width": 1180,
+                  "Height": 575
+                },
+                "ScrollDirectionType": "Vertical",
+                "ClipAble": true,
+                "BackColorAlpha": 102,
+                "SingleColor": {
+                  "G": 150,
+                  "B": 100
+                },
+                "FirstColor": {
+                  "G": 150,
+                  "B": 100
+                },
+                "EndColor": {},
+                "ColorVector": {
+                  "ScaleY": 1.0
+                },
+                "Scale9Width": 1,
+                "Scale9Height": 1,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5
+                },
+                "Position": {
+                  "X": 640.0,
+                  "Y": 21.5
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.0299
+                },
+                "PreSize": {
+                  "X": 0.9219,
+                  "Y": 0.7986
+                },
+                "LeftMargin": 50.0,
+                "RightMargin": 50.0,
+                "TopMargin": 123.5,
+                "BottomMargin": 21.5,
+                "Tag": 374,
+                "Children": [
+                  {
+                    "ClipAble": false,
+                    "BackColorAlpha": 102,
+                    "SingleColor": {
+                      "R": 150,
+                      "G": 200
+                    },
+                    "FirstColor": {
+                      "R": 150,
+                      "G": 200
+                    },
+                    "EndColor": {},
+                    "ColorVector": {
+                      "ScaleY": 1.0
+                    },
+                    "Scale9Width": 1,
+                    "Scale9Height": 1,
+                    "AnchorPoint": {},
+                    "Position": {
+                      "X": 0.0,
+                      "Y": -1.0509
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": -0.0018
+                    },
+                    "PercentWidthEnable": true,
+                    "PercentWidthEnabled": true,
+                    "PreSize": {
+                      "X": 1.0,
+                      "Y": 0.1739
+                    },
+                    "TopMargin": 476.0509,
+                    "BottomMargin": -1.0509,
+                    "Tag": 375,
+                    "Children": [
+                      {
+                        "FileData": {
+                          "Type": "Normal",
+                          "Path": "ClubRecordUI/club_record_cell_bg.png",
+                          "Plist": ""
+                        },
+                        "Scale9OriginX": 376,
+                        "Scale9OriginY": 31,
+                        "Scale9Width": 388,
+                        "Scale9Height": 1,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5
+                        },
+                        "Position": {
+                          "X": 590.0,
+                          "Y": 0.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PositionPercentXEnabled": true,
+                        "PrePosition": {
+                          "X": 0.5,
+                          "Y": 0.0
+                        },
+                        "PreSize": {
+                          "X": 0.9661,
+                          "Y": 0.63
+                        },
+                        "LeftMargin": 20.0,
+                        "RightMargin": 20.0,
+                        "TopMargin": 37.0,
+                        "Tag": 376,
+                        "ActionTag": -1214715816,
+                        "Size": {
+                          "X": 1140.0,
+                          "Y": 63.0
+                        },
+                        "Name": "Image_21",
+                        "ctype": "ImageViewObjectData"
+                      },
+                      {
+                        "FontSize": 22,
+                        "LabelText": "房号:1234567",
+                        "FontResource": {
+                          "Type": "Normal",
+                          "Path": "font/zhunyuan.ttf",
+                          "Plist": ""
+                        },
+                        "HorizontalAlignmentType": "HT_Center",
+                        "OutlineColor": {
+                          "G": 0,
+                          "B": 0
+                        },
+                        "ShadowColor": {
+                          "R": 110,
+                          "G": 110,
+                          "B": 110
+                        },
+                        "ShadowOffsetX": 2.0,
+                        "ShadowOffsetY": -2.0,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 95.0,
+                          "Y": 80.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {
+                          "R": 196,
+                          "G": 135,
+                          "B": 69
+                        },
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 0.0805,
+                          "Y": 0.8
+                        },
+                        "PreSize": {
+                          "X": 0.1119,
+                          "Y": 0.25
+                        },
+                        "LeftMargin": 29.0,
+                        "RightMargin": 1019.0,
+                        "TopMargin": 7.5,
+                        "BottomMargin": 67.5,
+                        "Tag": 377,
+                        "ActionTag": 2067635762,
+                        "Size": {
+                          "X": 132.0,
+                          "Y": 25.0
+                        },
+                        "Name": "room_id_label",
+                        "ctype": "TextObjectData"
+                      },
+                      {
+                        "FontSize": 22,
+                        "LabelText": "01-01 24:00:00      ",
+                        "FontResource": {
+                          "Type": "Normal",
+                          "Path": "font/zhunyuan.ttf",
+                          "Plist": ""
+                        },
+                        "OutlineColor": {
+                          "G": 0,
+                          "B": 0
+                        },
+                        "ShadowColor": {
+                          "R": 110,
+                          "G": 110,
+                          "B": 110
+                        },
+                        "ShadowOffsetX": 2.0,
+                        "ShadowOffsetY": -2.0,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 95.0,
+                          "Y": 31.5
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {
+                          "R": 196,
+                          "G": 135,
+                          "B": 69
+                        },
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 0.0805,
+                          "Y": 0.315
+                        },
+                        "PreSize": {
+                          "X": 0.1466,
+                          "Y": 0.25
+                        },
+                        "LeftMargin": 8.5,
+                        "RightMargin": 998.5,
+                        "TopMargin": 56.0,
+                        "BottomMargin": 19.0,
+                        "Tag": 378,
+                        "ActionTag": 614016750,
+                        "Size": {
+                          "X": 173.0,
+                          "Y": 25.0
+                        },
+                        "Name": "time_label",
+                        "ctype": "TextObjectData"
+                      },
+                      {
+                        "IsCustomSize": true,
+                        "FontSize": 22,
+                        "LabelText": "此处只有七个字(1234567)   ",
+                        "FontResource": {
+                          "Type": "Normal",
+                          "Path": "font/zhunyuan.ttf",
+                          "Plist": ""
+                        },
+                        "HorizontalAlignmentType": "HT_Center",
+                        "OutlineColor": {
+                          "G": 0,
+                          "B": 0
+                        },
+                        "ShadowColor": {
+                          "R": 110,
+                          "G": 110,
+                          "B": 110
+                        },
+                        "ShadowOffsetX": 2.0,
+                        "ShadowOffsetY": -2.0,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 320.0,
+                          "Y": 80.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {
+                          "R": 196,
+                          "G": 135,
+                          "B": 69
+                        },
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 0.2712,
+                          "Y": 0.8
+                        },
+                        "PreSize": {
+                          "X": 0.2288,
+                          "Y": 0.25
+                        },
+                        "LeftMargin": 185.0,
+                        "RightMargin": 725.0,
+                        "TopMargin": 7.5,
+                        "BottomMargin": 67.5,
+                        "Tag": 379,
+                        "ActionTag": -1065053444,
+                        "Size": {
+                          "X": 270.0,
+                          "Y": 25.0
+                        },
+                        "Name": "name_label_0",
+                        "ctype": "TextObjectData"
+                      },
+                      {
+                        "IsCustomSize": true,
+                        "FontSize": 22,
+                        "LabelText": "此处只有七个字(1234567)   ",
+                        "FontResource": {
+                          "Type": "Normal",
+                          "Path": "font/zhunyuan.ttf",
+                          "Plist": ""
+                        },
+                        "HorizontalAlignmentType": "HT_Center",
+                        "OutlineColor": {
+                          "G": 0,
+                          "B": 0
+                        },
+                        "ShadowColor": {
+                          "R": 110,
+                          "G": 110,
+                          "B": 110
+                        },
+                        "ShadowOffsetX": 2.0,
+                        "ShadowOffsetY": -2.0,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 565.0,
+                          "Y": 80.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {
+                          "R": 196,
+                          "G": 135,
+                          "B": 69
+                        },
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 0.4788,
+                          "Y": 0.8
+                        },
+                        "PreSize": {
+                          "X": 0.2288,
+                          "Y": 0.25
+                        },
+                        "LeftMargin": 430.0,
+                        "RightMargin": 480.0,
+                        "TopMargin": 7.5,
+                        "BottomMargin": 67.5,
+                        "Tag": 380,
+                        "ActionTag": -675280021,
+                        "Size": {
+                          "X": 270.0,
+                          "Y": 25.0
+                        },
+                        "Name": "name_label_1",
+                        "ctype": "TextObjectData"
+                      },
+                      {
+                        "IsCustomSize": true,
+                        "FontSize": 22,
+                        "LabelText": "此处只有七个字(1234567)   ",
+                        "FontResource": {
+                          "Type": "Normal",
+                          "Path": "font/zhunyuan.ttf",
+                          "Plist": ""
+                        },
+                        "HorizontalAlignmentType": "HT_Center",
+                        "OutlineColor": {
+                          "G": 0,
+                          "B": 0
+                        },
+                        "ShadowColor": {
+                          "R": 110,
+                          "G": 110,
+                          "B": 110
+                        },
+                        "ShadowOffsetX": 2.0,
+                        "ShadowOffsetY": -2.0,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 810.0,
+                          "Y": 80.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {
+                          "R": 196,
+                          "G": 135,
+                          "B": 69
+                        },
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 0.6864,
+                          "Y": 0.8
+                        },
+                        "PreSize": {
+                          "X": 0.2288,
+                          "Y": 0.25
+                        },
+                        "LeftMargin": 675.0,
+                        "RightMargin": 235.0,
+                        "TopMargin": 7.5,
+                        "BottomMargin": 67.5,
+                        "Tag": 381,
+                        "ActionTag": 828934621,
+                        "Size": {
+                          "X": 270.0,
+                          "Y": 25.0
+                        },
+                        "Name": "name_label_2",
+                        "ctype": "TextObjectData"
+                      },
+                      {
+                        "IsCustomSize": true,
+                        "FontSize": 22,
+                        "LabelText": "此处只有七个字(1234567)   ",
+                        "FontResource": {
+                          "Type": "Normal",
+                          "Path": "font/zhunyuan.ttf",
+                          "Plist": ""
+                        },
+                        "HorizontalAlignmentType": "HT_Center",
+                        "OutlineColor": {
+                          "G": 0,
+                          "B": 0
+                        },
+                        "ShadowColor": {
+                          "R": 110,
+                          "G": 110,
+                          "B": 110
+                        },
+                        "ShadowOffsetX": 2.0,
+                        "ShadowOffsetY": -2.0,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 1055.0,
+                          "Y": 80.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {
+                          "R": 196,
+                          "G": 135,
+                          "B": 69
+                        },
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 0.8941,
+                          "Y": 0.8
+                        },
+                        "PreSize": {
+                          "X": 0.2288,
+                          "Y": 0.25
+                        },
+                        "LeftMargin": 920.0,
+                        "RightMargin": -10.0,
+                        "TopMargin": 7.5,
+                        "BottomMargin": 67.5,
+                        "Tag": 382,
+                        "ActionTag": 2016659465,
+                        "Size": {
+                          "X": 270.0,
+                          "Y": 25.0
+                        },
+                        "Name": "name_label_3",
+                        "ctype": "TextObjectData"
+                      },
+                      {
+                        "IsCustomSize": true,
+                        "FontSize": 26,
+                        "LabelText": "99999 ",
+                        "FontResource": {
+                          "Type": "Normal",
+                          "Path": "font/zhunyuan.ttf",
+                          "Plist": ""
+                        },
+                        "HorizontalAlignmentType": "HT_Center",
+                        "OutlineColor": {
+                          "G": 0,
+                          "B": 0
+                        },
+                        "ShadowColor": {
+                          "R": 110,
+                          "G": 110,
+                          "B": 110
+                        },
+                        "ShadowOffsetX": 2.0,
+                        "ShadowOffsetY": -2.0,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 320.0,
+                          "Y": 31.5
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 0.2712,
+                          "Y": 0.315
+                        },
+                        "PreSize": {
+                          "X": 0.089,
+                          "Y": 0.3
+                        },
+                        "LeftMargin": 267.5,
+                        "RightMargin": 807.5,
+                        "TopMargin": 53.5,
+                        "BottomMargin": 16.5,
+                        "Tag": 383,
+                        "ActionTag": 698248111,
+                        "Size": {
+                          "X": 105.0,
+                          "Y": 30.0
+                        },
+                        "Name": "score_label_0",
+                        "ctype": "TextObjectData"
+                      },
+                      {
+                        "IsCustomSize": true,
+                        "FontSize": 26,
+                        "LabelText": "99999 ",
+                        "FontResource": {
+                          "Type": "Normal",
+                          "Path": "font/zhunyuan.ttf",
+                          "Plist": ""
+                        },
+                        "HorizontalAlignmentType": "HT_Center",
+                        "OutlineColor": {
+                          "G": 0,
+                          "B": 0
+                        },
+                        "ShadowColor": {
+                          "R": 110,
+                          "G": 110,
+                          "B": 110
+                        },
+                        "ShadowOffsetX": 2.0,
+                        "ShadowOffsetY": -2.0,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 565.0,
+                          "Y": 31.5
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 0.4788,
+                          "Y": 0.315
+                        },
+                        "PreSize": {
+                          "X": 0.089,
+                          "Y": 0.3
+                        },
+                        "LeftMargin": 512.5,
+                        "RightMargin": 562.5,
+                        "TopMargin": 53.5,
+                        "BottomMargin": 16.5,
+                        "Tag": 384,
+                        "ActionTag": -547400189,
+                        "Size": {
+                          "X": 105.0,
+                          "Y": 30.0
+                        },
+                        "Name": "score_label_1",
+                        "ctype": "TextObjectData"
+                      },
+                      {
+                        "IsCustomSize": true,
+                        "FontSize": 26,
+                        "LabelText": "99999 ",
+                        "FontResource": {
+                          "Type": "Normal",
+                          "Path": "font/zhunyuan.ttf",
+                          "Plist": ""
+                        },
+                        "HorizontalAlignmentType": "HT_Center",
+                        "OutlineColor": {
+                          "G": 0,
+                          "B": 0
+                        },
+                        "ShadowColor": {
+                          "R": 110,
+                          "G": 110,
+                          "B": 110
+                        },
+                        "ShadowOffsetX": 2.0,
+                        "ShadowOffsetY": -2.0,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 1055.0,
+                          "Y": 31.5
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 0.8941,
+                          "Y": 0.315
+                        },
+                        "PreSize": {
+                          "X": 0.089,
+                          "Y": 0.3
+                        },
+                        "LeftMargin": 1002.5,
+                        "RightMargin": 72.5,
+                        "TopMargin": 53.5,
+                        "BottomMargin": 16.5,
+                        "Tag": 385,
+                        "ActionTag": 172884883,
+                        "Size": {
+                          "X": 105.0,
+                          "Y": 30.0
+                        },
+                        "Name": "score_label_3",
+                        "ctype": "TextObjectData"
+                      },
+                      {
+                        "IsCustomSize": true,
+                        "FontSize": 26,
+                        "LabelText": "99999 ",
+                        "FontResource": {
+                          "Type": "Normal",
+                          "Path": "font/zhunyuan.ttf",
+                          "Plist": ""
+                        },
+                        "HorizontalAlignmentType": "HT_Center",
+                        "OutlineColor": {
+                          "G": 0,
+                          "B": 0
+                        },
+                        "ShadowColor": {
+                          "R": 110,
+                          "G": 110,
+                          "B": 110
+                        },
+                        "ShadowOffsetX": 2.0,
+                        "ShadowOffsetY": -2.0,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 810.0,
+                          "Y": 31.5
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 0.6864,
+                          "Y": 0.315
+                        },
+                        "PreSize": {
+                          "X": 0.089,
+                          "Y": 0.3
+                        },
+                        "LeftMargin": 757.5,
+                        "RightMargin": 317.5,
+                        "TopMargin": 53.5,
+                        "BottomMargin": 16.5,
+                        "Tag": 386,
+                        "ActionTag": 1568360926,
+                        "Size": {
+                          "X": 105.0,
+                          "Y": 30.0
+                        },
+                        "Name": "score_label_2",
+                        "ctype": "TextObjectData"
+                      }
+                    ],
+                    "ActionTag": -1007168141,
+                    "Size": {
+                      "X": 1180.0,
+                      "Y": 100.0
+                    },
+                    "VisibleForFrame": false,
+                    "Name": "item_panel",
+                    "ctype": "PanelObjectData"
+                  }
+                ],
+                "ActionTag": -583269047,
+                "Size": {
+                  "X": 1180.0,
+                  "Y": 575.0
+                },
+                "Name": "record_mine_scroll",
+                "ctype": "ScrollViewObjectData"
+              }
+            ],
+            "ActionTag": -325899780,
+            "Size": {
+              "X": 1280.0,
+              "Y": 720.0
+            },
+            "Name": "record_panel",
+            "ctype": "PanelObjectData"
+          }
+        ],
+        "Size": {
+          "X": 1280.0,
+          "Y": 720.0
+        },
+        "Name": "Layer",
+        "ctype": "LayerObjectData"
+      },
+      "UsedResources": [
+        "BackGround/record_bg.png",
+        "ClubRecordUI/club_record_all.png",
+        "ClubRecordUI/club_record_bg.png",
+        "ClubRecordUI/club_record_cell_bg.png",
+        "ClubRecordUI/club_record_mine.png",
+        "ClubRecordUI/club_record_sel_dark.png",
+        "ClubRecordUI/club_record_sel_light.png",
+        "ClubRecordUI/club_record_yesterday.png",
+        "Default/back_btn.png",
+        "font/zhunyuan.ttf",
+        "RecordUI/title.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Layer"
+}

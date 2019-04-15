@@ -1,0 +1,31 @@
+<PlistInfoProjectFile>
+  <PropertyGroup Name="butterfly3" Type="Plist" ID="d9a3423e-0323-4d3c-8a46-80842c0a5263" Version="3.10.0.0" />
+  <Content ExportType="Png" SortAlgorithm="MaxRects" PicturePadding="1" AllowRotation="True" AllowAnySize="False" AllowTrim="False" ctype="PlistInfoData">
+    <ImageFiles>
+      <FilePathData Path="Butterfly3UI/butterfly_1.png" />
+      <FilePathData Path="Butterfly3UI/butterfly_10.png" />
+      <FilePathData Path="Butterfly3UI/butterfly_11.png" />
+      <FilePathData Path="Butterfly3UI/butterfly_12.png" />
+      <FilePathData Path="Butterfly3UI/butterfly_13.png" />
+      <FilePathData Path="Butterfly3UI/butterfly_14.png" />
+      <FilePathData Path="Butterfly3UI/butterfly_15.png" />
+      <FilePathData Path="Butterfly3UI/butterfly_16.png" />
+      <FilePathData Path="Butterfly3UI/butterfly_17.png" />
+      <FilePathData Path="Butterfly3UI/butterfly_18.png" />
+      <FilePathData Path="Butterfly3UI/butterfly_19.png" />
+      <FilePathData Path="Butterfly3UI/butterfly_2.png" />
+      <FilePathData Path="Butterfly3UI/butterfly_20.png" />
+      <FilePathData Path="Butterfly3UI/butterfly_21.png" />
+      <FilePathData Path="Butterfly3UI/butterfly_22.png" />
+      <FilePathData Path="Butterfly3UI/butterfly_23.png" />
+      <FilePathData Path="Butterfly3UI/butterfly_3.png" />
+      <FilePathData Path="Butterfly3UI/butterfly_4.png" />
+      <FilePathData Path="Butterfly3UI/butterfly_5.png" />
+      <FilePathData Path="Butterfly3UI/butterfly_6.png" />
+      <FilePathData Path="Butterfly3UI/butterfly_7.png" />
+      <FilePathData Path="Butterfly3UI/butterfly_8.png" />
+      <FilePathData Path="Butterfly3UI/butterfly_9.png" />
+    </ImageFiles>
+    <MaxSize Width="512" Height="512" />
+  </Content>
+</PlistInfoProjectFile>

@@ -1,0 +1,809 @@
+{
+  "ID": "632af0d2-64a3-4edd-91db-9801873ff054",
+  "Version": "3.10.0.0",
+  "Name": "AddMineUI",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 44,
+        "Children": [
+          {
+            "ClipAble": false,
+            "BackColorAlpha": 102,
+            "SingleColor": {
+              "R": 150,
+              "G": 200
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 640.0,
+              "Y": 360.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PositionPercentXEnabled": true,
+            "PositionPercentYEnabled": true,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.5
+            },
+            "PreSize": {
+              "X": 0.7703,
+              "Y": 0.9667
+            },
+            "LeftMargin": 147.0,
+            "RightMargin": 147.0,
+            "TopMargin": 12.0,
+            "BottomMargin": 12.0,
+            "Tag": 45,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "AddMineUI/bg.png",
+                  "Plist": ""
+                },
+                "Scale9OriginX": 325,
+                "Scale9OriginY": 229,
+                "Scale9Width": 336,
+                "Scale9Height": 238,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 493.0,
+                  "Y": 348.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.5
+                },
+                "PreSize": {
+                  "X": 1.0,
+                  "Y": 1.0
+                },
+                "Tag": 46,
+                "ActionTag": -1535360619,
+                "Size": {
+                  "X": 986.0,
+                  "Y": 696.0
+                },
+                "Name": "bg_img",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "NormalFileData": {
+                  "Type": "Normal",
+                  "Path": "AddMineUI/copy_btn.png",
+                  "Plist": ""
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 82,
+                "Scale9Height": 24,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 788.7999,
+                  "Y": 490.68
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.8,
+                  "Y": 0.705
+                },
+                "PreSize": {
+                  "X": 0.1136,
+                  "Y": 0.0661
+                },
+                "LeftMargin": 732.7999,
+                "RightMargin": 141.2001,
+                "TopMargin": 182.32,
+                "BottomMargin": 467.68,
+                "Tag": 47,
+                "ActionTag": -130105753,
+                "Size": {
+                  "X": 112.0,
+                  "Y": 46.0
+                },
+                "Name": "copy_btn",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "PressedFileData": {
+                  "Type": "Normal",
+                  "Path": "Default/close_btn_bright.png",
+                  "Plist": ""
+                },
+                "NormalFileData": {
+                  "Type": "Normal",
+                  "Path": "Default/close_btn.png",
+                  "Plist": ""
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 56,
+                "Scale9Height": 140,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 951.49,
+                  "Y": 574.896
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.965,
+                  "Y": 0.826
+                },
+                "PreSize": {
+                  "X": 0.0872,
+                  "Y": 0.2328
+                },
+                "LeftMargin": 908.49,
+                "RightMargin": -8.49,
+                "TopMargin": 40.104,
+                "BottomMargin": 493.896,
+                "Tag": 48,
+                "ActionTag": -1267154379,
+                "Size": {
+                  "X": 86.0,
+                  "Y": 162.0
+                },
+                "Name": "close_btn",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "ScrollDirectionType": 0,
+                "ClipAble": true,
+                "BackColorAlpha": 102,
+                "SingleColor": {
+                  "R": 150,
+                  "G": 150,
+                  "B": 100
+                },
+                "FirstColor": {
+                  "R": 150,
+                  "G": 150,
+                  "B": 100
+                },
+                "EndColor": {},
+                "ColorVector": {
+                  "ScaleY": 1.0
+                },
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 631.04,
+                  "Y": 299.28
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.64,
+                  "Y": 0.43
+                },
+                "PreSize": {
+                  "X": 0.4828,
+                  "Y": 0.454
+                },
+                "LeftMargin": 393.04,
+                "RightMargin": 116.96,
+                "TopMargin": 238.72,
+                "BottomMargin": 141.28,
+                "Tag": 49,
+                "Children": [
+                  {
+                    "ClipAble": false,
+                    "BackColorAlpha": 102,
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "AddMineUI/step_0.png",
+                      "Plist": ""
+                    },
+                    "SingleColor": {
+                      "R": 150,
+                      "G": 200
+                    },
+                    "FirstColor": {
+                      "R": 150,
+                      "G": 200
+                    },
+                    "EndColor": {},
+                    "ColorVector": {
+                      "ScaleY": 1.0
+                    },
+                    "Scale9OriginX": 157,
+                    "Scale9OriginY": 104,
+                    "Scale9Width": 162,
+                    "Scale9Height": 108,
+                    "TouchEnable": true,
+                    "AnchorPoint": {},
+                    "Position": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 0.25,
+                      "Y": 1.0
+                    },
+                    "RightMargin": 1428.0,
+                    "Tag": 74,
+                    "ActionTag": 106159937,
+                    "Size": {
+                      "X": 476.0,
+                      "Y": 316.0
+                    },
+                    "Name": "step_panel_0",
+                    "ctype": "PanelObjectData"
+                  },
+                  {
+                    "ClipAble": false,
+                    "BackColorAlpha": 102,
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "AddMineUI/step_1.png",
+                      "Plist": ""
+                    },
+                    "SingleColor": {
+                      "R": 150,
+                      "G": 200
+                    },
+                    "FirstColor": {
+                      "R": 150,
+                      "G": 200
+                    },
+                    "EndColor": {},
+                    "ColorVector": {
+                      "ScaleY": 1.0
+                    },
+                    "Scale9OriginX": 157,
+                    "Scale9OriginY": 104,
+                    "Scale9Width": 162,
+                    "Scale9Height": 108,
+                    "TouchEnable": true,
+                    "AnchorPoint": {},
+                    "Position": {
+                      "X": 476.0,
+                      "Y": 0.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.25,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 0.25,
+                      "Y": 1.0
+                    },
+                    "LeftMargin": 476.0,
+                    "RightMargin": 952.0,
+                    "Tag": 75,
+                    "ActionTag": -661553221,
+                    "ZOrder": 1,
+                    "Size": {
+                      "X": 476.0,
+                      "Y": 316.0
+                    },
+                    "Name": "step_panel_1",
+                    "ctype": "PanelObjectData"
+                  },
+                  {
+                    "ClipAble": false,
+                    "BackColorAlpha": 102,
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "AddMineUI/step_2.png",
+                      "Plist": ""
+                    },
+                    "SingleColor": {
+                      "R": 150,
+                      "G": 200
+                    },
+                    "FirstColor": {
+                      "R": 150,
+                      "G": 200
+                    },
+                    "EndColor": {},
+                    "ColorVector": {
+                      "ScaleY": 1.0
+                    },
+                    "Scale9OriginX": 157,
+                    "Scale9OriginY": 104,
+                    "Scale9Width": 162,
+                    "Scale9Height": 108,
+                    "TouchEnable": true,
+                    "AnchorPoint": {},
+                    "Position": {
+                      "X": 952.0,
+                      "Y": 0.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 0.25,
+                      "Y": 1.0
+                    },
+                    "LeftMargin": 952.0,
+                    "RightMargin": 476.0,
+                    "Tag": 76,
+                    "ActionTag": -431253677,
+                    "ZOrder": 2,
+                    "Size": {
+                      "X": 476.0,
+                      "Y": 316.0
+                    },
+                    "Name": "step_panel_2",
+                    "ctype": "PanelObjectData"
+                  },
+                  {
+                    "ClipAble": false,
+                    "BackColorAlpha": 102,
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "AddMineUI/step_3.png",
+                      "Plist": ""
+                    },
+                    "SingleColor": {
+                      "R": 150,
+                      "G": 200
+                    },
+                    "FirstColor": {
+                      "R": 150,
+                      "G": 200
+                    },
+                    "EndColor": {},
+                    "ColorVector": {
+                      "ScaleY": 1.0
+                    },
+                    "Scale9OriginX": 157,
+                    "Scale9OriginY": 104,
+                    "Scale9Width": 162,
+                    "Scale9Height": 108,
+                    "TouchEnable": true,
+                    "AnchorPoint": {},
+                    "Position": {
+                      "X": 1428.0,
+                      "Y": 0.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.75,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 0.25,
+                      "Y": 1.0
+                    },
+                    "LeftMargin": 1428.0,
+                    "Tag": 77,
+                    "ActionTag": 1169688858,
+                    "ZOrder": 3,
+                    "Size": {
+                      "X": 476.0,
+                      "Y": 316.0
+                    },
+                    "Name": "step_panel_3",
+                    "ctype": "PanelObjectData"
+                  }
+                ],
+                "ActionTag": -2067894720,
+                "Size": {
+                  "X": 476.0,
+                  "Y": 316.0
+                },
+                "Name": "step_pagescroll",
+                "ctype": "PageViewObjectData"
+              },
+              {
+                "ClipAble": false,
+                "BackColorAlpha": 102,
+                "SingleColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "FirstColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "EndColor": {},
+                "ColorVector": {
+                  "ScaleY": 1.0
+                },
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 631.04,
+                  "Y": 118.32
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.64,
+                  "Y": 0.17
+                },
+                "PreSize": {
+                  "X": 0.2028,
+                  "Y": 0.0718
+                },
+                "LeftMargin": 531.04,
+                "RightMargin": 254.96,
+                "TopMargin": 552.68,
+                "BottomMargin": 93.32,
+                "Tag": 78,
+                "Children": [
+                  {
+                    "CheckedState": true,
+                    "NormalBackFileData": {
+                      "Type": "Normal",
+                      "Path": "AddMineUI/ball_bg.png",
+                      "Plist": ""
+                    },
+                    "NodeNormalFileData": {
+                      "Type": "Normal",
+                      "Path": "AddMineUI/ball.png",
+                      "Plist": ""
+                    },
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 40.0,
+                      "Y": 25.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.2,
+                      "Y": 0.5
+                    },
+                    "PreSize": {
+                      "X": 0.17,
+                      "Y": 0.64
+                    },
+                    "LeftMargin": 23.0,
+                    "RightMargin": 143.0,
+                    "TopMargin": 9.0,
+                    "BottomMargin": 9.0,
+                    "Tag": 84,
+                    "ActionTag": 1480672299,
+                    "Size": {
+                      "X": 34.0,
+                      "Y": 32.0
+                    },
+                    "Name": "step_chx_0",
+                    "ctype": "CheckBoxObjectData"
+                  },
+                  {
+                    "NormalBackFileData": {
+                      "Type": "Normal",
+                      "Path": "AddMineUI/ball_bg.png",
+                      "Plist": ""
+                    },
+                    "NodeNormalFileData": {
+                      "Type": "Normal",
+                      "Path": "AddMineUI/ball.png",
+                      "Plist": ""
+                    },
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 80.0,
+                      "Y": 25.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.4,
+                      "Y": 0.5
+                    },
+                    "PreSize": {
+                      "X": 0.17,
+                      "Y": 0.64
+                    },
+                    "LeftMargin": 63.0,
+                    "RightMargin": 103.0,
+                    "TopMargin": 9.0,
+                    "BottomMargin": 9.0,
+                    "Tag": 85,
+                    "ActionTag": 1727840019,
+                    "Size": {
+                      "X": 34.0,
+                      "Y": 32.0
+                    },
+                    "Name": "step_chx_1",
+                    "ctype": "CheckBoxObjectData"
+                  },
+                  {
+                    "NormalBackFileData": {
+                      "Type": "Normal",
+                      "Path": "AddMineUI/ball_bg.png",
+                      "Plist": ""
+                    },
+                    "NodeNormalFileData": {
+                      "Type": "Normal",
+                      "Path": "AddMineUI/ball.png",
+                      "Plist": ""
+                    },
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 120.0,
+                      "Y": 25.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.6,
+                      "Y": 0.5
+                    },
+                    "PreSize": {
+                      "X": 0.17,
+                      "Y": 0.64
+                    },
+                    "LeftMargin": 103.0,
+                    "RightMargin": 63.0,
+                    "TopMargin": 9.0,
+                    "BottomMargin": 9.0,
+                    "Tag": 86,
+                    "ActionTag": 509323825,
+                    "Size": {
+                      "X": 34.0,
+                      "Y": 32.0
+                    },
+                    "Name": "step_chx_2",
+                    "ctype": "CheckBoxObjectData"
+                  },
+                  {
+                    "NormalBackFileData": {
+                      "Type": "Normal",
+                      "Path": "AddMineUI/ball_bg.png",
+                      "Plist": ""
+                    },
+                    "NodeNormalFileData": {
+                      "Type": "Normal",
+                      "Path": "AddMineUI/ball.png",
+                      "Plist": ""
+                    },
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 160.0,
+                      "Y": 25.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.8,
+                      "Y": 0.5
+                    },
+                    "PreSize": {
+                      "X": 0.17,
+                      "Y": 0.64
+                    },
+                    "LeftMargin": 143.0,
+                    "RightMargin": 23.0,
+                    "TopMargin": 9.0,
+                    "BottomMargin": 9.0,
+                    "Tag": 87,
+                    "ActionTag": 929751627,
+                    "Size": {
+                      "X": 34.0,
+                      "Y": 32.0
+                    },
+                    "Name": "step_chx_3",
+                    "ctype": "CheckBoxObjectData"
+                  }
+                ],
+                "ActionTag": 1400119217,
+                "Size": {
+                  "X": 200.0,
+                  "Y": 50.0
+                },
+                "Name": "ball_panel",
+                "ctype": "PanelObjectData"
+              }
+            ],
+            "ActionTag": -831065032,
+            "Size": {
+              "X": 986.0,
+              "Y": 696.0
+            },
+            "Name": "addmine_panel",
+            "ctype": "PanelObjectData"
+          }
+        ],
+        "Size": {
+          "X": 1280.0,
+          "Y": 720.0
+        },
+        "Name": "Layer",
+        "ctype": "LayerObjectData"
+      },
+      "UsedResources": [
+        "AddMineUI/ball.png",
+        "AddMineUI/ball_bg.png",
+        "AddMineUI/bg.png",
+        "AddMineUI/copy_btn.png",
+        "AddMineUI/step_0.png",
+        "AddMineUI/step_1.png",
+        "AddMineUI/step_2.png",
+        "AddMineUI/step_3.png",
+        "Default/close_btn.png",
+        "Default/close_btn_bright.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Layer"
+}

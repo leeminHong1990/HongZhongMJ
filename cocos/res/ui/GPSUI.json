@@ -1,0 +1,929 @@
+{
+  "ID": "d0a35efa-db0a-4b1a-b91d-0352a742188d",
+  "Version": "3.10.0.0",
+  "Name": "GPSUI",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 1386,
+        "Children": [
+          {
+            "ClipAble": false,
+            "BackColorAlpha": 102,
+            "SingleColor": {
+              "R": 150,
+              "G": 200
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "TouchEnable": true,
+            "AnchorPoint": {},
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PercentWidthEnable": true,
+            "PercentHeightEnable": true,
+            "PercentWidthEnabled": true,
+            "PercentHeightEnabled": true,
+            "PreSize": {
+              "X": 1.0,
+              "Y": 1.0
+            },
+            "Tag": 1387,
+            "ActionTag": -1973967238,
+            "Size": {
+              "X": 1280.0,
+              "Y": 720.0
+            },
+            "Name": "bg_panel",
+            "ctype": "PanelObjectData"
+          },
+          {
+            "ClipAble": false,
+            "BackColorAlpha": 102,
+            "SingleColor": {
+              "R": 150,
+              "G": 200
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 640.0,
+              "Y": 360.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PositionPercentXEnabled": true,
+            "PositionPercentYEnabled": true,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.5
+            },
+            "PreSize": {
+              "X": 0.3125,
+              "Y": 0.6944
+            },
+            "LeftMargin": 440.0,
+            "RightMargin": 440.0,
+            "TopMargin": 110.0,
+            "BottomMargin": 110.0,
+            "Tag": 1388,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "GPSUI/bg.png",
+                  "Plist": ""
+                },
+                "Scale9OriginX": 118,
+                "Scale9OriginY": 135,
+                "Scale9Width": 122,
+                "Scale9Height": 142,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 200.0,
+                  "Y": 250.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.5
+                },
+                "PreSize": {
+                  "X": 0.895,
+                  "Y": 0.824
+                },
+                "LeftMargin": 21.0,
+                "RightMargin": 21.0,
+                "TopMargin": 44.0,
+                "BottomMargin": 44.0,
+                "Tag": 1389,
+                "ActionTag": -598920029,
+                "Size": {
+                  "X": 358.0,
+                  "Y": 412.0
+                },
+                "Name": "bg_img",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "GPSUI/radar.png",
+                  "Plist": ""
+                },
+                "Scale9OriginX": 56,
+                "Scale9OriginY": 55,
+                "Scale9Width": 58,
+                "Scale9Height": 57,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 200.0,
+                  "Y": 345.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.69
+                },
+                "PreSize": {
+                  "X": 0.425,
+                  "Y": 0.334
+                },
+                "LeftMargin": 115.0,
+                "RightMargin": 115.0,
+                "TopMargin": 71.5,
+                "BottomMargin": 261.5,
+                "Tag": 1390,
+                "ActionTag": -818119150,
+                "Size": {
+                  "X": 170.0,
+                  "Y": 167.0
+                },
+                "Name": "radar_img",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "GPSUI/scanning.png",
+                  "Plist": ""
+                },
+                "Scale9OriginX": 33,
+                "Scale9OriginY": 22,
+                "Scale9Width": 36,
+                "Scale9Height": 24,
+                "AnchorPoint": {
+                  "ScaleX": 0.55,
+                  "ScaleY": 0.1
+                },
+                "Position": {
+                  "X": 200.0,
+                  "Y": 345.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.69
+                },
+                "PreSize": {
+                  "X": 0.255,
+                  "Y": 0.136
+                },
+                "LeftMargin": 143.9,
+                "RightMargin": 154.1,
+                "TopMargin": 93.8,
+                "BottomMargin": 338.2,
+                "Tag": 1391,
+                "ActionTag": -1530541137,
+                "Size": {
+                  "X": 102.0,
+                  "Y": 68.0
+                },
+                "Name": "scanning_img",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "GPSUI/flash_point.png",
+                  "Plist": ""
+                },
+                "Scale9OriginX": 5,
+                "Scale9OriginY": 5,
+                "Scale9Width": 8,
+                "Scale9Height": 8,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 176.0,
+                  "Y": 380.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.44,
+                  "Y": 0.76
+                },
+                "PreSize": {
+                  "X": 0.045,
+                  "Y": 0.036
+                },
+                "LeftMargin": 167.0,
+                "RightMargin": 215.0,
+                "TopMargin": 111.0,
+                "BottomMargin": 371.0,
+                "Tag": 1393,
+                "ActionTag": -154007248,
+                "Size": {
+                  "X": 18.0,
+                  "Y": 18.0
+                },
+                "Name": "flash_point_img_0",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "GPSUI/flash_point.png",
+                  "Plist": ""
+                },
+                "Scale9OriginX": 5,
+                "Scale9OriginY": 5,
+                "Scale9Width": 8,
+                "Scale9Height": 8,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 248.0,
+                  "Y": 330.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.62,
+                  "Y": 0.66
+                },
+                "PreSize": {
+                  "X": 0.045,
+                  "Y": 0.036
+                },
+                "LeftMargin": 239.0,
+                "RightMargin": 143.0,
+                "TopMargin": 161.0,
+                "BottomMargin": 321.0,
+                "Tag": 1394,
+                "ActionTag": 1495913427,
+                "Size": {
+                  "X": 18.0,
+                  "Y": 18.0
+                },
+                "Name": "flash_point_img_1",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "GPSUI/flash_point.png",
+                  "Plist": ""
+                },
+                "Scale9OriginX": 5,
+                "Scale9OriginY": 5,
+                "Scale9Width": 8,
+                "Scale9Height": 8,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 184.0,
+                  "Y": 300.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.46,
+                  "Y": 0.6
+                },
+                "PreSize": {
+                  "X": 0.045,
+                  "Y": 0.036
+                },
+                "LeftMargin": 175.0,
+                "RightMargin": 207.0,
+                "TopMargin": 191.0,
+                "BottomMargin": 291.0,
+                "Tag": 1395,
+                "ActionTag": 1260120394,
+                "Size": {
+                  "X": 18.0,
+                  "Y": 18.0
+                },
+                "Name": "flash_point_img_2",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "GPSUI/flash_point.png",
+                  "Plist": ""
+                },
+                "Scale9OriginX": 5,
+                "Scale9OriginY": 5,
+                "Scale9Width": 8,
+                "Scale9Height": 8,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 200.0,
+                  "Y": 320.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.64
+                },
+                "PreSize": {
+                  "X": 0.045,
+                  "Y": 0.036
+                },
+                "LeftMargin": 191.0,
+                "RightMargin": 191.0,
+                "TopMargin": 171.0,
+                "BottomMargin": 311.0,
+                "Tag": 1396,
+                "ActionTag": 481181383,
+                "Size": {
+                  "X": 18.0,
+                  "Y": 18.0
+                },
+                "Name": "flash_point_img_3",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "IsCustomSize": true,
+                "FontSize": 25,
+                "LabelText": "玩家定位距离检测中...",
+                "FontResource": {
+                  "Type": "Normal",
+                  "Path": "font/zhunyuan.ttf",
+                  "Plist": ""
+                },
+                "HorizontalAlignmentType": "HT_Center",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 200.0,
+                  "Y": 125.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.25
+                },
+                "PreSize": {
+                  "X": 0.75,
+                  "Y": 0.058
+                },
+                "LeftMargin": 50.0,
+                "RightMargin": 50.0,
+                "TopMargin": 360.5,
+                "BottomMargin": 110.5,
+                "Tag": 1397,
+                "ActionTag": 1884569209,
+                "Size": {
+                  "X": 300.0,
+                  "Y": 29.0
+                },
+                "Name": "detect_label",
+                "ctype": "TextObjectData"
+              },
+              {
+                "FontSize": 25,
+                "LabelText": "IP地址相同",
+                "FontResource": {
+                  "Type": "Normal",
+                  "Path": "font/zhunyuan.ttf",
+                  "Plist": ""
+                },
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 288.0,
+                  "Y": 195.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.72,
+                  "Y": 0.39
+                },
+                "PreSize": {
+                  "X": 0.3,
+                  "Y": 0.058
+                },
+                "LeftMargin": 228.0,
+                "RightMargin": 52.0,
+                "TopMargin": 290.5,
+                "BottomMargin": 180.5,
+                "Tag": 1399,
+                "ActionTag": -1174374549,
+                "Size": {
+                  "X": 120.0,
+                  "Y": 29.0
+                },
+                "VisibleForFrame": false,
+                "Name": "ip_label",
+                "ctype": "TextObjectData"
+              },
+              {
+                "FontSize": 25,
+                "LabelText": "距离过近",
+                "FontResource": {
+                  "Type": "Normal",
+                  "Path": "font/zhunyuan.ttf",
+                  "Plist": ""
+                },
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 288.0,
+                  "Y": 115.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.72,
+                  "Y": 0.23
+                },
+                "PreSize": {
+                  "X": 0.255,
+                  "Y": 0.058
+                },
+                "LeftMargin": 237.0,
+                "RightMargin": 61.0,
+                "TopMargin": 370.5,
+                "BottomMargin": 100.5,
+                "Tag": 1398,
+                "ActionTag": 154627853,
+                "Size": {
+                  "X": 102.0,
+                  "Y": 29.0
+                },
+                "VisibleForFrame": false,
+                "Name": "distance_label",
+                "ctype": "TextObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "GameHallUI/portrait_sprite.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 770,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 76.0,
+                  "Y": 195.0
+                },
+                "Scale": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.19,
+                  "Y": 0.39
+                },
+                "PreSize": {
+                  "X": 0.25,
+                  "Y": 0.2
+                },
+                "LeftMargin": 26.0,
+                "RightMargin": 274.0,
+                "TopMargin": 255.0,
+                "BottomMargin": 145.0,
+                "Tag": 1404,
+                "ActionTag": 70781963,
+                "Size": {
+                  "X": 100.0,
+                  "Y": 100.0
+                },
+                "VisibleForFrame": false,
+                "Name": "portrait_sprite_ip_0",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "GameHallUI/portrait_sprite.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 770,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 136.0,
+                  "Y": 195.0
+                },
+                "Scale": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.34,
+                  "Y": 0.39
+                },
+                "PreSize": {
+                  "X": 0.25,
+                  "Y": 0.2
+                },
+                "LeftMargin": 86.0,
+                "RightMargin": 214.0,
+                "TopMargin": 255.0,
+                "BottomMargin": 145.0,
+                "Tag": 1405,
+                "ActionTag": 1680620145,
+                "Size": {
+                  "X": 100.0,
+                  "Y": 100.0
+                },
+                "VisibleForFrame": false,
+                "Name": "portrait_sprite_ip_1",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "GameHallUI/portrait_sprite.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 770,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 196.0,
+                  "Y": 195.0
+                },
+                "Scale": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.49,
+                  "Y": 0.39
+                },
+                "PreSize": {
+                  "X": 0.25,
+                  "Y": 0.2
+                },
+                "LeftMargin": 146.0,
+                "RightMargin": 154.0,
+                "TopMargin": 255.0,
+                "BottomMargin": 145.0,
+                "Tag": 1406,
+                "ActionTag": -405725778,
+                "Size": {
+                  "X": 100.0,
+                  "Y": 100.0
+                },
+                "VisibleForFrame": false,
+                "Name": "portrait_sprite_ip_2",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "GameHallUI/portrait_sprite.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 770,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 76.0006,
+                  "Y": 115.0
+                },
+                "Scale": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.19,
+                  "Y": 0.23
+                },
+                "PreSize": {
+                  "X": 0.25,
+                  "Y": 0.2
+                },
+                "LeftMargin": 26.0006,
+                "RightMargin": 273.9995,
+                "TopMargin": 335.0,
+                "BottomMargin": 65.0,
+                "Tag": 1407,
+                "ActionTag": 1820975713,
+                "Size": {
+                  "X": 100.0,
+                  "Y": 100.0
+                },
+                "VisibleForFrame": false,
+                "Name": "portrait_sprite_dt_0",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "GameHallUI/portrait_sprite.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 770,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 136.0008,
+                  "Y": 115.0
+                },
+                "Scale": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.34,
+                  "Y": 0.23
+                },
+                "PreSize": {
+                  "X": 0.25,
+                  "Y": 0.2
+                },
+                "LeftMargin": 86.0008,
+                "RightMargin": 213.9992,
+                "TopMargin": 335.0,
+                "BottomMargin": 65.0,
+                "Tag": 1408,
+                "ActionTag": -498632968,
+                "Size": {
+                  "X": 100.0,
+                  "Y": 100.0
+                },
+                "VisibleForFrame": false,
+                "Name": "portrait_sprite_dt_1",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "GameHallUI/portrait_sprite.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 770,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 196.0005,
+                  "Y": 115.0
+                },
+                "Scale": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.49,
+                  "Y": 0.23
+                },
+                "PreSize": {
+                  "X": 0.25,
+                  "Y": 0.2
+                },
+                "LeftMargin": 146.0005,
+                "RightMargin": 153.9995,
+                "TopMargin": 335.0,
+                "BottomMargin": 65.0,
+                "Tag": 1409,
+                "ActionTag": 817472885,
+                "Size": {
+                  "X": 100.0,
+                  "Y": 100.0
+                },
+                "VisibleForFrame": false,
+                "Name": "portrait_sprite_dt_2",
+                "ctype": "SpriteObjectData"
+              }
+            ],
+            "ActionTag": 1594672557,
+            "Size": {
+              "X": 400.0,
+              "Y": 500.0
+            },
+            "Name": "gps_panel",
+            "ctype": "PanelObjectData"
+          }
+        ],
+        "Size": {
+          "X": 1280.0,
+          "Y": 720.0
+        },
+        "Name": "Layer",
+        "ctype": "LayerObjectData"
+      },
+      "UsedResources": [
+        "font/zhunyuan.ttf",
+        "GameHallUI/portrait_sprite.png",
+        "GPSUI/bg.png",
+        "GPSUI/flash_point.png",
+        "GPSUI/radar.png",
+        "GPSUI/scanning.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Layer"
+}
